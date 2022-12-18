@@ -25,6 +25,13 @@
 | LOG | https://www.log.com.tr/feed/ |
 | İndir | https://www.indir.com/haber/feed/ |
 
+# Eğlence
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| Webtekno | https://www.webtekno.com/rss.xml |
+| Onedio | https://onedio.com/Publisher/publisher-daily.rss |
+| Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
+
 # Gündem
 
 | Site Adı | RSS Bağlantısı |
