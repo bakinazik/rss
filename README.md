@@ -51,6 +51,7 @@
 | Kualia | https://kualiafelsefedergisi.com/feed/ |
 | Manifold | https://manifold.press/rss |
 | Terrabayt | https://terrabayt.com/feed |
+| İnsanokur | https://www.insanokur.org/feed/ |
 
 # Gündem
 
