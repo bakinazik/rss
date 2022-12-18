@@ -17,7 +17,7 @@
 | Fizikist | https://www.fizikist.com/feed |
 | Kozan Demircan | https://khosann.com/feed/ |
 
-# Gündem, Haber ve Siyaset
+# Gündem
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
