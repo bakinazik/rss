@@ -75,4 +75,6 @@
 | Sözcü | https://www.sozcu.com.tr/feed/ |
 | Akşam | https://www.aksam.com.tr/rss/rss.asp |
 | Haber 3 | https://www.haber3.com/rss |
+| T24 | https://t24.com.tr/rss |
+
 
