@@ -122,3 +122,4 @@
 | Diyanet Haber | https://www.diyanethaber.com.tr/rss |
 | Diken | https://www.diken.com.tr/feed/ |
 | Amerikanın Sesi | https://www.voaturkce.com/api/ |
+| Star | https://www.star.com.tr/rss/rss.asp |
