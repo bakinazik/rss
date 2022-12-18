@@ -76,5 +76,10 @@
 | Akşam | https://www.aksam.com.tr/rss/rss.asp |
 | Haber 3 | https://www.haber3.com/rss |
 | T24 | https://t24.com.tr/rss |
+| soL Haber | https://haber.sol.org.tr/rss.xml |
+| Doğru Haber | https://dogruhaber.com.tr/rss |
+| Halk TV | https://halktv.com.tr/service/rss.php |
+| Evrensel | https://www.evrensel.net/rss/haber.xml |
+
 
 
