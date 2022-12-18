@@ -50,6 +50,7 @@
 | Öncül | https://onculanalitikfelsefe.com/feed/ |
 | Kualia | https://kualiafelsefedergisi.com/feed/ |
 | Manifold | https://manifold.press/rss |
+| Terrabayt | https://terrabayt.com/feed |
 
 # Gündem
 
@@ -98,3 +99,4 @@
 | TR Haber | https://www.trhaber.com/rss |
 | Hür Haber | https://www.hurhaber.com/rss |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
+| Yeşil Gazete | https://yesilgazete.org/feed/ |
