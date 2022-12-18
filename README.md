@@ -112,4 +112,4 @@
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Dokuz8 Haber | https://www.dokuz8haber.net/rss |
-
+| Haber7 | https://sondakika.haber7.com/sondakika.rss |
