@@ -31,6 +31,7 @@
 | Webtekno | https://www.webtekno.com/rss.xml |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
+| Geekyapar | https://geekyapar.com/feed/ |
 
 # Gündem
 
