@@ -29,6 +29,7 @@
 | LOG | https://www.log.com.tr/feed/ |
 | İndir | https://www.indir.com/haber/feed/ |
 | Shiftdelete | https://shiftdelete.net/feed |
+| Webrazzi | https://webrazzi.com/feed |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
