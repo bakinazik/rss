@@ -120,3 +120,4 @@
 | Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
 | Kısa Dalga | https://kisadalga.net/service/rss.php |
 | Diyanet Haber | https://www.diyanethaber.com.tr/rss |
+| Diken | https://www.diken.com.tr/feed/ |
