@@ -126,3 +126,4 @@
 | Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
 | Önce Vatan Gazetesi | https://www.oncevatan.com.tr/rss.php |
 | Euronews | https://feeds.feedburner.com/euronews/tr/home |
+| Ulusal Kanal | https://www.ulusalkanal.com.tr/rss.php |
