@@ -38,6 +38,7 @@
 | Webrazzi | https://webrazzi.com/feed |
 | Technopat | https://www.technopat.net/feed/ |
 | Teknoblog | http://www.teknoblog.com/feed/ |
+| Teknolojioku | https://www.teknolojioku.com/export/rss |
 
 
 # Eğlence
