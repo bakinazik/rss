@@ -52,6 +52,7 @@
 | Manifold | https://manifold.press/rss |
 | Terrabayt | https://terrabayt.com/feed |
 | İnsanokur | https://www.insanokur.org/feed/ |
+| Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 
 # Gündem
 
