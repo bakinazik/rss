@@ -80,6 +80,5 @@
 | Doğru Haber | https://dogruhaber.com.tr/rss |
 | Halk TV | https://halktv.com.tr/service/rss.php |
 | Evrensel | https://www.evrensel.net/rss/haber.xml |
-
-
-
+| Airport Haber | https://www.airporthaber.com/rss/ |
+| Net Haber | https://www.nethaber.com/rss |
