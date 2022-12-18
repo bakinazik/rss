@@ -103,6 +103,7 @@
 | F5 Haber | https://www.f5haber.com/export/rss |
 | Haber Global | https://haberglobal.com.tr/rss |
 | Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
+| Gazete Vatan | https://www.gazetevatan.com/rss/anasayfa-manset.xml |
 | Demokrat Haber | https://www.demokrathaber.org/rss |
 | Haber24 | https://www.haber24.com/rss |
 | TR Haber | https://www.trhaber.com/rss |
