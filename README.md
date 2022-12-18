@@ -21,6 +21,7 @@
 | Fizikist | https://www.fizikist.com/feed |
 | Kozan Demircan | https://khosann.com/feed/ |
 
+
 # Teknoloji
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
@@ -53,6 +54,7 @@
 | Terrabayt | https://terrabayt.com/feed |
 | İnsanokur | https://www.insanokur.org/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
+| Matematiksel | https://www.matematiksel.org/feed |
 
 # Gündem
 
