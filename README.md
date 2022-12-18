@@ -7,9 +7,6 @@
 - [Edebiyat Sanat ve Felsefe](#edebiyat-sanat-ve-felsefe)
 - [Gündem](#gündem)
 
-> Listeye dahil etmek istediğiniz bağlantılar varsa `pull request` olarak iletebilirsiniz.
-
-
 # Bilim
 
 | Site Adı | RSS Bağlantısı |
