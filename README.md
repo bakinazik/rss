@@ -124,3 +124,4 @@
 | Amerikanın Sesi | https://www.voaturkce.com/api/ |
 | Star | https://www.star.com.tr/rss/rss.asp |
 | Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
+| Önce Vatan Gazetesi | https://www.oncevatan.com.tr/rss.php |
