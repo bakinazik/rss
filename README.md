@@ -83,3 +83,4 @@
 | Airport Haber | https://www.airporthaber.com/rss/ |
 | Net Haber | https://www.nethaber.com/rss |
 | F5 Haber | https://www.f5haber.com/export/rss |
+| Haber Global | https://haberglobal.com.tr/rss |
