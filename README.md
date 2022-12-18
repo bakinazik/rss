@@ -39,7 +39,7 @@
 | Technopat | https://www.technopat.net/feed/ |
 | Teknoblog | http://www.teknoblog.com/feed/ |
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
-| Tekno Bİlim Adamı | https://teknobilimadami.com/feed/ |
+| Tekno Bilim Adamı | https://teknobilimadami.com/feed/ |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
