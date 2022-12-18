@@ -111,3 +111,5 @@
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
+| Dokuz8 Haber | https://www.dokuz8haber.net/rss |
+
