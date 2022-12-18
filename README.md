@@ -104,3 +104,4 @@
 | Hür Haber | https://www.hurhaber.com/rss |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
+| İklim Haber | https://www.iklimhaber.org/feed/ |
