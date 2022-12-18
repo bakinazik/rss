@@ -34,6 +34,7 @@
 | Geekyapar | https://geekyapar.com/feed/ |
 
 # Edebiyat, Sanat ve Felsefe
+| Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Cafrande | https://www.cafrande.org/feed/ |
 | Vesaire | https://vesaire.org/feed |
