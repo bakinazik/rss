@@ -91,3 +91,4 @@
 | Haber Global | https://haberglobal.com.tr/rss |
 | Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
 | Demokrat Haber | https://www.demokrathaber.org/rss |
+| Haber24 | https://www.haber24.com/rss |
