@@ -123,3 +123,4 @@
 | Diken | https://www.diken.com.tr/feed/ |
 | Amerikanın Sesi | https://www.voaturkce.com/api/ |
 | Star | https://www.star.com.tr/rss/rss.asp |
+| Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
