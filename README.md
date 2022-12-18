@@ -25,7 +25,7 @@
 | Bilimma | https://www.bilimma.com/feed/ |
 | Fizikist | https://www.fizikist.com/feed |
 | Kozan Demircan | https://khosann.com/feed/ |
-
+| Matematiksel | https://www.matematiksel.org/feed |
 
 # Teknoloji
 | Site Adı | RSS Bağlantısı |
@@ -62,7 +62,7 @@
 | Terrabayt | https://terrabayt.com/feed |
 | İnsanokur | https://www.insanokur.org/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
-| Matematiksel | https://www.matematiksel.org/feed |
+| Mesail | https://www.mesail.org/feed/ |
 
 # Gündem
 
