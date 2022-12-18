@@ -48,6 +48,7 @@
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
 | Geekyapar | https://geekyapar.com/feed/ |
+| Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/ |
 
 # Edebiyat, Sanat ve Felsefe
 | Site Adı | RSS Bağlantısı |
