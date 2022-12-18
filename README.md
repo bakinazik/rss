@@ -17,6 +17,14 @@
 | Fizikist | https://www.fizikist.com/feed |
 | Kozan Demircan | https://khosann.com/feed/ |
 
+# Teknoloji
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| Donanım Haber | https://www.donanimhaber.com/rss/tum/ |
+| Chip Online | https://www.chip.com.tr/rss |
+| LOG | https://www.log.com.tr/feed/ |
+| İndir | https://www.indir.com/haber/feed/ |
+
 # Gündem
 
 | Site Adı | RSS Bağlantısı |
