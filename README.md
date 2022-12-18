@@ -24,6 +24,7 @@
 | Chip Online | https://www.chip.com.tr/rss |
 | LOG | https://www.log.com.tr/feed/ |
 | İndir | https://www.indir.com/haber/feed/ |
+| Shiftdelete | https://shiftdelete.net/feed |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
