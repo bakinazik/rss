@@ -30,6 +30,8 @@
 | İndir | https://www.indir.com/haber/feed/ |
 | Shiftdelete | https://shiftdelete.net/feed |
 | Webrazzi | https://webrazzi.com/feed |
+| Technopat | https://www.technopat.net/feed/ |
+
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
