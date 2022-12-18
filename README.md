@@ -116,3 +116,4 @@
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Dokuz8 Haber | https://www.dokuz8haber.net/rss |
 | Haber7 | https://sondakika.haber7.com/sondakika.rss |
+| Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
