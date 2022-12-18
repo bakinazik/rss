@@ -94,3 +94,4 @@
 | Haber24 | https://www.haber24.com/rss |
 | TR Haber | https://www.trhaber.com/rss |
 | Hür Haber | https://www.hurhaber.com/rss |
+| Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
