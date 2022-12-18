@@ -72,3 +72,4 @@
 | Politik Yol | https://www.politikyol.com/feed/ |
 | Independent | https://www.indyturk.com/rss.xml |
 | Artı Gerçek | https://artigercek.com/service/rss.php |
+| Sözcü | https://www.sozcu.com.tr/feed/ |
