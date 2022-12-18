@@ -33,6 +33,15 @@
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
 | Geekyapar | https://geekyapar.com/feed/ |
 
+# Edebiyat, Sanat ve Felsefe
+|:-------- | -----------:|
+| Cafrande | https://www.cafrande.org/feed/ |
+| Vesaire | https://vesaire.org/feed |
+| Tarihli Sanat | https://www.tarihlisanat.com/feed/ |
+| Öncül | https://onculanalitikfelsefe.com/feed/ |
+| Kualia | https://kualiafelsefedergisi.com/feed/ |
+| Manifold | https://manifold.press/rss |
+
 # Gündem
 
 | Site Adı | RSS Bağlantısı |
