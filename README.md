@@ -4,7 +4,7 @@
 - [Bilim](#bilim) 
 - [Teknoloji](#teknoloji) 
 - [Eğlence](#eğlence)
-- [Edebiyat Sanat ve Felsefe](#edebiyat-sanat-ve-felsefe)
+- [Edebiyat, Sanat ve Felsefe](#edebiyat-sanat-ve-felsefe)
 - [Spor](#spor)
 - [Gündem](#gündem)
 
