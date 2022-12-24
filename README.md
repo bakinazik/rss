@@ -137,3 +137,4 @@
 | Agos | https://www.agos.com.tr/tr/rss |
 | Bianet | https://bianet.org/biamag.rss |
 | Aydınlık Gazetesi | https://www.aydinlik.com.tr/rss |
+| Bir Gazete | https://www.birgazete.com/feed |
