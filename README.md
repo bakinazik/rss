@@ -33,6 +33,7 @@
 | Donanım Haber | https://www.donanimhaber.com/rss/tum/ |
 | Chip Online | https://www.chip.com.tr/rss |
 | LOG | https://www.log.com.tr/feed/ |
+| Tam İndir | http://feeds.feedburner.com/tamindir/stream |
 | İndir | https://www.indir.com/haber/feed/ |
 | Shiftdelete | https://shiftdelete.net/feed |
 | Webrazzi | https://webrazzi.com/feed |
