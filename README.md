@@ -67,6 +67,7 @@
 | Mesail | https://www.mesail.org/feed/ |
 
 # Spor
+| Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
 
