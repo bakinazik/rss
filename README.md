@@ -136,4 +136,4 @@
 | Ulusal Kanal | https://www.ulusalkanal.com.tr/rss.php |
 | Agos | https://www.agos.com.tr/tr/rss |
 | Bianet | https://bianet.org/biamag.rss |
-
+| Aydınlık Gazetesi | https://www.aydinlik.com.tr/rss |
