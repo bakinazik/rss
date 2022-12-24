@@ -139,3 +139,4 @@
 | Aydınlık Gazetesi | https://www.aydinlik.com.tr/rss |
 | Bir Gazete | https://www.birgazete.com/feed |
 | Diriliş Postası | https://www.dirilispostasi.com/rss |
+| En Politik | https://www.enpolitik.com/rss.xml |
