@@ -1,4 +1,4 @@
-# Türkçe RSS Kaynakları
+# RSS Bağlantıları
 
 **Kategoriler:** 
 - [Bilim](#bilim) 
