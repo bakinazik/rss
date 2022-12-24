@@ -5,6 +5,7 @@
 - [Teknoloji](#teknoloji) 
 - [Eğlence](#eğlence)
 - [Edebiyat Sanat ve Felsefe](#edebiyat-sanat-ve-felsefe)
+- [Spor](#spor)
 - [Gündem](#gündem)
 
 # Bilim
@@ -64,6 +65,9 @@
 | İnsanokur | https://www.insanokur.org/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 | Mesail | https://www.mesail.org/feed/ |
+
+# Spor
+| A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
 
 # Gündem
 
