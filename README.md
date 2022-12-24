@@ -140,3 +140,4 @@
 | Bir Gazete | https://www.birgazete.com/feed |
 | Diriliş Postası | https://www.dirilispostasi.com/rss |
 | En Politik | https://www.enpolitik.com/rss.xml |
+| Gazete Manifesto | https://gazetemanifesto.com/feed |
