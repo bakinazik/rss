@@ -135,4 +135,5 @@
 | Euronews | https://feeds.feedburner.com/euronews/tr/home |
 | Ulusal Kanal | https://www.ulusalkanal.com.tr/rss.php |
 | Agos | https://www.agos.com.tr/tr/rss |
+| Bianet | https://bianet.org/biamag.rss |
 
