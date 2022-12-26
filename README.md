@@ -42,6 +42,7 @@
 | Teknoblog | http://www.teknoblog.com/feed/ |
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | Tekno Bilim Adamı | https://teknobilimadami.com/feed/ |
+| Megabayt | https://www.megabayt.com/rss |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
