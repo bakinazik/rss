@@ -54,6 +54,7 @@
 | Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/feed/ |
 | The Geyik | http://www.thegeyik.com/feed/ |
 | ListeList | https://listelist.com/feed/ |
+| FRPNET | https://frpnet.net/feed |
 
 # Edebiyat, Sanat ve Felsefe
 | Site Adı | RSS Bağlantısı |
