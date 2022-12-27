@@ -52,6 +52,7 @@
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
 | Geekyapar | https://geekyapar.com/feed/ |
 | Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/feed/ |
+| The Geyik | http://www.thegeyik.com/feed/ |
 
 # Edebiyat, Sanat ve Felsefe
 | Site Adı | RSS Bağlantısı |
