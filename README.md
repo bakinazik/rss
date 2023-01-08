@@ -1,6 +1,6 @@
 # RSS Bağlantıları
 
-**Kategoriler:** 
+**🇹🇷 Kategoriler:** 
 - [Bilim](#bilim) 
 - [Teknoloji](#teknoloji) 
 - [Eğlence](#eğlence)
