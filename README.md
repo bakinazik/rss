@@ -74,6 +74,7 @@
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
+| Fotomaç | https://www.fotomac.com.tr/rss/anasayfa.xml |
 
 # Gündem
 
