@@ -76,6 +76,8 @@
 | A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
 | Fotomaç | https://www.fotomac.com.tr/rss/anasayfa.xml |
 | TRT Spor | https://www.trtspor.com.tr/sondakika.rss |
+| AjansSpor | https://ajansspor.com/rss |
+| NTV Spor | https://www.ntvspor.net/rss |
 
 # Gündem
 
