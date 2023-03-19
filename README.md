@@ -27,6 +27,7 @@
 | Fizikist | https://www.fizikist.com/feed |
 | Kozan Demircan | https://khosann.com/feed/ |
 | Matematiksel | https://www.matematiksel.org/feed |
+| Bilimup | https://www.bilimup.com/rss.xml |
 
 # Teknoloji
 | Site Adı | RSS Bağlantısı |
@@ -43,7 +44,6 @@
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | Tekno Bilim Adamı | https://teknobilimadami.com/feed/ |
 | Megabayt | https://www.megabayt.com/rss |
-| Bilimup | https://www.bilimup.com/rss.xml |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
