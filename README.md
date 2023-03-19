@@ -43,6 +43,7 @@
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | Tekno Bilim Adamı | https://teknobilimadami.com/feed/ |
 | Megabayt | https://www.megabayt.com/rss |
+| Bilimup | https://www.bilimup.com/rss.xml |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
