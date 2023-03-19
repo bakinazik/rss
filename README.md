@@ -70,6 +70,7 @@
 | İnsanokur | https://www.insanokur.org/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 | Mesail | https://www.mesail.org/feed/ |
+| 10layn | https://10layn.com/feed/ |
 
 # Spor
 | Site Adı | RSS Bağlantısı |
