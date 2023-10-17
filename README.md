@@ -86,6 +86,7 @@
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Anadolu Ajansı | https://www.aa.com.tr/tr/rss/default?cat=guncel |
+| BirGün | https://www.birgun.net/rss/home |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
 | NTV | https://www.ntv.com.tr/gundem.rss|
 | Cumhuriyet | https://www.cumhuriyet.com.tr/rss/son_dakika.xml|
