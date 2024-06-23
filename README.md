@@ -56,6 +56,7 @@
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Webtekno | https://www.webtekno.com/rss.xml |
+| Bigumigu | https://bigumigu.com/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
 | Geekyapar | https://geekyapar.com/feed/ |
@@ -63,11 +64,16 @@
 | The Geyik | http://www.thegeyik.com/feed/ |
 | ListeList | https://listelist.com/feed/ |
 | FRPNET | https://frpnet.net/feed |
+| Turkmmo | https://www.turkmmo.com/feed |
+| Atarita | https://www.atarita.com/feed/ |
+| LeaderGamer | https://leadergamer.com.tr/feed |
+| Turuncu Levye | https://www.turunculevye.com/feed/ |
 
 # Edebiyat, Sanat ve Felsefe
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Cafrande | https://www.cafrande.org/feed/ |
+| Çekiçle Felsefe | https://cekiclefelsefe.com/feed/ |
 | Vesaire | https://vesaire.org/feed |
 | Tarihli Sanat | https://www.tarihlisanat.com/feed/ |
 | Öncül | https://onculanalitikfelsefe.com/feed/ |
