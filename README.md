@@ -25,15 +25,21 @@
 | Sinirbilim | https://sinirbilim.org/feed/ |
 | Bilimma | https://www.bilimma.com/feed/ |
 | Fizikist | https://www.fizikist.com/feed |
-| Kozan Demircan | https://khosann.com/feed/ |
 | Matematiksel | https://www.matematiksel.org/feed |
 | Bilimup | https://www.bilimup.com/rss.xml |
+| Bilim ve Gelecek | https://bilimvegelecek.com.tr/index.php/feed/ |
+| DijitalX | https://www.dijitalx.com/feed/ |
+| Gelecek Bilimde | https://gelecekbilimde.net/feed/ |
+| Kozmik Anafor | https://www.kozmikanafor.com/feed/ |
+| Sarkaç | https://sarkac.org/feed/ |
+| SZC Sağlık | https://www.sozcu.com.tr/feeds-rss-category-saglik |
+| Çılgın Fizikçiler ve Bilim İnsanları | https://cilginfizikcilervbi.com/feed/ |
 
 # Teknoloji
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Donanım Haber | https://www.donanimhaber.com/rss/tum/ |
-| Chip Online | https://www.chip.com.tr/rss |
+| CHIP Online | https://www.chip.com.tr/rss |
 | LOG | https://www.log.com.tr/feed/ |
 | Tam İndir | http://feeds.feedburner.com/tamindir/stream |
 | İndir | https://www.indir.com/haber/feed/ |
@@ -42,8 +48,8 @@
 | Technopat | https://www.technopat.net/feed/ |
 | Teknoblog | http://www.teknoblog.com/feed/ |
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
-| Tekno Bilim Adamı | https://teknobilimadami.com/feed/ |
 | Megabayt | https://www.megabayt.com/rss |
+| TeknoBurada | https://www.teknoburada.net/feed/ |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
