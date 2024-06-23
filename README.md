@@ -106,9 +106,7 @@
 | Dünya | https://www.dunya.com/rss?dunya |
 | Habertürk | https://www.haberturk.com/rss |
 | Hürriyet | http://www.hurriyet.com.tr/rss/anasayfa |
-| Milliyet | https://www.milliyet.com.tr/rss/rssnew/gundemrss.xml |
 | Sabah | https://www.sabah.com.tr/rss/gundem.xml |
-| Takvim | https://www.takvim.com.tr/rss/guncel.xml |
 | Yeni Akit | https://www.yeniakit.com.tr/rss/haber/gundem |
 | Yeni Şafak | https://www.yenisafak.com/rss?xml=gundem |
 | A Haber | https://www.ahaber.com.tr/rss/gundem.xml |
@@ -119,12 +117,10 @@
 | DW Haber | https://rss.dw.com/rdf/rss-tur-all |
 | En Son Haber | https://www.ensonhaber.com/rss/ensonhaber.xml |
 | Mynet | https://www.mynet.com/haber/rss/sondakika |
-| Sputnik | https://sputniknews.com.tr/export/rss2/archive/index.xml |
 | İnternet Haber | https://www.internethaber.com/rss |
-| Politik Yol | https://www.politikyol.com/feed/ |
 | Independent | https://www.indyturk.com/rss.xml |
 | Artı Gerçek | https://artigercek.com/service/rss.php |
-| Sözcü | https://www.sozcu.com.tr/feed/ |
+| Sözcü | https://www.sozcu.com.tr/feeds-rss-category-sozcu |
 | Akşam | https://www.aksam.com.tr/rss/rss.asp |
 | Haber 3 | https://www.haber3.com/rss |
 | T24 | https://t24.com.tr/rss |
@@ -140,13 +136,10 @@
 | Gazete Vatan | https://www.gazetevatan.com/rss/anasayfa-manset.xml |
 | Demokrat Haber | https://www.demokrathaber.org/rss |
 | Haber24 | https://www.haber24.com/rss |
-| TR Haber | https://www.trhaber.com/rss |
-| Hür Haber | https://www.hurhaber.com/rss |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Dokuz8 Haber | https://www.dokuz8haber.net/rss |
-| Haber7 | https://sondakika.haber7.com/sondakika.rss |
 | Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
 | Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
 | Kısa Dalga | https://kisadalga.net/service/rss.php |
@@ -157,11 +150,8 @@
 | Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
 | Önce Vatan Gazetesi | https://www.oncevatan.com.tr/rss.php |
 | Euronews | https://feeds.feedburner.com/euronews/tr/home |
-| Ulusal Kanal | https://www.ulusalkanal.com.tr/rss.php |
-| Agos | https://www.agos.com.tr/tr/rss |
 | Bianet | https://bianet.org/biamag.rss |
 | Aydınlık Gazetesi | https://www.aydinlik.com.tr/rss |
 | Bir Gazete | https://www.birgazete.com/feed |
 | Diriliş Postası | https://www.dirilispostasi.com/rss |
 | En Politik | https://www.enpolitik.com/rss.xml |
-| Gazete Manifesto | https://gazetemanifesto.com/feed |
