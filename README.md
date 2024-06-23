@@ -50,6 +50,7 @@
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | Megabayt | https://www.megabayt.com/rss |
 | TeknoBurada | https://www.teknoburada.net/feed/ |
+| Techolay | https://techolay.net/feed/ |
 
 # Eğlence
 | Site Adı | RSS Bağlantısı |
