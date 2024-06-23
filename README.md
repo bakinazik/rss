@@ -4,7 +4,7 @@
 - [Bilim](#bilim) 
 - [Teknoloji](#teknoloji) 
 - [Eğlence](#eğlence)
-- [Edebiyat, Sanat ve Felsefe](#edebiyat-sanat-ve-felsefe)
+- [Felsefe](#felsefe)
 - [Spor](#spor)
 - [Gündem](#gündem)
 
@@ -69,7 +69,7 @@
 | LeaderGamer | https://leadergamer.com.tr/feed |
 | Turuncu Levye | https://www.turunculevye.com/feed/ |
 
-# Edebiyat, Sanat ve Felsefe
+# Felsefe
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Cafrande | https://www.cafrande.org/feed/ |
@@ -80,7 +80,6 @@
 | Kualia | https://kualiafelsefedergisi.com/feed/ |
 | Manifold | https://manifold.press/rss |
 | Terrabayt | https://terrabayt.com/feed |
-| İnsanokur | https://www.insanokur.org/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 | Mesail | https://www.mesail.org/feed/ |
 | 10layn | https://10layn.com/feed/ |
