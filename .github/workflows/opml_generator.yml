@@ -30,13 +30,13 @@ jobs:
       run: python transform_to_opml.py
 
     - name: Upload grouped OPML file
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: grouped-feeds
         path: grouped_feeds.opml
 
     - name: Upload individual OPML files
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: individual-feeds
         path: '*.opml'
