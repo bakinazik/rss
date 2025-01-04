@@ -1,4 +1,4 @@
-name: OPML Generator
+name: Deploy OPML to GitHub Pages
 
 on:
   push:
@@ -29,6 +29,17 @@ jobs:
     - name: Run OPML generation script
       run: python transform_to_opml.py
 
+    - name: List OPML files
+      run: ls *.opml > opml_files.txt
+
+    - name: Generate URLs
+      run: |
+        REPO_NAME=$(basename $GITHUB_REPOSITORY)
+        BASE_URL="https://${{ github.actor }}.github.io/${REPO_NAME}"
+        while read -r FILE; do
+          echo "${BASE_URL}/${FILE}" >> opml_urls.txt
+        done < opml_files.txt
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
@@ -38,3 +49,9 @@ jobs:
           .github/**
           README.md
           transform_to_opml.py
+
+    - name: Upload OPML URLs
+      uses: actions/upload-artifact@v3
+      with:
+        name: opml-urls
+        path: opml_urls.txt
