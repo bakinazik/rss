@@ -18,7 +18,6 @@
 | Bilim Günlüğü | https://www.bilimgunlugu.com/feed/ |
 | Bilim ve Gelecek | https://bilimvegelecek.com.tr/index.php/feed/ |
 | Bilimoloji | https://www.bilimoloji.com/feed/ |
-| Bilimma | https://www.bilimma.com/feed/ |
 | Bilimup | https://www.bilimup.com/rss.xml |
 | Çılgın Fizikçiler ve Bilim İnsanları | https://cilginfizikcilervbi.com/feed/ |
 | DijitalX | https://www.dijitalx.com/feed/ |
