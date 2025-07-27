@@ -1,4 +1,40 @@
-* {
+:root {
+  /* Light Theme Colors */
+  --bg-color: #fff6ef;
+  --text-color: #503b2c;
+  --header-color: #2c3e50;
+  --category-bg-light: #f1e6db;
+  --category-bg-hover-light: #edd9c5;
+  --category-span-bg-light: #e5d4c2;
+  --table-border-color-light: #f1e6db;
+  --table-header-bg-light: #f1e6db;
+  --table-even-row-bg-light: #f1e6db;
+  --table-row-hover-light: #e9d3bd;
+  --link-color-light: #a76e06;
+  --search-border-color-light: #ccc;
+  --search-placeholder-color-light: #999;
+  --search-bg-color-light: #ffffff; /* New: Search input background */
+}
+
+/* Apply dark mode styles to the html element */
+html.dark-mode {
+    --bg-color: #111;
+    --text-color: #ccc;
+    --header-color: #ecf0f1;
+    --category-bg-light: #222;
+    --category-bg-hover-light: #333;
+    --category-span-bg-light: #444;
+    --table-border-color-light: #333;
+    --table-header-bg-light: #444;
+    --table-even-row-bg-light: #333;
+    --table-row-hover-light: #444;
+    --link-color-light: #f39c12;
+    --search-border-color-light: #333;
+    --search-placeholder-color-light: #bbb;
+    --search-bg-color-light: transparent;
+}
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,306 +45,41 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
+  background-color: var(--bg-color); /* Inherits from :root or html.dark-mode */
+  color: var(--text-color); /* Inherits from :root or html.dark-mode */
   line-height: 1.6;
+  /* Removed direct transition from body */
+}
+
+/* This class enables transitions for theme changes. It will be added by JavaScript AFTER initial load. */
+html.theme-transition-active {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Light Theme */
-body.theme-light {
-  background-color: #fff6ef;
-  color: #503b2c;
-}
 
-body.theme-light header {
-  background-color: #f7e0c8;
-}
-
-body.theme-light h1 {
-  color: #2c3e50;
-}
-
-body.theme-light .category-header {
-  background-color: #f1e6db;
-  color: #503b2c;
-}
-
-body.theme-light .category-header:hover {
-  background-color: #edd9c5;
-}
-
-body.theme-light .category-header span {
-  background-color: #e5d4c2;
-  color: #503b2c;
-}
-
-body.theme-light .category-content th {
-  background-color: #f1e6db;
-  color: #555;
-}
-
-body.theme-light .category-content tr:nth-child(even) {
-  background-color: #f1e6db;
-}
-
-body.theme-light .category-content tr:hover {
-  background-color: #e9d3bd;
-}
-
-body.theme-light .category-content a {
-  color: #a76e06;
-}
-
-body.theme-light .category-content th,
-body.theme-light .category-content td {
-  border: 1px solid #f1e6db;
-}
-
-/* Dark Theme */
-body.theme-dark {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-}
-
-body.theme-dark header {
-  background-color: #34495e;
-}
-
-body.theme-dark h1 {
-  color: #ecf0f1;
-}
-
-body.theme-dark .category-header {
-  background-color: #34495e;
-  color: #ecf0f1;
-}
-
-body.theme-dark .category-header:hover {
-  background-color: #49637f;
-}
-
-body.theme-dark .category-header span {
-  background-color: #44607d;
-  color: #ecf0f1;
-}
-
-body.theme-dark .category-content th {
-  background-color: #44607d;
-  color: #bdc3c7;
-}
-
-body.theme-dark .category-content tr:nth-child(even) {
-  background-color: #3b5065;
-}
-
-body.theme-dark .category-content tr:hover {
-  background-color: #49637f;
-}
-
-body.theme-dark .category-content a {
-  color: #88c0d0;
-}
-
-body.theme-dark .category-content th,
-body.theme-dark .category-content td {
-  border: 1px solid #3b5065;
-}
-
-
-header {
+.main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  padding: 15px 20px;
-  background-color: #f1e6db;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
+  color: var(--header-color);
   text-align: left;
   margin: 0;
 }
 
 .header-controls {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 20px;
 }
 
-.control-button {
-  padding: 8px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #a76e06;
-  color: white;
-  transition: background-color 0.3s ease;
-}
-
-.control-button:hover {
-  background-color: #8a5a05;
-}
-
-#search-input {
-  padding: 8px 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: width 0.3s ease, opacity 0.3s ease;
-  width: 0;
-  opacity: 0;
-  pointer-events: none;
-}
-
-#search-input.visible {
-  width: 200px;
-  opacity: 1;
-  pointer-events: all;
-}
-
-#output {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.category-header {
-  padding: 15px 20px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  position: relative;
-}
-
-.category-header::after {
-  content: '+';
-  font-size: 1.2em;
-  transition: transform 0.3s ease;
-}
-
-.category-header.expanded::after {
-  content: '-';
-  transform: rotate(180deg);
-}
-
-.category-header span {
-  background-color: #e5d4c2;
-  color: #503b2c;
-  padding: 5px;
-  border-radius: 20px;
-  line-height: 1;
-  min-width: 30px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  margin-left: 10px; /* Adjust margin for spacing */
-}
-
-
-.category-content {
-  display: none;
-  padding: 10px 0;
-  margin-bottom: 20px;
-}
-
-.category-content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-}
-
-.category-content th,
-.category-content td {
-  border: 1px solid; /* Border color will be set by theme */
-  padding: 10px;
-  text-align: left;
-}
-
-.category-content a {
-  overflow-wrap: anywhere;
-  text-decoration: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: inline-block;
-  max-width: 100%;
-}
-
-.category-content a:hover {
-  text-decoration: underline;
-}
-
-.no-results {
-  text-align: center;
-  padding: 20px;
-  font-size: 1.2em;
-  color: #e74c3c;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
-
-  .header-controls {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  #search-input.visible {
-    width: 100%;
-  }
-
-  #output {
-    padding: 0 10px 0px 15px;
-  }
-
-  .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr {
-    display: block;
-  }
-
-  .category-content thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-  .category-content tr {
-    margin-bottom: 15px;
-    border: 1px solid; /* Border color will be set by theme */
-    border-radius: 5px;
-  }
-
-  .category-content td {
-    border: none;
-    border-bottom: 1px solid; /* Border color will be set by theme */
-    position: relative;
-    padding-left: 50%;
-  }
-
-  .category-content td::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
-    text-align: left;
-    font-weight: bold;
-  }
-}
-
-/* Tema Değiştirme Slider Stilleri */
+/* Theme Switcher Styles */
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
@@ -335,11 +106,21 @@ h1 {
   right: 0;
   bottom: 0;
   background-color: #ccc;
+  border-radius: 34px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px; /* Simgeler için iç boşluk */
+  /* Removed direct transition from slider */
+}
+
+/* Apply transition to slider background only when theme-transition-active is present */
+html.theme-transition-active .slider {
   -webkit-transition: .4s;
   transition: .4s;
 }
 
-.slider:before {
+
+.slider::before {
   position: absolute;
   content: "";
   height: 26px;
@@ -347,29 +128,300 @@ h1 {
   left: 4px;
   bottom: 4px;
   background-color: white;
+  border-radius: 50%;
+  z-index: 2; /* Simgelerin üstünde olması için */
+  /* Removed direct transition from slider::before */
+}
+
+/* Apply transition to slider button movement only when theme-transition-active is present */
+html.theme-transition-active .slider::before {
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: #a76e06;
+  background-color: #2196F3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #a76e06;
+  box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked + .slider::before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
+/* Simge Stillleri */
+.tabler-icon {
+  position: absolute;
+  font-size: 1.2em;
+  color: #fff; /* Simgelerin rengi */
+  z-index: 1; /* Slider topunun altında kalması için */
+  /* Apply transition to icon opacity and transform only when theme-transition-active is present */
 }
 
-.slider.round:before {
-  border-radius: 50%;
+html.theme-transition-active .tabler-icon {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.sun-icon {
+  left: 5px; /* Güneş simgesi solda */
+}
+
+.moon-icon {
+  right: 5px; /* Ay simgesi sağda */
+}
+
+
+
+/* Search Input */
+.search-container {
+  display: flex; /* Ensure it respects flex gap */
+  align-items: center;
+  width: 100%;
+}
+
+.search-input {
+  border: 1px solid var(--search-border-color-light);
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 1em;
+  width: 100%; /* Always visible width */
+  transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.search-input::placeholder {
+  color: var(--search-placeholder-color-light);
+}
+
+/* Existing styles for categories and tables */
+#output {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.category {
+  /* This container might be hidden or re-purposed for search results */
+}
+
+.category-header {
+  background-color: var(--category-bg-light);
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: var(--text-color);
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.category-header:hover {
+  background-color: var(--category-bg-hover-light);
+}
+
+/* Hide toggle icon for category headers that are hidden during search */
+.category-header::after {
+  content: '+';
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+}
+
+.category-header.expanded::after {
+  content: '-';
+  transform: rotate(180deg);
+}
+
+.category-header span {
+    left: -15px;
+    background-color: var(--category-span-bg-light);
+    color: var(--text-color);
+    padding: 5px;
+    border-radius: 20px;
+    line-height: 1;
+    min-width: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.category-content {
+  display: none; /* Default hidden, managed by JS */
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.category-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.category-content th,
+.category-content td {
+  border: 1px solid var(--table-border-color-light);
+  padding: 10px;
+  text-align: left;
+}
+
+.category-content th {
+  background-color: var(--table-header-bg-light);
+  color: var(--text-color);
+}
+
+.category-content tr:nth-child(even) {
+  background-color: var(--table-even-row-bg-light);
+}
+
+.category-content tr:hover {
+  background-color: var(--table-row-hover-light);
+}
+
+.category-content a {
+    overflow-wrap: anywhere;
+    color: var(--link-color-light);
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.category-content a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for search results that are not grouped by category */
+.search-results-list {
+  display: block; /* Show as a block, not hiding parts */
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.search-results-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.search-results-list th,
+.search-results-list td {
+  border: 1px solid var(--table-border-color-light);
+  padding: 10px;
+  text-align: left;
+}
+
+.search-results-list th {
+  background-color: var(--table-header-bg-light);
+  color: var(--text-color);
+}
+
+.search-results-list tr:nth-child(even) {
+  background-color: var(--table-even-row-bg-light);
+}
+
+.search-results-list tr:hover {
+  background-color: var(--table-row-hover-light);
+}
+
+.search-results-list a {
+    overflow-wrap: anywhere;
+    color: var(--link-color-light);
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.search-results-list a:hover {
+  text-decoration: underline;
+}
+
+
+.no-results {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-color);
+  font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .header-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  #output {
+    padding: 0 10px 0px 15px;
+  }
+
+  /* Responsive table styles apply to both category-content and search-results-list */
+  .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr,
+  .search-results-list table, .search-results-list thead, .search-results-list tbody, .search-results-list th, .search-results-list td, .search-results-list tr {
+    display: block;
+    border-color: var(--table-border-color-light);
+  }
+
+  .category-content thead tr,
+  .search-results-list thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .category-content tr,
+  .search-results-list tr {
+    margin-bottom: 15px;
+    border: 1px solid var(--table-border-color-light);
+    border-radius: 5px;
+  }
+
+  .category-content td,
+  .search-results-list td {
+    border: none;
+    border-bottom: 1px solid var(--table-border-color-light);
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .category-content td::before,
+  .search-results-list td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
 }
