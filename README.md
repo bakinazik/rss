@@ -1,5 +1,11 @@
 # RSS Bağlantıları
 
+### Web Arayüzü:
+
+[https://bakinazik.github.io/rss/](https://bakinazik.github.io/rss/)
+
+Dinamik arama yapabilir ve aydınlık/karanlık tema ile görüntüleyebilirsin.
+ 
 **Kategoriler:** 
 - [Bilim](#bilim)
 - [Teknoloji](#teknoloji)
