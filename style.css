@@ -23,14 +23,10 @@ h1 {
 #output {
   max-width: 900px;
   margin: 0 auto;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .category-header {
-  background-color: #e9eff1;
+  background-color: #f1ede9;
   padding: 15px 20px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -44,7 +40,7 @@ h1 {
 }
 
 .category-header:hover {
-  background-color: #dbe4e7;
+  background-color: #edd9c5;
 }
 
 .category-header::after {
@@ -91,8 +87,14 @@ h1 {
 }
 
 .category-content a {
-  color: #007bff;
-  text-decoration: none;
+    overflow-wrap: anywhere;
+    color: #a76e06;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
 }
 
 .category-content a:hover {
@@ -105,7 +107,7 @@ h1 {
   }
 
   #output {
-    padding: 15px;
+    padding: 7px;
   }
 
   .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr {
