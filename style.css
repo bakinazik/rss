@@ -37,6 +37,7 @@ h1 {
   font-weight: bold;
   color: #503b2c;
   transition: background-color 0.3s ease;
+  position: relative;
 }
 
 .category-header:hover {
@@ -52,6 +53,23 @@ h1 {
 .category-header.expanded::after {
   content: '-';
   transform: rotate(180deg);
+}
+
+
+.category-header span {
+    left: -15px;
+    background-color: #e5d4c2;
+    color: #503b2c;
+    padding: 5px;
+    border-radius: 20px;
+    line-height: 1;
+    min-width: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
 }
 
 .category-content {
