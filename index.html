@@ -6,8 +6,15 @@
   <title>RSS Bağlantıları</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>RSS Bağlantıları</h1>
+<body class="theme-light">
+  <header>
+    <h1>RSS Bağlantıları</h1>
+    <div class="header-controls">
+      <button id="theme-toggle" class="control-button">Tema Değiştir</button>
+      <button id="search-button" class="control-button">Ara</button>
+      <input type="text" id="search-input" placeholder="Site ara..." class="hidden">
+    </div>
+  </header>
   <div id="output">Yükleniyor...</div>
   <script src="script.js"></script>
 </body>
