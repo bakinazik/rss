@@ -105,7 +105,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #feb400;
   border-radius: 34px;
   display: flex;
   align-items: center;
@@ -140,11 +140,11 @@ html.theme-transition-active .slider::before {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #feb400;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #feb400;
 }
 
 input:checked + .slider::before {
