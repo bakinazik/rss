@@ -125,7 +125,7 @@ h1 {
   }
 
   #output {
-    padding: 7px;
+    padding: 0 10px 0px 15px;
   }
 
   .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr {
