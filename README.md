@@ -2,7 +2,7 @@
 
 ### Web Arayüzü:
 
-<a href="https://bakinazik.github.io/rss/" target="_blank" rel="noopener noreferrer">https://bakinazik.github.io/rss/</a>
+<a href="https://bakinazik.github.io/rss/" target="_blank">https://bakinazik.github.io/rss/</a>
 
 Dinamik arama yapabilir ve aydınlık/karanlık tema ile görüntüleyebilirsin.
 
