@@ -2,10 +2,12 @@
 
 ### Web Arayüzü:
 
-[https://bakinazik.github.io/rss/](https://bakinazik.github.io/rss/)
+<a href="https://bakinazik.github.io/rss/" target="_blank" rel="noopener noreferrer">https://bakinazik.github.io/rss/</a>
 
 Dinamik arama yapabilir ve aydınlık/karanlık tema ile görüntüleyebilirsin.
- 
+
+<br>
+
 **Kategoriler:** 
 - [Bilim](#bilim)
 - [Teknoloji](#teknoloji)
