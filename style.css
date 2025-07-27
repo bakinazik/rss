@@ -212,7 +212,7 @@ html.theme-transition-active .tabler-icon {
   background-color: var(--category-bg-light);
   padding: 15px 20px;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
