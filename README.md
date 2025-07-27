@@ -159,6 +159,7 @@
 | Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
+| Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
 | Haber Global | https://haberglobal.com.tr/rss |
 | Habertürk | https://www.haberturk.com/rss |
 | Halk TV | https://halktv.com.tr/service/rss.php |
