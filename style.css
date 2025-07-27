@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,15 +9,161 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme */
+body.theme-light {
   background-color: #fff6ef;
   color: #503b2c;
-  line-height: 1.6;
+}
+
+body.theme-light header {
+  background-color: #f7e0c8;
+}
+
+body.theme-light h1 {
+  color: #2c3e50;
+}
+
+body.theme-light .category-header {
+  background-color: #f1e6db;
+  color: #503b2c;
+}
+
+body.theme-light .category-header:hover {
+  background-color: #edd9c5;
+}
+
+body.theme-light .category-header span {
+  background-color: #e5d4c2;
+  color: #503b2c;
+}
+
+body.theme-light .category-content th {
+  background-color: #f1e6db;
+  color: #555;
+}
+
+body.theme-light .category-content tr:nth-child(even) {
+  background-color: #f1e6db;
+}
+
+body.theme-light .category-content tr:hover {
+  background-color: #e9d3bd;
+}
+
+body.theme-light .category-content a {
+  color: #a76e06;
+}
+
+body.theme-light .category-content th,
+body.theme-light .category-content td {
+  border: 1px solid #f1e6db;
+}
+
+/* Dark Theme */
+body.theme-dark {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+body.theme-dark header {
+  background-color: #34495e;
+}
+
+body.theme-dark h1 {
+  color: #ecf0f1;
+}
+
+body.theme-dark .category-header {
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+body.theme-dark .category-header:hover {
+  background-color: #49637f;
+}
+
+body.theme-dark .category-header span {
+  background-color: #44607d;
+  color: #ecf0f1;
+}
+
+body.theme-dark .category-content th {
+  background-color: #44607d;
+  color: #bdc3c7;
+}
+
+body.theme-dark .category-content tr:nth-child(even) {
+  background-color: #3b5065;
+}
+
+body.theme-dark .category-content tr:hover {
+  background-color: #49637f;
+}
+
+body.theme-dark .category-content a {
+  color: #88c0d0;
+}
+
+body.theme-dark .category-content th,
+body.theme-dark .category-content td {
+  border: 1px solid #3b5065;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background-color: #f1e6db;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h1 {
-  color: #2c3e50;
-  text-align: center;
-  margin-bottom: 30px;
+  text-align: left;
+  margin: 0;
+}
+
+.header-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.control-button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #a76e06;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.control-button:hover {
+  background-color: #8a5a05;
+}
+
+#search-input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  width: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#search-input.visible {
+  width: 200px;
+  opacity: 1;
+  pointer-events: all;
 }
 
 #output {
@@ -26,7 +172,6 @@ h1 {
 }
 
 .category-header {
-  background-color: #f1e6db;
   padding: 15px 20px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -35,13 +180,8 @@ h1 {
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  color: #503b2c;
   transition: background-color 0.3s ease;
   position: relative;
-}
-
-.category-header:hover {
-  background-color: #edd9c5;
 }
 
 .category-header::after {
@@ -55,22 +195,19 @@ h1 {
   transform: rotate(180deg);
 }
 
-
 .category-header span {
-    left: -15px;
-    background-color: #e5d4c2;
-    color: #503b2c;
-    padding: 5px;
-    border-radius: 20px;
-    line-height: 1;
-    min-width: 30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
+  background-color: #e5d4c2;
+  color: #503b2c;
+  padding: 5px;
+  border-radius: 20px;
+  line-height: 1;
+  min-width: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px; /* Adjust margin for spacing */
 }
+
 
 .category-content {
   display: none;
@@ -86,42 +223,50 @@ h1 {
 
 .category-content th,
 .category-content td {
-  border: 1px solid #f1e6db;
+  border: 1px solid; /* Border color will be set by theme */
   padding: 10px;
   text-align: left;
 }
 
-.category-content th {
-  background-color: #f1e6db;
-  color: #555;
-}
-
-.category-content tr:nth-child(even) {
-  background-color: #f1e6db;
-}
-
-.category-content tr:hover {
-  background-color: #e9d3bd;
-}
-
 .category-content a {
-    overflow-wrap: anywhere;
-    color: #a76e06;
-    text-decoration: none;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: inline-block;
-    max-width: 100%;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%;
 }
 
 .category-content a:hover {
   text-decoration: underline;
 }
 
+.no-results {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #e74c3c;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .header-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #search-input.visible {
+    width: 100%;
   }
 
   #output {
@@ -130,7 +275,6 @@ h1 {
 
   .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr {
     display: block;
-    border-color: #f7e0c8;
   }
 
   .category-content thead tr {
@@ -141,13 +285,13 @@ h1 {
 
   .category-content tr {
     margin-bottom: 15px;
-    border: 1px solid #f7e0c8;
+    border: 1px solid; /* Border color will be set by theme */
     border-radius: 5px;
   }
 
   .category-content td {
     border: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid; /* Border color will be set by theme */
     position: relative;
     padding-left: 50%;
   }
