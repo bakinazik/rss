@@ -470,4 +470,7 @@ footer p {
     font-weight: bold;
     display: none;
   }
+  .category-content tr:nth-child(even) {
+    background-color: transparent;
+  }
 }
