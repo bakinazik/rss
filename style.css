@@ -9,7 +9,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
-  background-color: #f4f7f6;
+  background-color: #fff6ef;
   color: #333;
   line-height: 1.6;
 }
@@ -26,7 +26,7 @@ h1 {
 }
 
 .category-header {
-  background-color: #f1ede9;
+  background-color: #f1e6db;
   padding: 15px 20px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -74,12 +74,12 @@ h1 {
 }
 
 .category-content th {
-  background-color: #f2f2f2;
+  background-color: #f1e6db;
   color: #555;
 }
 
 .category-content tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #f1e6db;
 }
 
 .category-content tr:hover {
@@ -112,6 +112,7 @@ h1 {
 
   .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr {
     display: block;
+    border-color: #f7e0c8;
   }
 
   .category-content thead tr {
@@ -122,7 +123,7 @@ h1 {
 
   .category-content tr {
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #f7e0c8;
     border-radius: 5px;
   }
 
@@ -131,7 +132,6 @@ h1 {
     border-bottom: 1px solid #eee;
     position: relative;
     padding-left: 50%;
-    text-align: right;
   }
 
   .category-content td::before {
