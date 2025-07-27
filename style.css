@@ -105,7 +105,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #feb400;
+  background-color: var(--link-color-light);
   border-radius: 34px;
   display: flex;
   align-items: center;
@@ -164,6 +164,7 @@ input:checked + .slider::before {
 
 html.theme-transition-active .tabler-icon {
   transition: opacity 0.4s ease, transform 0.4s ease;
+  color: var(--bg-color);
 }
 
 .sun-icon {
