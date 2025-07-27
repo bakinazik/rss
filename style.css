@@ -183,7 +183,7 @@ html.theme-transition-active .tabler-icon {
   width: 100%;
 }
 
-i.ti.ti-search {
+.search-container svg {
     position: absolute;
     padding-left: 10px;
 }
@@ -309,6 +309,34 @@ border: 1px solid var(--table-even-row-bg-light);
   text-decoration: underline;
 }
 
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+footer a {
+    padding: 10px 12px;
+    background: var(--category-bg-hover-light);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--header-color);
+    font-size: 25px;
+    transition: 0.2s all;
+    border: none;
+    cursor: pointer;
+}
+
+footer a:hover{
+    background: var(--category-span-bg-light);
+    color: var(--link-color-light);
+}
+
 /* Styles for search results that are not grouped by category */
 .search-results-list {
   display: block; /* Show as a block, not hiding parts */
@@ -342,8 +370,14 @@ border: 1px solid var(--table-even-row-bg-light);
   background-color: var(--table-row-hover-light);
 }
 
-i.ti.ti-rss {
+h1 svg {
     color: #feb400;
+}
+
+footer p {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .search-results-list a {
@@ -364,7 +398,7 @@ i.ti.ti-rss {
 
 .no-results {
   text-align: center;
-  padding: 20px;
+  padding: 100px 0;
   color: var(--text-color);
   font-size: 1.1em;
 }
