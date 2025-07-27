@@ -335,6 +335,10 @@ html.theme-transition-active .tabler-icon {
   background-color: var(--table-row-hover-light);
 }
 
+i.ti.ti-rss {
+    color: #feb400;
+}
+
 .search-results-list a {
     overflow-wrap: anywhere;
     color: var(--link-color-light);
