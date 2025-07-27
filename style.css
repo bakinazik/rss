@@ -164,7 +164,6 @@ input:checked + .slider::before {
 
 html.theme-transition-active .tabler-icon {
   transition: opacity 0.4s ease, transform 0.4s ease;
-  color: var(--bg-color);
 }
 
 .sun-icon {
