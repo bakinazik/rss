@@ -10,9 +10,14 @@
   <header>
     <h1>RSS Bağlantıları</h1>
     <div class="header-controls">
-      <button id="theme-toggle" class="control-button">Tema Değiştir</button>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox">
+          <div class="slider round"></div>
+        </label>
+      </div>
       <button id="search-button" class="control-button">Ara</button>
-      <input type="text" id="search-input" placeholder="Site ara..." class="hidden">
+      <input type="text" id="search-input" placeholder="Ara" class="hidden">
     </div>
   </header>
   <div id="output">Yükleniyor...</div>
