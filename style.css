@@ -184,7 +184,7 @@ html.theme-transition-active .tabler-icon {
 }
 
 .search-input {
-  border: 1px solid var(--search-border-color-light);
+  border: 1px solid var(--table-even-row-bg-light);
   border-radius: 20px;
   padding: 8px 15px;
   font-size: 1em;
