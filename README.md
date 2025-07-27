@@ -4,7 +4,7 @@
 
 <a href="https://bakinazik.github.io/rss/" target="_blank">https://bakinazik.github.io/rss/</a>
 
-Dinamik arama yapabilir ve aydınlık/karanlık tema ile görüntüleyebilirsin.
+Dinamik arama yapabilir, aydınlık ve karanlık temaları arasında geçiş yapabilirsin.
 
 <br>
 
