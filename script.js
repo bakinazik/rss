@@ -57,7 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   initializeTheme(); // Call this to set up toggle state and enable transitions
-
+  document.getElementById('searchInput')?.focus();
+  
   // --- Search Logic ---
   searchInput.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase().trim();
