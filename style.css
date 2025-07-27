@@ -127,7 +127,7 @@ html.theme-transition-active .slider {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--bg-color);
   border-radius: 50%;
   z-index: 2; /* Simgelerin üstünde olması için */
   /* Removed direct transition from slider::before */
