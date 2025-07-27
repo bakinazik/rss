@@ -15,10 +15,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3 # v2 yerine daha güncel v3 kullanıldı
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4 # v2 yerine daha güncel v4 kullanıldı
       with:
         python-version: '3.x'
 
@@ -35,20 +35,33 @@ jobs:
       run: |
         REPO_NAME=$(basename $GITHUB_REPOSITORY)
         BASE_URL="https://${{ github.actor }}.github.io/${REPO_NAME}"
+        # opml_urls.txt dosyasını oluşturmadan önce mevcutsa temizle
+        > opml_urls.txt
         for FILE in *.opml; do
           echo "${BASE_URL}/${FILE}" >> opml_urls.txt
         done
         cat opml_urls.txt
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    # GitHub Pages için yeni dağıtım adımları
+    # Önce dağıtılacak dosyaları bir artifact olarak yükleyin
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3 # GitHub Pages için artifact yükleme eylemi
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
-        exclude_assets: |
-          .github/**
-          README.md
-          transform_to_opml.py
+        path: './' # Deponuzun kök dizinindeki tüm dosyaları dağıtılacak olarak işaretler.
+                   # Eğer sadece belirli bir klasördeki (örn: 'build' veya 'public') dosyaları dağıtmak istiyorsanız,
+                   # yolu buna göre değiştirin. Sizin durumunuzda './' doğru görünüyor.
+
+    # Ardından bu artifact'ı GitHub Pages'e dağıtın
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4 # GitHub Pages'e dağıtım eylemi
+      # permissions:
+      #   pages: write
+      #   id-token: write
+      # Yukarıdaki izinler, eğer iş akışınızda zaten tanımlı değilse,
+      # bu adımın çalışması için repository settings -> Actions -> General -> Workflow permissions altında
+      # "Read and write permissions" seçeneğinin işaretli olduğundan emin olun.
+      # Ya da doğrudan bu job için permissions tanımlayabilirsiniz.
 
     - name: Display OPML URLs
       run: |
