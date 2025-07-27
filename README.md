@@ -8,9 +8,7 @@ Dinamik arama yapabilir, aydınlık ve karanlık temaları arasında geçiş yap
 
 <br>
 
-Eksik bir bağlantı olduğunu düşünüyorsan commit atarak pull request isteğinde bulunabilir ya da issues alanından bildirebilirsin.
-
-<b>README.md</b> dosyasına eklenen kaynaklar, site üzerinde eşzamanlı olarak gösterilir.
+Eksik bir bağlantı olduğunu düşünüyorsan commit atarak pull request isteğinde bulunabilir ya da issues alanından bildirebilirsin. <b>README.md</b> dosyasına eklenen kaynaklar, site üzerinde eşzamanlı olarak gösterilir.
 
 <br>
 
