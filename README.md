@@ -81,6 +81,7 @@
 | Megabayt Sinema | https://www.megabayt.com/rss/categorynews/sinema |
 | Megabayt Televizyon | https://www.megabayt.com/rss/categorynews/televizyon |
 | Megabayt Youtube | https://www.megabayt.com/rss/categorynews/youtube |
+| Merlin'in Kazanı | https://www.merlininkazani.com/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
 | The Geyik | https://www.thegeyik.com/feed/ |
 | Turkmmo | https://www.turkmmo.com/feed |
