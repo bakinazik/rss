@@ -24,6 +24,7 @@
 | DijitalX | https://www.dijitalx.com/feed/ |
 | Evrim Ağacı | https://evrimagaci.org/rss.xml |
 | Tarihli Bilim | https://www.tarihlibilim.com/feed/ |
+| Tarihten Yazılar | https://tarihtenyazilar.com/feed/ |
 | Fizikist | https://www.fizikist.com/feed |
 | Gerçek Bilim | https://www.gercekbilim.com/feed/ |
 | Gelecek Bilimde | https://gelecekbilimde.net/feed/ |
