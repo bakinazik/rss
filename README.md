@@ -152,6 +152,7 @@
 | Doğru Haber | https://dogruhaber.com.tr/rss |
 | Dokuz8 Haber | https://www.dokuz8haber.net/rss |
 | Dünya | https://www.dunya.com/rss?dunya |
+| DW Haber | https://rss.dw.com/rdf/rss-tur-all |
 | En Politik | https://www.enpolitik.com/rss.xml |
 | En Son Haber | https://www.ensonhaber.com/rss/ensonhaber.xml |
 | Evrensel | https://www.evrensel.net/rss/haber.xml |
