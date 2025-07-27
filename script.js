@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         htmlContent += `
           <div class="category">
             <div class="category-header" data-category="${category}">
-              ${category} (${dataLines.length} URL)
+              ${category} <span>${dataLines.length}</span> 
             </div>
             <div class="category-content">
               ${tableHtml}
