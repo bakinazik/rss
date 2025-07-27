@@ -68,7 +68,7 @@ h1 {
 
 .category-content th,
 .category-content td {
-  border: 1px solid #ddd;
+  border: 1px solid #f1e6db;
   padding: 10px;
   text-align: left;
 }
@@ -83,7 +83,7 @@ h1 {
 }
 
 .category-content tr:hover {
-  background-color: #f1f1f1;
+  background-color: #e9d3bd;
 }
 
 .category-content a {
