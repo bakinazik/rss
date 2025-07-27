@@ -242,7 +242,7 @@ html.theme-transition-active .tabler-icon {
 .category-header span {
     left: -15px;
     background-color: var(--category-span-bg-light);
-    color: #feb400;
+    color: var(--link-color-light);
     padding: 5px;
     border-radius: 20px;
     line-height: 1;
