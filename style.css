@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.category {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
