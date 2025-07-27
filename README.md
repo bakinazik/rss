@@ -97,6 +97,7 @@ Eksik bir bağlantı olduğunu düşünüyorsan commit atarak pull request iste�
 | Megabayt Televizyon | https://www.megabayt.com/rss/categorynews/televizyon |
 | Megabayt Youtube | https://www.megabayt.com/rss/categorynews/youtube |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
+| Sofos | https://blog.sofos.com.tr/feed/ |
 | The Geyik | https://www.thegeyik.com/feed/ |
 | Turkmmo | https://www.turkmmo.com/feed |
 | Turuncu Levye | https://www.turunculevye.com/feed/ |
