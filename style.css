@@ -248,7 +248,7 @@ border: 1px solid var(--table-even-row-bg-light);
 
 .category-header span {
     left: 15px;
-    background-color: var(--category-span-bg-light);
+    background-color: var(--bg-color);
     color: var(--link-color-light);
     padding: 5px;
     border-radius: 20px;
