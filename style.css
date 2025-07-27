@@ -1,9 +1,137 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
 }
-.category {
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#output {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-header {
+  background-color: #e9eff1;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #2c3e50;
+  transition: background-color 0.3s ease;
+}
+
+.category-header:hover {
+  background-color: #dbe4e7;
+}
+
+.category-header::after {
+  content: '+';
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+}
+
+.category-header.expanded::after {
+  content: '-';
+  transform: rotate(180deg);
+}
+
+.category-content {
+  display: none;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.category-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.category-content th,
+.category-content td {
+  border: 1px solid #ddd;
   padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.category-content th {
+  background-color: #f2f2f2;
+  color: #555;
+}
+
+.category-content tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.category-content tr:hover {
+  background-color: #f1f1f1;
+}
+
+.category-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.category-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #output {
+    padding: 15px;
+  }
+
+  .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr {
+    display: block;
+  }
+
+  .category-content thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .category-content tr {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .category-content td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  .category-content td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
 }
