@@ -21,9 +21,7 @@
   <!-- Web Manifest -->
   <link rel="manifest" href="dist/site.webmanifest">
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.36.0/tabler-icons.min.css">
   <script>
-    // INLINE SCRIPT: Apply theme immediately to prevent flicker on load
     (function() {
       const storedTheme = localStorage.getItem('theme');
       const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
@@ -36,34 +34,34 @@
       }
 
       if (isDark) {
-        document.documentElement.classList.add('dark-mode'); // Apply dark mode to <html>
+        document.documentElement.classList.add('dark-mode');
       }
-      // IMPORTANT: Do NOT add 'theme-transition-active' class here.
-      // This ensures no transitions on initial page load.
     })();
   </script>
 </head>
 <body>
   <header class="main-header">
-    <h1><i class="ti ti-rss"></i> RSS Bağlantıları</h1>
+    <h1><svg  xmlns="http://www.w3.org/2000/svg"  width="30"  height="30"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-rss"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 4a16 16 0 0 1 16 16" /><path d="M4 11a9 9 0 0 1 9 9" /></svg> RSS Bağlantıları</h1>
     <div class="header-controls">
       <div class="search-container">
-        <i class="ti ti-search"></i>
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
         <input type="text" id="searchInput" placeholder="Ne arıyorsun?" class="search-input active">
       </div>
       <div class="theme-switch-wrapper">
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
-          <div class="slider round">
-            <i class="tabler-icon ti ti-sun sun-icon"></i>
-            <i class="tabler-icon ti ti-moon moon-icon"></i>
-          </div>
+          <div class="slider round"></div>
         </label>
       </div>
     </div>
   </header>
 
   <div id="output">Yükleniyor...</div>
+  
+  <footer>
+    <p><svg  xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg> ile yapıldı</p>
+    <a href="https://github.com/bakinazik/rss"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z" /></svg></a>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
