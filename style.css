@@ -453,7 +453,6 @@ footer p {
   .category-content td,
   .search-results-list td {
     border: none;
-    border-bottom: 1px solid var(--table-border-color-light);
     position: relative;
     padding-left: 20px;
   }
@@ -474,7 +473,7 @@ footer p {
     background-color: transparent;
   }
 
-  li[data-label="Site Adı"] {
+  td[data-label="Site Adı"] {
     border-bottom: 1px solid var(--table-border-color-light);
   }
 }
