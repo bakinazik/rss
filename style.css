@@ -217,7 +217,7 @@ border: 1px solid var(--table-even-row-bg-light);
 
 .category-header {
   background-color: var(--category-bg-light);
-  padding: 15px 20px;
+  padding: 15px 20px 15px 55px;
   margin-bottom: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -247,7 +247,7 @@ border: 1px solid var(--table-even-row-bg-light);
 }
 
 .category-header span {
-    left: -15px;
+    left: 15px;
     background-color: var(--category-span-bg-light);
     color: var(--link-color-light);
     padding: 5px;
@@ -426,7 +426,7 @@ footer p {
   }
 
   #output {
-    padding: 0 10px 0px 15px;
+    padding: 0 10px 0px 10px;
   }
 
   /* Responsive table styles apply to both category-content and search-results-list */
