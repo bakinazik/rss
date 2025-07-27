@@ -5,21 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RSS Bağlantıları</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.36.0/tabler-icons.min.css">
+  <script>
+    // INLINE SCRIPT: Apply theme immediately to prevent flicker on load
+    (function() {
+      const storedTheme = localStorage.getItem('theme');
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+      let isDark = false;
+      if (storedTheme !== null) {
+        isDark = (storedTheme === 'dark');
+      } else {
+        isDark = prefersDarkScheme.matches;
+      }
+
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode'); // Apply dark mode to <html>
+      }
+      // IMPORTANT: Do NOT add 'theme-transition-active' class here.
+      // This ensures no transitions on initial page load.
+    })();
+  </script>
 </head>
-<body class="theme-light">
-  <header>
-    <h1>RSS Bağlantıları</h1>
+<body>
+  <header class="main-header">
+    <h1><i class="ti ti-rss"></i> RSS Bağlantıları</h1>
     <div class="header-controls">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Site veya bağlantı ara..." class="search-input active">
+      </div>
       <div class="theme-switch-wrapper">
         <label class="theme-switch" for="checkbox">
-          <input type="checkbox" id="checkbox">
-          <div class="slider round"></div>
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round">
+            <i class="tabler-icon ti ti-sun sun-icon"></i>
+            <i class="tabler-icon ti ti-moon moon-icon"></i>
+          </div>
         </label>
       </div>
-      <button id="search-button" class="control-button">Ara</button>
-      <input type="text" id="search-input" placeholder="Ara" class="hidden">
     </div>
   </header>
+
   <div id="output">Yükleniyor...</div>
   <script src="script.js"></script>
 </body>
