@@ -100,6 +100,8 @@
 | Öncül | https://onculanalitikfelsefe.com/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 | Terrabayt | https://terrabayt.com/feed |
+| Vesaire | https://vesaire.press/feed/ |
+
 
 # Spor
 
