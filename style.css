@@ -473,4 +473,8 @@ footer p {
   .category-content tr:nth-child(even) {
     background-color: transparent;
   }
+
+  li[data-label="Site Adı"] {
+    border-bottom: 1px solid var(--table-border-color-light);
+  }
 }
