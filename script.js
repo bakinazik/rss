@@ -54,12 +54,23 @@ document.addEventListener('DOMContentLoaded', () => {
   
   searchInput.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase().trim();
+    updateUrlParameter(searchTerm);
     if (searchTerm === '') {
       renderCategories(allCategoriesData);
     } else {
       filterAndRenderSearchResults(searchTerm);
     }
   });
+
+  const updateUrlParameter = (searchTerm) => {
+    const url = new URL(window.location);
+    if (searchTerm) {
+      url.searchParams.set('q', searchTerm);
+    } else {
+      url.searchParams.delete('q');
+    }
+    window.history.replaceState({}, '', url);
+  };
 
   const filterAndRenderSearchResults = (searchTerm) => {
     output.innerHTML = '';
@@ -153,6 +164,13 @@ document.addEventListener('DOMContentLoaded', () => {
         allRssItems.push(...items);
       }
       renderCategories(allCategoriesData);
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const searchQuery = urlParams.get('q');
+      if (searchQuery) {
+        searchInput.value = searchQuery;
+        filterAndRenderSearchResults(searchQuery);
+      }
     })
     .catch(err => {
       output.textContent = `Hata: İçerik yüklenemedi. Detay: ${err.message}`;
