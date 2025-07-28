@@ -11,7 +11,9 @@
   </tr>
 </table>
 
-<b>GET Sorgusu:</b> Tarayıcı ayarlarından özel arama motoru olarak ekleyerek doğrudan arama yapabilirsin.
+<br>
+
+Arama motoru olarak kullanabileceğin sorgu parametresi:
 <pre><code>https://bakinazik.github.io/rss/?q=<b>%s</b></code></pre>
 
 <br>
