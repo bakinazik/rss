@@ -4,6 +4,14 @@
 
 <a href="https://bakinazik.github.io/rss/" target="_blank">https://bakinazik.github.io/rss/</a>
 
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/d6401cab-91ba-4989-80dc-33f194ebf8da" style="width:100%;"></a></td>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/f3894ddd-1a80-442a-9798-8902711d88d7" style="width:100%;"></a></td>
+  </tr>
+</table>
+
+
 <br>
 
 Eksik bir bağlantı olduğunu düşünüyorsan commit atarak pull request isteğinde bulunabilir ya da issues alanından bildirebilirsin. <b>README.md</b> dosyasına eklenen kaynaklar, site üzerinde eşzamanlı olarak gösterilir.
