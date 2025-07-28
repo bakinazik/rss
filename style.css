@@ -476,4 +476,8 @@ footer p {
   td[data-label="Site Adı"] {
     border-bottom: 1px solid var(--table-border-color-light);
   }
+
+  footer{
+    padding: 20px 10px;
+  }
 }
