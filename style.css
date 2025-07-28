@@ -1,5 +1,4 @@
 :root {
-  /* Light Theme Colors */
   --bg-color: #fff6ef;
   --text-color: #503b2c;
   --header-color: #2c3e50;
@@ -13,10 +12,9 @@
   --link-color-light: #a76e06;
   --search-border-color-light: #ccc;
   --search-placeholder-color-light: #999;
-  --search-bg-color-light: #ffffff; /* New: Search input background */
+  --search-bg-color-light: #ffffff;
 }
 
-/* Apply dark mode styles to the html element */
 html.dark-mode {
     --bg-color: #111;
     --text-color: #ccc;
@@ -45,13 +43,11 @@ html.dark-mode {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
-  background-color: var(--bg-color); /* Inherits from :root or html.dark-mode */
-  color: var(--text-color); /* Inherits from :root or html.dark-mode */
+  background-color: var(--bg-color);
+  color: var(--text-color);
   line-height: 1.6;
-  /* Removed direct transition from body */
 }
 
-/* This class enables transitions for theme changes. It will be added by JavaScript AFTER initial load. */
 html.theme-transition-active {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -79,7 +75,6 @@ h1 {
   gap: 20px;
 }
 
-/* Theme Switcher Styles */
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
@@ -109,11 +104,9 @@ h1 {
   border-radius: 34px;
   display: flex;
   align-items: center;
-  padding: 0 5px; /* Simgeler için iç boşluk */
-  /* Removed direct transition from slider */
+  padding: 0 5px;
 }
 
-/* Apply transition to slider background only when theme-transition-active is present */
 html.theme-transition-active .slider {
   -webkit-transition: .4s;
   transition: .4s;
@@ -129,11 +122,9 @@ html.theme-transition-active .slider {
   bottom: 4px;
   background-color: var(--bg-color);
   border-radius: 50%;
-  z-index: 2; /* Simgelerin üstünde olması için */
-  /* Removed direct transition from slider::before */
+  z-index: 2;
 }
 
-/* Apply transition to slider button movement only when theme-transition-active is present */
 html.theme-transition-active .slider::before {
   -webkit-transition: .4s;
   transition: .4s;
@@ -153,13 +144,11 @@ input:checked + .slider::before {
   transform: translateX(26px);
 }
 
-/* Simge Stillleri */
 .tabler-icon {
   position: absolute;
   font-size: 1.2em;
-  color: #fff; /* Simgelerin rengi */
-  z-index: 1; /* Slider topunun altında kalması için */
-  /* Apply transition to icon opacity and transform only when theme-transition-active is present */
+  color: #fff;
+  z-index: 1;
 }
 
 html.theme-transition-active .tabler-icon {
@@ -167,18 +156,15 @@ html.theme-transition-active .tabler-icon {
 }
 
 .sun-icon {
-  left: 5px; /* Güneş simgesi solda */
+  left: 5px;
 }
 
 .moon-icon {
-  right: 5px; /* Ay simgesi sağda */
+  right: 5px;
 }
 
-
-
-/* Search Input */
 .search-container {
-  display: flex; /* Ensure it respects flex gap */
+  display: flex;
   align-items: center;
   width: 100%;
 }
@@ -205,14 +191,12 @@ border: 1px solid var(--table-even-row-bg-light);
   color: var(--search-placeholder-color-light);
 }
 
-/* Existing styles for categories and tables */
 #output {
   max-width: 900px;
   margin: 0 auto;
 }
 
 .category {
-  /* This container might be hidden or re-purposed for search results */
 }
 
 .category-header {
@@ -234,7 +218,6 @@ border: 1px solid var(--table-even-row-bg-light);
   background-color: var(--category-bg-hover-light);
 }
 
-/* Hide toggle icon for category headers that are hidden during search */
 .category-header::after {
   content: '+';
   font-size: 1.2em;
@@ -263,7 +246,7 @@ border: 1px solid var(--table-even-row-bg-light);
 }
 
 .category-content {
-  display: none; /* Default hidden, managed by JS */
+  display: none;
   padding: 10px 0;
   margin-bottom: 20px;
 }
@@ -309,6 +292,13 @@ border: 1px solid var(--table-even-row-bg-light);
   text-decoration: underline;
 }
 
+.favicon {
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
 footer {
     max-width: 900px;
     margin: 0 auto;
@@ -337,9 +327,8 @@ footer a:hover{
     color: var(--link-color-light);
 }
 
-/* Styles for search results that are not grouped by category */
 .search-results-list {
-  display: block; /* Show as a block, not hiding parts */
+  display: block;
   padding: 10px 0;
   margin-bottom: 20px;
 }
@@ -429,7 +418,6 @@ footer p {
     padding: 0 10px 0px 10px;
   }
 
-  /* Responsive table styles apply to both category-content and search-results-list */
   .category-content table, .category-content thead, .category-content tbody, .category-content th, .category-content td, .category-content tr,
   .search-results-list table, .search-results-list thead, .search-results-list tbody, .search-results-list th, .search-results-list td, .search-results-list tr {
     display: block;
