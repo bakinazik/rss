@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const output = document.getElementById('output');
   const themeToggle = document.getElementById('checkbox');
   const searchInput = document.getElementById('searchInput');
+  const mainHeaderH1 = document.querySelector('.main-header h1');
 
   let allCategoriesData = [];
   let allRssItems = [];
@@ -60,6 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       filterAndRenderSearchResults(searchTerm);
     }
+  });
+
+  mainHeaderH1.addEventListener('click', () => {
+    searchInput.value = '';
+    updateUrlParameter('');
+    renderCategories(allCategoriesData);
   });
 
   const updateUrlParameter = (searchTerm) => {
