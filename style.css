@@ -298,6 +298,7 @@ border: 1px solid var(--table-even-row-bg-light);
   margin-right: 8px;
   width: 16px;
   height: 16px;
+  border-radius: 100%;
 }
 
 footer {
