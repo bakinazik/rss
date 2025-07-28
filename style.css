@@ -67,6 +67,7 @@ h1 {
   color: var(--header-color);
   text-align: left;
   margin: 0;
+  cursor: pointer;
 }
 
 .header-controls {
