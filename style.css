@@ -202,7 +202,7 @@ border: 1px solid var(--table-even-row-bg-light);
 
 .category-header {
   background-color: var(--category-bg-light);
-  padding: 15px 20px 15px 55px;
+  padding: 15px 20px 15px 65px;
   margin-bottom: 10px;
   border-radius: 10px;
   cursor: pointer;
