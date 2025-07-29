@@ -170,6 +170,15 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
 | AjansSpor | https://ajansspor.com/rss |
 | Fotomaç | https://www.fotomac.com.tr/rss/anasayfa.xml |
+| Fotomaç Son 24 Saat | https://www.fotomac.com.tr/rss/son24saat.xml |
+| Fotomaç Süper Lig | https://www.fotomac.com.tr/rss/SuperLig.xml |
+| Fotomaç Beşiktaş | https://www.fotomac.com.tr/rss/Besiktas.xml |
+| Fotomaç Fenerbahçe | https://www.fotomac.com.tr/rss/Fenerbahce.xml |
+| Fotomaç Galatasaray | https://www.fotomac.com.tr/rss/Galatasaray.xml |
+| Fotomaç Trabzonspor | https://www.fotomac.com.tr/rss/Trabzonspor.xml |
+| Fotomaç Bursaspor | https://www.fotomac.com.tr/rss/Bursaspor.xml |
+| Fotomaç Basketbol | https://www.fotomac.com.tr/rss/Basketbol.xml |
+| Fotospor | https://www.fotospor.com/feed/rss_sondakika.xml |
 | Megabayt Spor | https://www.megabayt.com/rss/categorynews/spor |
 | NTV Spor Anasayfa | https://www.ntvspor.net/rss/anasayfa |
 | NTV Spor Basketbol | https://www.ntvspor.net/rss/kategori/basketbol |
