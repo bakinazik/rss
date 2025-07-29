@@ -26,7 +26,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 - [Bilim](#bilim)
 - [Teknoloji](#teknoloji)
 - [Eğlence](#eğlence)
-- [Felsefe](#felsefe)
+- [Kültür ve Sanat](#kültür-ve-sanat)
 - [Spor](#spor)
 - [Gündem](#gündem)
 - [Ekonomi ve Finans](#ekonomi-ve-finans)
@@ -124,7 +124,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Turuncu Levye | https://www.turunculevye.com/feed/ |
 | Webtekno | https://www.webtekno.com/rss.xml |
 
-# Felsefe
+# Kültür ve Sanat
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
