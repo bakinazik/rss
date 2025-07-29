@@ -247,10 +247,23 @@ border: 1px solid var(--table-even-row-bg-light);
 }
 
 .category-content {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0s ease-out 0.3s;
+  padding: 0 0 0 0;
+  margin-bottom: 0;
+}
+
+.category-content.expanded {
+  opacity: 1;
+  visibility: visible;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0s ease-out 0s;
   padding: 10px 0;
   margin-bottom: 20px;
 }
+
 
 .category-content table {
   width: 100%;
