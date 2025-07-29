@@ -159,32 +159,45 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| ABC Haber | https://abcgazetesi.com.tr/rss |
 | A Haber | https://www.ahaber.com.tr/rss/gundem.xml |
 | Açık Gazete | https://www.acikgazete.com/feed/ |
 | Akşam | https://www.aksam.com.tr/rss/rss.asp |
 | Anadolu Ajansı | https://www.aa.com.tr/tr/rss/default?cat=guncel |
+| Agos | https://www.agos.com.tr/rss |
 | Artı Gerçek | https://artigercek.com/service/rss.php |
+| Aydınlık | https://www.aydinlik.com.tr/feed |
+| Aykırı | https://www.aykiri.com.tr/rss.xml |
 | BBC Türkçe | https://feeds.bbci.co.uk/turkce/rss.xml |
+| Bengütürk | https://www.benguturk.com/rss |
+| Beyaz Gazete | https://beyazgazete.com/rss/guncel.xml |
+| BHA | https://bha.net.tr/rss |
 | Bianet | https://bianet.org/biamag.rss |
 | Bir Gazete | https://www.birgazete.com/feed |
 | BirGün | https://www.birgun.net/rss/home |
 | CNN Türk | https://www.cnnturk.com/feed/rss/all/news |
 | Cumhuriyet | https://www.cumhuriyet.com.tr/rss/son_dakika.xml |
+| CGTN Türk | https://www.cgtnturk.com/rss |
 | Demokrat Haber | https://www.demokrathaber.org/rss |
 | Diken | https://www.diken.com.tr/feed/ |
 | Diriliş Postası | https://www.dirilispostasi.com/rss |
 | Diyanet Haber | https://www.diyanethaber.com.tr/rss |
+| Dijital Gaste | https://www.dijitalgaste.com/rss |
 | Doğru Haber | https://dogruhaber.com.tr/rss |
 | Dokuz8 Haber | https://www.dokuz8haber.net/rss |
 | Dünya | https://www.dunya.com/rss?dunya |
 | DW Haber | https://rss.dw.com/rdf/rss-tur-all |
 | En Politik | https://www.enpolitik.com/rss.xml |
+| Ekonomim | https://www.ekonomim.com/export/rss |
+| Ekol TV | https://www.ekoltv.com.tr/service/rss.php |
 | En Son Haber | https://www.ensonhaber.com/rss/ensonhaber.xml |
 | Evrensel | https://www.evrensel.net/rss/haber.xml |
 | F5 Haber | https://www.f5haber.com/export/rss |
 | Fayn | https://www.fayn.press/rss/ |
 | Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
+| Gazete.net | https://gazete.net/rss |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
+| GZT | https://www.gzt.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
 | Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
 | Haber Global | https://haberglobal.com.tr/rss |
@@ -195,13 +208,23 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Independent | https://www.indyturk.com/rss.xml |
 | İnternet Haber | https://www.internethaber.com/rss |
 | İşin Detayı Gündem | https://www.isindetayi.com/rss/gundem |
+| İlke TV | https://ilketv.com.tr/feed/ |
+| Journo | https://journo.com.tr/feed |
+| Karar | https://www.karar.com/service/rss.php |
+| Kamudan Haber | https://www.kamudanhaber.net/rss |
 | Kısa Dalga | https://kisadalga.net/service/rss.php |
+| Korkusuz | https://www.korkusuz.com.tr/feeds/rss |
+| KRT TV | https://www.krttv.com.tr/rss |
 | Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
 | Megabayt Gündem | https://www.megabayt.com/rss/categorynews/gundem |
+| Milli Gazete | https://www.milligazete.com.tr/rss |
 | Mynet | https://www.mynet.com/haber/rss/sondakika |
 | Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
+| NewsLab Turkey | https://www.newslabturkey.org/feed/ |
 | NTV | https://www.ntv.com.tr/gundem.rss |
+| OdaTV | https://www.odatv.com/rss.xml |
 | Sabah | https://www.sabah.com.tr/rss/gundem.xml |
+| Serbestiyet | https://serbestiyet.com/feed/ |
 | Sözcü | https://www.sozcu.com.tr/feeds-rss-category-sozcu |
 | Sözcü Astroloji | https://www.sozcu.com.tr/feeds-rss-category-astroloji |
 | Sözcü Bilim ve Teknoloji | https://www.sozcu.com.tr/feeds-rss-category-bilim-teknoloji |
@@ -221,10 +244,21 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | soL Haber | https://haber.sol.org.tr/rss.xml |
 | Star | https://www.star.com.tr/rss/rss.asp |
 | T24 | https://t24.com.tr/rss |
+| Teyit | https://teyit.org/feed?lang=tr |
+| Tele1 | https://www.tele1.com.tr/rss |
+| Timeturk | https://www.timeturk.com/rss/ |
+| Türkiye Gazetesi | https://www.turkiyegazetesi.com.tr/feed |
+| Türkgün | https://www.turkgun.com/rss/news |
 | TRT Haber | https://www.trthaber.com/sondakika.rss |
+| TGRT Haber | https://www.tgrthaber.com/rss/manset |
+| Ulusal Kanal | https://www.ulusal.com.tr/rss |
+| Ulusal Post | https://www.ulusalpost.com/service/rss.php |
+| Veryansın TV | https://www.veryansintv.com/feed |
 | Yeni Akit | https://www.yeniakit.com.tr/rss/haber/gundem |
 | Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
+| Yeniçağ Gazetesi | https://www.yenicaggazetesi.com.tr/service/rss.php |
 | Yeni Şafak | https://www.yenisafak.com/rss?xml=gundem |
+| Yeni Yaşam Gazetesi | https://yeniyasamgazetesi9.com/feed/ |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
 
