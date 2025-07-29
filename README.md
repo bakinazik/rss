@@ -182,6 +182,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | En Son Haber | https://www.ensonhaber.com/rss/ensonhaber.xml |
 | Evrensel | https://www.evrensel.net/rss/haber.xml |
 | F5 Haber | https://www.f5haber.com/export/rss |
+| Fayn | https://www.fayn.press/rss/ |
 | Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
