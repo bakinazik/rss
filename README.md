@@ -65,7 +65,12 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | CHIP Online | https://www.chip.com.tr/rss |
+| ÇözümPark | https://www.cozumpark.com/feed/ |
+| Dijitaliyidir | https://dijitaliyidir.com/feed/ |
 | Donanım Haber | https://www.donanimhaber.com/rss/tum/ |
+| Donanım Günlüğü | https://donanimgunlugu.com/feed |
+| FounderN | https://foundern.com/feed/ |
+| Hardware Plus | https://hwp.com.tr/feed |
 | İndir | https://www.indir.com/haber/feed/ |
 | LOG | https://www.log.com.tr/feed/ |
 | Megabayt | https://www.megabayt.com/rss/news |
@@ -77,13 +82,19 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Megabayt Sosyal Medya | https://www.megabayt.com/rss/categorynews/sosyal-medya |
 | Megabayt Teknoloji | https://www.megabayt.com/rss/categorynews/teknoloji |
 | Megabayt Yazılım | https://www.megabayt.com/rss/categorynews/yazilim |
+| PC Hocası | https://pchocasi.com.tr/feed |
+| Sihirli Elma | https://www.sihirlielma.com/feed/ |
 | Shiftdelete | https://shiftdelete.net/feed |
+| Sordum | https://www.sordum.net/feed/ |
+| Swipeline | https://swipeline.co/feed/ |
 | Techolay | https://techolay.net/feed/ |
 | Technopat | https://www.technopat.net/feed/ |
 | Teknoblog | https://www.teknoblog.com/feed/ |
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | TeknoBurada | https://www.teknoburada.net/feed/ |
 | Tam İndir | https://feeds.feedburner.com/tamindir/stream |
+| VoiceTekno | https://voicetekno.com/feed/ |
+| Webmasto | https://webmasto.com/feed |
 | Webrazzi | https://webrazzi.com/feed |
 
 # Eğlence
