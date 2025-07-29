@@ -132,10 +132,36 @@ document.addEventListener('DOMContentLoaded', () => {
       header.addEventListener('click', () => {
         header.classList.toggle('expanded');
         const content = header.nextElementSibling;
-        if (content.style.display === 'block') {
-          content.style.display = 'none';
+
+        if (content.classList.contains('expanded')) {
+          content.style.maxHeight = content.scrollHeight + 'px';
+          requestAnimationFrame(() => {
+            content.style.maxHeight = '0';
+            content.style.opacity = '0';
+            content.style.marginBottom = '0';
+            content.style.padding = '0';
+            content.addEventListener('transitionend', function handler() {
+              if (content.style.maxHeight === '0px') {
+                content.classList.remove('expanded');
+                content.style.visibility = 'hidden';
+              }
+              content.removeEventListener('transitionend', handler);
+            });
+          });
         } else {
-          content.style.display = 'block';
+          content.classList.add('expanded');
+          content.style.visibility = 'visible';
+          content.style.opacity = '1';
+          content.style.marginBottom = '20px';
+          content.style.padding = '10px 0';
+          content.style.maxHeight = content.scrollHeight + 'px';
+
+          content.addEventListener('transitionend', function handler() {
+            if (content.classList.contains('expanded')) {
+              content.style.maxHeight = 'fit-content';
+            }
+            content.removeEventListener('transitionend', handler);
+          });
         }
       });
     });
