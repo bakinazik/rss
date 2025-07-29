@@ -129,13 +129,29 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | 10layn | https://10layn.com/feed/ |
+| Artdog | https://artdogistanbul.com/feed/ |
+| Artkolik | https://www.artkolik.net/feed |
+| Argonotlar | https://argonotlar.com/feed/ |
+| Arkitera | https://www.arkitera.com/feed/ |
+| Bant Mag | https://bantmag.com/feed/ |
 | Cafrande | https://www.cafrande.org/feed/ |
 | Çekiçle Felsefe | https://cekiclefelsefe.com/feed/ |
+| Edebi Bülten | https://edebibulten.com/feed/ |
+| Edebiyat Burada | https://edebiyatburada.com/feed/ |
+| Edebiyat Haber | https://www.edebiyathaber.net/feed/ |
+| Fikir Turu | https://fikirturu.com/feed/ |
 | Kilikya Dergisi | https://dergipark.org.tr/tr/pub/kilikya/rss/lastissue/tr |
+| Kitap Haber | https://www.kitaphaber.com.tr/feed |
 | Görünüm Dergisi | https://dergipark.org.tr/tr/pub/gorunum/rss/lastissue/tr |
+| Gazete Sanat | https://www.gazetesanat.com/feed |
+| Hafta | https://www.hafta.com.tr/rss.xml |
 | Manifold | https://manifold.press/rss |
 | Mesail | https://www.mesail.org/feed/ |
+| Mürekkep Haber | https://www.murekkephaber.com/rss.xml |
+| Nouvart | https://www.nouvart.net/feed/ |
 | Öncül | https://onculanalitikfelsefe.com/feed/ |
+| Play Tuşu | https://playtusu.com/feed/ |
+| Rotka | https://www.rotka.org/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 | Terrabayt | https://terrabayt.com/feed |
 | Vesaire | https://vesaire.press/feed/ |
