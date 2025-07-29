@@ -108,8 +108,10 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Beyaz Perde | https://www.beyazperde.com/rss/haberler.xml |
 | Bigumigu | https://bigumigu.com/feed/ |
 | Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/feed/ |
+| Fantastik Canavarlar | https://fantastikcanavarlar.com/feed/ |
 | FRPNET | https://frpnet.net/feed |
 | Geekyapar | https://geekyapar.com/feed/ |
+| IGN Türkiye | https://tr.ign.com/feed.xml |
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
 | ListeList | https://listelist.com/feed/ |
 | Marjinal Sinema | https://marjinalsinema.com/feed/ |
@@ -121,6 +123,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Megabayt Televizyon | https://www.megabayt.com/rss/categorynews/televizyon |
 | Megabayt Youtube | https://www.megabayt.com/rss/categorynews/youtube |
 | Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
+| Mister Noob | https://www.misternoob.com/feed/ |
 | Mobidictum | https://mobidictum.com/tr/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
 | Sofos | https://blog.sofos.com.tr/feed/ |
