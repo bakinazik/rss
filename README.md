@@ -351,7 +351,9 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | İşin Detayı Sağlık | https://www.isindetayi.com/rss/saglik |
 | İşin Detayı Turizm | https://www.isindetayi.com/rss/turizm |
 | İşin Detayı Yaşam | https://www.isindetayi.com/rss/yasam |
+| Istanbul Life | https://istanbullife.com.tr/feed/ |
 | Live To Bloom | https://livetobloom.com/feed/ |
+| Martı Dergisi | https://www.martidergisi.com/feed/ |
 | Megabayt Aksesuar | https://www.megabayt.com/rss/categorynews/aksesuar |
 | Megabayt Eğitim | https://www.megabayt.com/rss/categorynews/egitim |
 | Megabayt İnceleme | https://www.megabayt.com/rss/categorynews/inceleme |
