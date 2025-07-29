@@ -31,7 +31,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 - [Gündem](#gündem)
 - [Ekonomi ve Finans](#ekonomi-ve-finans)
 - [İş Dünyası](#i̇ş-dünyası)
-- [Yaşam ve Kültür](#yaşam-ve-kültür)
+- [Yaşam](#yaşam)
 
 # Bilim
 
@@ -151,8 +151,10 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Görünüm Dergisi | https://dergipark.org.tr/tr/pub/gorunum/rss/lastissue/tr |
 | Gazete Sanat | https://www.gazetesanat.com/feed |
 | Hafta | https://www.hafta.com.tr/rss.xml |
+| İşin Detayı Kültür Sanat | https://www.isindetayi.com/rss/kultur-sanat |
 | Manifold | https://manifold.press/rss |
 | Mesail | https://www.mesail.org/feed/ |
+| Megabayt Kültür Sanat | https://www.megabayt.com/rss/categorynews/kultur-sanat |
 | Mürekkep Haber | https://www.murekkephaber.com/rss.xml |
 | Nouvart | https://www.nouvart.net/feed/ |
 | Öncül | https://onculanalitikfelsefe.com/feed/ |
@@ -161,6 +163,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 | Terrabayt | https://terrabayt.com/feed |
 | Vesaire | https://vesaire.press/feed/ |
+
 
 
 # Spor
@@ -338,22 +341,26 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | İşin Detayı Şirket Haberleri | https://www.isindetayi.com/rss/sirket-haberleri |
 | Megabayt Şirket Haberleri | https://www.megabayt.com/rss/categorynews/sirket-haberleri |
 
-# Yaşam ve Kültür
+# Yaşam
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| Anne Kaz | https://www.annekaz.com/feed |
 | İşin Detayı Gastronomi | https://www.isindetayi.com/rss/gastronomi |
-| İşin Detayı Kültür Sanat | https://www.isindetayi.com/rss/kultur-sanat |
 | İşin Detayı Moda | https://www.isindetayi.com/rss/moda |
 | İşin Detayı Sağlık | https://www.isindetayi.com/rss/saglik |
 | İşin Detayı Turizm | https://www.isindetayi.com/rss/turizm |
 | İşin Detayı Yaşam | https://www.isindetayi.com/rss/yasam |
+| Live To Bloom | https://livetobloom.com/feed/ |
 | Megabayt Aksesuar | https://www.megabayt.com/rss/categorynews/aksesuar |
 | Megabayt Eğitim | https://www.megabayt.com/rss/categorynews/egitim |
 | Megabayt İnceleme | https://www.megabayt.com/rss/categorynews/inceleme |
-| Megabayt Kültür Sanat | https://www.megabayt.com/rss/categorynews/kultur-sanat |
 | Megabayt Magazin | https://www.megabayt.com/rss/categorynews/magazin |
 | Megabayt Otomobil | https://www.megabayt.com/rss/categorynews/otomobil |
 | Megabayt Popüler Haberler | https://www.megabayt.com/rss/categorynews/populer-haberler |
 | Megabayt Sağlık | https://www.megabayt.com/rss/categorynews/saglik |
 | Megabayt Yaşam | https://www.megabayt.com/rss/categorynews/yasam |
+| Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
+| Uplifers | https://www.uplifers.com/feed/ |
+| PlumeMag | https://www.plumemag.com/feed/ |
+
