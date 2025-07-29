@@ -101,13 +101,18 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| 22 Dakika | https://22dakika.org/feed/ |
 | Atarita | https://www.atarita.com/feed/ |
+| Altyazı | https://altyazi.net/feed/ |
+| Bağımsız Sinema | https://www.bagimsizsinema.com/feed |
+| Beyaz Perde | https://www.beyazperde.com/rss/haberler.xml |
 | Bigumigu | https://bigumigu.com/feed/ |
 | Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/feed/ |
 | FRPNET | https://frpnet.net/feed |
 | Geekyapar | https://geekyapar.com/feed/ |
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
 | ListeList | https://listelist.com/feed/ |
+| Marjinal Sinema | https://marjinalsinema.com/feed/ |
 | Merlin'in Kazanı | https://www.merlininkazani.com/feed/ |
 | Megabayt Dijital Platformlar | https://www.megabayt.com/rss/categorynews/dijital-platformlar |
 | Megabayt Dizi-sinema | https://www.megabayt.com/rss/categorynews/dizi-sinema |
@@ -119,6 +124,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Mobidictum | https://mobidictum.com/tr/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
 | Sofos | https://blog.sofos.com.tr/feed/ |
+| Sinetopya | https://sinetopya.com/rss/ |
 | The Geyik | https://www.thegeyik.com/feed/ |
 | Turkmmo | https://www.turkmmo.com/feed |
 | Turuncu Levye | https://www.turunculevye.com/feed/ |
