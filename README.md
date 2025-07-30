@@ -211,6 +211,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | A Haber | https://www.ahaber.com.tr/rss/gundem.xml |
 | Açık Gazete | https://www.acikgazete.com/feed/ |
 | Akşam | https://www.aksam.com.tr/rss/rss.asp |
+| Al Ain Türkçe | https://tr.al-ain.com/feed |
 | Anadolu Ajansı | https://www.aa.com.tr/tr/rss/default?cat=guncel |
 | Agos | https://www.agos.com.tr/rss |
 | Artı Gerçek | https://artigercek.com/service/rss.php |
@@ -231,11 +232,13 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Diriliş Postası | https://www.dirilispostasi.com/rss |
 | Diyanet Haber | https://www.diyanethaber.com.tr/rss |
 | Dijital Gaste | https://www.dijitalgaste.com/rss |
+| dikGAZETE | https://www.dikgazete.com/xml/rss.xml |
 | Doğru Haber | https://dogruhaber.com.tr/rss |
 | Dokuz8 Haber | https://www.dokuz8haber.net/rss |
 | Dünya | https://www.dunya.com/rss?dunya |
 | DW Haber | https://rss.dw.com/rdf/rss-tur-all |
 | En Politik | https://www.enpolitik.com/rss.xml |
+| Elips Haber | https://www.elipshaber.com/rss |
 | Ekonomim | https://www.ekonomim.com/export/rss |
 | Ekol TV | https://www.ekoltv.com.tr/service/rss.php |
 | En Son Haber | https://www.ensonhaber.com/rss/ensonhaber.xml |
@@ -244,18 +247,21 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Fayn | https://www.fayn.press/rss/ |
 | Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
 | Gazete.net | https://gazete.net/rss |
+| Gazete Pencere | https://www.gazetepencere.com/service/rss.php |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
 | GZT | https://www.gzt.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
 | Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
 | Haber Global | https://haberglobal.com.tr/rss |
 | Habertürk | https://www.haberturk.com/rss |
+| Haberet | https://www.haberet.com/export/rss |
 | Halk TV | https://halktv.com.tr/service/rss.php |
 | Hürriyet | https://www.hurriyet.com.tr/rss/anasayfa |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Independent | https://www.indyturk.com/rss.xml |
 | İnternet Haber | https://www.internethaber.com/rss |
-| İşin Detayı Gündem | https://www.isindetayi.com/rss/gundem |
+| İşin Detayı | https://www.isindetayi.com/rss/gundem |
+| İşçi Haber | https://www.iscihaber.net/rss/news |
 | İlke TV | https://ilketv.com.tr/feed/ |
 | Journo | https://journo.com.tr/feed |
 | Karar | https://www.karar.com/service/rss.php |
