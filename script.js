@@ -138,8 +138,6 @@ document.addEventListener('DOMContentLoaded', () => {
           requestAnimationFrame(() => {
             content.style.maxHeight = '0';
             content.style.opacity = '0';
-            content.style.marginBottom = '0';
-            content.style.padding = '0';
             content.addEventListener('transitionend', function handler() {
               if (content.style.maxHeight === '0px') {
                 content.classList.remove('expanded');
@@ -152,7 +150,6 @@ document.addEventListener('DOMContentLoaded', () => {
           content.classList.add('expanded');
           content.style.visibility = 'visible';
           content.style.opacity = '1';
-          content.style.marginBottom = '20px';
           content.style.maxHeight = content.scrollHeight + 'px';
 
           content.addEventListener('transitionend', function handler() {
