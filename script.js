@@ -4,49 +4,49 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('checkbox');
   const searchInput = document.getElementById('searchInput');
   const mainHeaderH1 = document.querySelector('.main-header h1');
+  const body = document.body;
 
   let allCategoriesData = [];
   let allRssItems = [];
 
   const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
-  const applyTheme = (isDark, enableTransition = false) => {
-    const rootElement = document.documentElement;
-    if (enableTransition) {
-      rootElement.classList.add('theme-transition-active');
+  function setTheme(isLight) {
+    if (isLight) {
+      document.documentElement.classList.add('light-theme');
+      localStorage.setItem('theme', 'light');
     } else {
-      rootElement.classList.remove('theme-transition-active');
+      document.documentElement.classList.remove('light-theme');
+      localStorage.setItem('theme', 'dark');
     }
-    rootElement.classList.toggle('dark-mode', isDark);
-    themeToggle.checked = isDark;
-  };
+  }
 
   const initializeTheme = () => {
-    const storedTheme = localStorage.getItem('theme');
-    let isDark;
-
-    if (storedTheme !== null) {
-      isDark = (storedTheme === 'dark');
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+      themeToggle.checked = true;
+      setTheme(true);
+    } else if (savedTheme === 'dark') {
+        themeToggle.checked = false;
+        setTheme(false);
     } else {
-      isDark = prefersDarkScheme.matches;
+        if (prefersDarkScheme.matches) {
+            themeToggle.checked = false;
+            setTheme(false);
+        } else {
+            themeToggle.checked = true;
+            setTheme(true);
+        }
     }
-    themeToggle.checked = isDark;
-
-    setTimeout(() => {
-      document.documentElement.classList.add('theme-transition-active');
-    }, 0);
   };
 
-  const toggleTheme = () => {
-    const isDark = document.documentElement.classList.contains('dark-mode');
-    applyTheme(!isDark, true);
-    localStorage.setItem('theme', !isDark ? 'dark' : 'light');
-  };
+  themeToggle.addEventListener('change', function() {
+    setTheme(this.checked);
+  });
 
-  themeToggle.addEventListener('change', toggleTheme);
   prefersDarkScheme.addEventListener('change', (e) => {
     if (localStorage.getItem('theme') === null) {
-      applyTheme(e.matches, true);
+      setTheme(!e.matches);
     }
   });
 
