@@ -262,7 +262,6 @@ input:not(:checked) + .slider .icon.sun {
 .category-content table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 10px;
 }
 
 .category-content th,
