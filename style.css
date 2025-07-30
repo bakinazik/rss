@@ -254,7 +254,6 @@ input:not(:checked) + .slider .icon.sun {
   opacity: 1;
   visibility: visible;
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0s ease-out 0s;
-  padding: 10px 0;
   margin-bottom: 20px;
 }
 
