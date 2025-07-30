@@ -122,7 +122,6 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Megabayt Sinema | https://www.megabayt.com/rss/categorynews/sinema |
 | Megabayt Televizyon | https://www.megabayt.com/rss/categorynews/televizyon |
 | Megabayt Youtube | https://www.megabayt.com/rss/categorynews/youtube |
-| Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
 | Mister Noob | https://www.misternoob.com/feed/ |
 | Mobidictum | https://mobidictum.com/tr/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
