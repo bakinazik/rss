@@ -153,7 +153,6 @@ document.addEventListener('DOMContentLoaded', () => {
           content.style.visibility = 'visible';
           content.style.opacity = '1';
           content.style.marginBottom = '20px';
-          content.style.padding = '10px 0';
           content.style.maxHeight = content.scrollHeight + 'px';
 
           content.addEventListener('transitionend', function handler() {
