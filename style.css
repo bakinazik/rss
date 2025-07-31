@@ -209,7 +209,6 @@ input:not(:checked) + .slider .icon.sun {
   background-color: var(--category-bg-hover-light);
 }
 
-/* Removed ::after pseudo-element */
 .category-header .icon {
   position: absolute;
   right: 20px;
