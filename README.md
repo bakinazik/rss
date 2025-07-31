@@ -157,6 +157,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Manifold | https://manifold.press/rss |
 | Mesail | https://www.mesail.org/feed/ |
 | Megabayt Kültür Sanat | https://www.megabayt.com/rss/categorynews/kultur-sanat |
+| Mitoloji | https://mitoloji.org.tr/feed/ |
 | Mürekkep Haber | https://www.murekkephaber.com/rss.xml |
 | Nouvart | https://www.nouvart.net/feed/ |
 | Öncül | https://onculanalitikfelsefe.com/feed/ |
