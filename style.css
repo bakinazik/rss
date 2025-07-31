@@ -143,10 +143,6 @@ input:checked + .slider:before {
     transition: color 0.3s ease;
 }
 
-html.light-theme .icon {
-    color: #fff;
-}
-
 input:checked + .slider .icon.moon {
     color: #fff;
 }
@@ -213,16 +209,31 @@ input:not(:checked) + .slider .icon.sun {
   background-color: var(--category-bg-hover-light);
 }
 
-.category-header::after {
-  content: '+';
-  font-size: 1.2em;
-  transition: transform 0.3s ease;
+/* Removed ::after pseudo-element */
+.category-header .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-color);
 }
 
-.category-header.expanded::after {
-  content: '-';
-  transform: rotate(180deg);
+.category-header .closed-icon {
+  display: block;
 }
+
+.category-header .open-icon {
+  display: none;
+}
+
+.category-header.expanded .closed-icon {
+  display: none;
+}
+
+.category-header.expanded .open-icon {
+  display: block;
+}
+
 
 .category-header span {
     left: 15px;
