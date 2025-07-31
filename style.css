@@ -29,7 +29,7 @@ html:not(.light-theme) {
     --link-color-light: #f39c12;
     --search-border-color-light: #333;
     --search-placeholder-color-light: #bbb;
-    --search-bg-color-light: transparent;
+    --search-bg-color: transparent;
 }
 
 
@@ -252,19 +252,21 @@ input:not(:checked) + .slider .icon.sun {
 
 .category-content {
   opacity: 0;
-  visibility: hidden;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0s ease-out 0.3s;
+  transition: height 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out;
   padding: 0 0 0 0;
   margin-bottom: 0;
+  display: none;
+  visibility: hidden;
 }
 
 .category-content.expanded {
   opacity: 1;
   visibility: visible;
-  transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0s ease-out 0s;
+  transition: height 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out;
   margin-bottom: 20px;
+  display: block;
 }
 
 

@@ -132,33 +132,46 @@ document.addEventListener('DOMContentLoaded', () => {
   const addToggleListeners = () => {
     document.querySelectorAll('.category-header').forEach(header => {
       header.addEventListener('click', () => {
-        header.classList.toggle('expanded');
         const content = header.nextElementSibling;
+        const isExpanded = header.classList.contains('expanded');
 
-        if (content.classList.contains('expanded')) {
-          content.style.maxHeight = content.scrollHeight + 'px';
+        const handleTransitionEnd = () => {
+          content.removeEventListener('transitionend', handleTransitionEnd);
+          if (!header.classList.contains('expanded')) {
+            content.style.display = 'none';
+          } else {
+            content.style.height = 'auto';
+          }
+        };
+
+        if (isExpanded) {
+          content.style.height = content.scrollHeight + 'px'; 
+          
           requestAnimationFrame(() => {
-            content.style.maxHeight = '0';
-            content.style.opacity = '0';
-            content.addEventListener('transitionend', function handler() {
-              if (content.style.maxHeight === '0px') {
-                content.classList.remove('expanded');
-                content.style.visibility = 'hidden';
-              }
-              content.removeEventListener('transitionend', handler);
+            requestAnimationFrame(() => {
+              header.classList.remove('expanded');
+              content.style.opacity = '0';
+              content.style.height = '0';
+              content.style.marginBottom = '0';
+              content.style.visibility = 'hidden';
+              content.addEventListener('transitionend', handleTransitionEnd);
             });
           });
         } else {
-          content.classList.add('expanded');
-          content.style.visibility = 'visible';
-          content.style.opacity = '1';
-          content.style.maxHeight = content.scrollHeight + 'px';
+          content.style.display = 'block';
+          content.style.height = 'auto';
+          const contentHeight = content.scrollHeight;
 
-          content.addEventListener('transitionend', function handler() {
-            if (content.classList.contains('expanded')) {
-              content.style.maxHeight = 'fit-content';
-            }
-            content.removeEventListener('transitionend', handler);
+          content.style.height = '0';
+          content.style.opacity = '0';
+          content.style.visibility = 'visible';
+
+          requestAnimationFrame(() => {
+            header.classList.add('expanded');
+            content.style.height = contentHeight + 'px';
+            content.style.opacity = '1';
+            content.style.marginBottom = '20px';
+            content.addEventListener('transitionend', handleTransitionEnd);
           });
         }
       });
