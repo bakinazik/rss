@@ -217,6 +217,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Artı Gerçek | https://artigercek.com/service/rss.php |
 | Aydınlık | https://www.aydinlik.com.tr/feed |
 | Aykırı | https://www.aykiri.com.tr/rss.xml |
+| Ayandon | https://www.ayandon.com.tr/rss.xml |
 | BBC Türkçe | https://feeds.bbci.co.uk/turkce/rss.xml |
 | Bengütürk | https://www.benguturk.com/rss |
 | Beyaz Gazete | https://beyazgazete.com/rss/guncel.xml |
@@ -252,10 +253,13 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | GZT | https://www.gzt.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
 | Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
+| Haber | https://www.haber.com/rss |
 | Haber Global | https://haberglobal.com.tr/rss |
 | Habertürk | https://www.haberturk.com/rss |
 | Haberet | https://www.haberet.com/export/rss |
 | Halk TV | https://halktv.com.tr/service/rss.php |
+| Haberport | https://www.haberport.com/rss/latest-posts |
+| Haberiniz | https://haberiniz.com.tr/feed/ |
 | Hürriyet | https://www.hurriyet.com.tr/rss/anasayfa |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Independent | https://www.indyturk.com/rss.xml |
