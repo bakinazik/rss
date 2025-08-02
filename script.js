@@ -106,9 +106,14 @@ document.addEventListener('DOMContentLoaded', () => {
     data.forEach(categoryData => {
       let tableHtml = '<table><thead><tr><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
       categoryData.items.forEach(item => {
-        const domain = new URL(item.rssLink).hostname;
-        const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
-        tableHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+        try {
+          const domain = new URL(item.rssLink).hostname;
+          const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+          tableHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+        } catch (e) {
+          console.error('Invalid URL:', item.rssLink, e);
+          tableHtml += `<tr><td data-label="Site Adı">${item.siteName}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
+        }
       });
       tableHtml += '</tbody></table>';
 
@@ -186,30 +191,30 @@ document.addEventListener('DOMContentLoaded', () => {
       return res.text();
     })
     .then(md => {
-      const categoryRegex = /# ([^\n]+)\n\n\| Site Adı \| RSS Bağlantısı \|([\s\S]+?)(?=\n# |$)/g;
+      allCategoriesData = [];
+      allRssItems = [];
+
+      const categoryRegex = /#\s+([^\n]+)\n\n\| Site Adı \| RSS Bağlantısı \|\n\|:-------- \| -----------:\|\n([\s\S]+?)(?=\n# |$)/g;
       let match;
 
       while ((match = categoryRegex.exec(md)) !== null) {
         const category = match[1].trim();
         const tableContent = match[2].trim();
 
-        const lines = tableContent.split('\n').filter(line => line.trim() !== '');
-        const dataLines = lines.slice(2);
-
-        const items = dataLines.map(line => {
-          const tableLineRegex = /\|([^|]+)\|([^|]+)\|/;
-          const match = line.match(tableLineRegex);
-          
-          if (match && match.length === 3) {
-            const siteName = match[1].trim();
-            const rssLink = match[2].trim();
+        const items = tableContent.split('\n').map(line => {
+          const parts = line.split('|').map(part => part.trim());
+          if (parts.length === 4 && parts[0] === '' && parts[3] === '') {
+            const siteName = parts[1];
+            const rssLink = parts[2];
             return { siteName, rssLink, category };
           }
           return null;
         }).filter(item => item !== null);
 
-        allCategoriesData.push({ category, items });
-        allRssItems.push(...items);
+        if (items.length > 0) {
+            allCategoriesData.push({ category, items });
+            allRssItems.push(...items);
+        }
       }
       renderCategories(allCategoriesData);
 
