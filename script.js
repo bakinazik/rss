@@ -204,10 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const siteName = match[1].trim();
             const rssLink = match[2].trim();
             return { siteName, rssLink, category };
-          } else {
-            console.error('Hatalı ayrıştırılan satır:', line);
-            return null;
           }
+          return null;
         }).filter(item => item !== null);
 
         allCategoriesData.push({ category, items });
