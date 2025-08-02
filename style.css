@@ -203,6 +203,7 @@ input:not(:checked) + .slider .icon.sun {
   color: var(--text-color);
   transition: background-color 0.3s ease;
   position: relative;
+  user-select: none;
 }
 
 .category-header:hover {
