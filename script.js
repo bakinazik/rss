@@ -197,13 +197,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const dataLines = lines.slice(2);
 
         const items = dataLines.map(line => {
-          const sanitizedLine = line.trim();
-          const parts = sanitizedLine.split('|').map(part => part.trim()).filter(part => part !== '');
+          const tableLineRegex = /\|([^|]+)\|([^|]+)\|/;
+          const match = line.match(tableLineRegex);
           
-          if (parts.length === 2) {
-            return { siteName: parts[0], rssLink: parts[1], category: category };
+          if (match && match.length === 3) {
+            const siteName = match[1].trim();
+            const rssLink = match[2].trim();
+            return { siteName, rssLink, category };
           } else {
-            console.error('Hatalı ayrıştırılan satır:', sanitizedLine);
+            console.error('Hatalı ayrıştırılan satır:', line);
             return null;
           }
         }).filter(item => item !== null);
