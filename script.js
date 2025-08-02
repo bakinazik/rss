@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dataLines = lines.slice(2);
 
         const items = dataLines.map(line => {
-          const parts = line.split('|').map(part => part.trim()).filter(part => part !== '');
+          const parts = line.trim().split('|').map(part => part.trim()).filter(part => part !== '');
           if (parts.length === 2) {
             return { siteName: parts[0], rssLink: parts[1], category: category };
           }
