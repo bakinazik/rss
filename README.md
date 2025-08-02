@@ -166,8 +166,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
 | Terrabayt | https://terrabayt.com/feed |
 | Vesaire | https://vesaire.press/feed/ |
-
-
+| Yedikıta | https://yedikita.com.tr/feed/ |
 
 # Spor
 
