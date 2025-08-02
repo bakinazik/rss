@@ -64,6 +64,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| BeeTekno | https://www.beetekno.com/feed/posts |
 | CHIP Online | https://www.chip.com.tr/rss |
 | ÇözümPark | https://www.cozumpark.com/feed/ |
 | Dijitaliyidir | https://dijitaliyidir.com/feed/ |
