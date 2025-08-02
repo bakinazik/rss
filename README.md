@@ -64,6 +64,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| BeeTekno | https://www.beetekno.com/feed/posts |
 | CHIP Online | https://www.chip.com.tr/rss |
 | ÇözümPark | https://www.cozumpark.com/feed/ |
 | Dijitaliyidir | https://dijitaliyidir.com/feed/ |
@@ -71,6 +72,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Donanım Günlüğü | https://donanimgunlugu.com/feed |
 | FounderN | https://foundern.com/feed/ |
 | Hardware Plus | https://hwp.com.tr/feed |
+| Investing Teknoloji | https://tr.investing.com/rss/news_288.rss |
 | İndir | https://www.indir.com/haber/feed/ |
 | LOG | https://www.log.com.tr/feed/ |
 | Megabayt | https://www.megabayt.com/rss/news |
@@ -323,13 +325,13 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
-| Investing.com Genel | https://tr.investing.com/rss/market_overview.rss |
-| Investing.com Kripto | https://tr.investing.com/rss/302.rss |
-| Investing.com Döviz | https://tr.investing.com/rss/forex.rss |
-| Investing.com Hisse Senedi | https://tr.investing.com/rss/stock.rss |
-| Investing.com Emtia | https://tr.investing.com/rss/commodities.rss |
-| Investing.com Tahvil | https://tr.investing.com/rss/bonds.rss |
-| Investing.com Haberler | https://tr.investing.com/rss/news.rss |
+| Investing Genel | https://tr.investing.com/rss/market_overview.rss |
+| Investing Kripto | https://tr.investing.com/rss/302.rss |
+| Investing Döviz | https://tr.investing.com/rss/forex.rss |
+| Investing Hisse Senedi | https://tr.investing.com/rss/stock.rss |
+| Investing Emtia | https://tr.investing.com/rss/commodities.rss |
+| Investing Tahvil | https://tr.investing.com/rss/bonds.rss |
+| Investing Haberler | https://tr.investing.com/rss/news.rss |
 | Megabayt Ekonomi | https://www.megabayt.com/rss/categorynews/ekonomi |
 | Megabayt Kripto Para | https://www.megabayt.com/rss/categorynews/kripto-para |
 | Sözcü Borsa | https://www.sozcu.com.tr/feeds-rss-category-borsa |
