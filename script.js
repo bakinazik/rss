@@ -197,11 +197,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const dataLines = lines.slice(2);
 
         const items = dataLines.map(line => {
-          const parts = line.trim().split('|').map(part => part.trim()).filter(part => part !== '');
+          const sanitizedLine = line.trim();
+          const parts = sanitizedLine.split('|').map(part => part.trim()).filter(part => part !== '');
+          
           if (parts.length === 2) {
             return { siteName: parts[0], rssLink: parts[1], category: category };
+          } else {
+            console.error('Hatalı ayrıştırılan satır:', sanitizedLine);
+            return null;
           }
-          return null;
         }).filter(item => item !== null);
 
         allCategoriesData.push({ category, items });
