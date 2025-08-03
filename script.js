@@ -91,8 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
       let resultsHtml = '<div class="search-results-list"><table><thead><tr><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
       filteredItems.forEach(item => {
         const domain = new URL(item.rssLink).hostname;
-        const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
-        resultsHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+        const faviconUrl = https://www.google.com/s2/favicons?domain=${domain}&sz=32;
+        resultsHtml += <tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>;
       });
       resultsHtml += '</tbody></table></div>';
       output.innerHTML = resultsHtml;
@@ -108,16 +108,16 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryData.items.forEach(item => {
         try {
           const domain = new URL(item.rssLink).hostname;
-          const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
-          tableHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+          const faviconUrl = https://www.google.com/s2/favicons?domain=${domain}&sz=32;
+          tableHtml += <tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>;
         } catch (e) {
           console.error('Invalid URL:', item.rssLink, e);
-          tableHtml += `<tr><td data-label="Site Adı">${item.siteName}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
+          tableHtml += <tr><td data-label="Site Adı">${item.siteName}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>;
         }
       });
       tableHtml += '</tbody></table>';
 
-      htmlContent += `
+      htmlContent += 
         <div class="category">
           <div class="category-header" data-category="${categoryData.category}">
             ${categoryData.category} <span>${categoryData.items.length}</span>
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ${tableHtml}
           </div>
         </div>
-      `;
+      ;
     });
     output.innerHTML = htmlContent;
     addToggleListeners();
@@ -184,49 +184,49 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   fetch(rawMdUrl)
-  .then(res => {
-    if (!res.ok) {
-      throw new Error(`HTTP error! status: ${res.status}`);
-    }
-    return res.text();
-  })
-  .then(md => {
-    allCategoriesData = [];
-    allRssItems = [];
-
-    const categoryRegex = /#\s+(.+?)\n\n\| Site Adı \| RSS Bağlantısı \|\n\|:.*?:\|.*?:\|\n((?:\|.*\|\n?)*)/g;
-    let match;
-
-    while ((match = categoryRegex.exec(md)) !== null) {
-      const category = match[1].trim();
-      const tableContent = match[2].trim();
-
-      const items = tableContent.split('\n').map(line => {
-        const parts = line.split('|').map(part => part.trim());
-        if (parts.length >= 4) {
-          const siteName = parts[1];
-          const rssLink = parts[2];
-          return { siteName, rssLink, category };
-        }
-        return null;
-      }).filter(item => item !== null);
-
-      if (items.length > 0) {
-        allCategoriesData.push({ category, items });
-        allRssItems.push(...items);
+    .then(res => {
+      if (!res.ok) {
+        throw new Error(HTTP error! status: ${res.status});
       }
-    }
+      return res.text();
+    })
+    .then(md => {
+      allCategoriesData = [];
+      allRssItems = [];
 
-    renderCategories(allCategoriesData);
+      const categoryRegex = /#\s+([^\n]+)\n\n\| Site Adı \| RSS Bağlantısı \|\n\|:-------- \| -----------:\|\n([\s\S]+?)(?=\n# |$)/g;
+      let match;
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const searchQuery = urlParams.get('q');
-    if (searchQuery) {
-      searchInput.value = searchQuery;
-      filterAndRenderSearchResults(searchQuery);
-    }
-  })
-  .catch(err => {
-    output.textContent = `Hata: İçerik yüklenemedi. Detay: ${err.message}`;
-    console.error('Fetch error:', err);
-  });
+      while ((match = categoryRegex.exec(md)) !== null) {
+        const category = match[1].trim();
+        const tableContent = match[2].trim();
+
+        const items = tableContent.split('\n').map(line => {
+          const parts = line.split('|').map(part => part.trim());
+          if (parts.length === 4 && parts[0] === '' && parts[3] === '') {
+            const siteName = parts[1];
+            const rssLink = parts[2];
+            return { siteName, rssLink, category };
+          }
+          return null;
+        }).filter(item => item !== null);
+
+        if (items.length > 0) {
+            allCategoriesData.push({ category, items });
+            allRssItems.push(...items);
+        }
+      }
+      renderCategories(allCategoriesData);
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const searchQuery = urlParams.get('q');
+      if (searchQuery) {
+        searchInput.value = searchQuery;
+        filterAndRenderSearchResults(searchQuery);
+      }
+    })
+    .catch(err => {
+      output.textContent = Hata: İçerik yüklenemedi. Detay: ${err.message};
+      console.error('Fetch error:', err);
+    });
+});
