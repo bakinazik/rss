@@ -51,6 +51,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Gerçek Bilim | https://www.gercekbilim.com/feed/ |
 | Gelecek Bilimde | https://gelecekbilimde.net/feed/ |
 | Herkese Bilim Teknoloji | https://www.herkesebilimteknoloji.com/feed |
+| Independent Bilim | https://www.indyturk.com/taxonomy/term/48791/%2A/feed |
 | Kozmik Anafor | https://www.kozmikanafor.com/feed/ |
 | Matematiksel | https://www.matematiksel.org/feed |
 | Megabayt Bilim | https://www.megabayt.com/rss/categorynews/bilim |
