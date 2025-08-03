@@ -204,6 +204,7 @@ input:not(:checked) + .slider .icon.sun {
   transition: background-color 0.3s ease;
   position: sticky;
   top: 0;
+  z-index: 9;
   user-select: none;
 }
 
