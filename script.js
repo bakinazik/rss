@@ -91,8 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
       let resultsHtml = '<div class="search-results-list"><table><thead><tr><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
       filteredItems.forEach(item => {
         const domain = new URL(item.rssLink).hostname;
-        const faviconUrl = https://www.google.com/s2/favicons?domain=${domain}&sz=32;
-        resultsHtml += <tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>;
+        const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+        resultsHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
       });
       resultsHtml += '</tbody></table></div>';
       output.innerHTML = resultsHtml;
@@ -108,16 +108,16 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryData.items.forEach(item => {
         try {
           const domain = new URL(item.rssLink).hostname;
-          const faviconUrl = https://www.google.com/s2/favicons?domain=${domain}&sz=32;
-          tableHtml += <tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>;
+          const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+          tableHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
         } catch (e) {
           console.error('Invalid URL:', item.rssLink, e);
-          tableHtml += <tr><td data-label="Site Adı">${item.siteName}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>;
+          tableHtml += `<tr><td data-label="Site Adı">${item.siteName}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
         }
       });
       tableHtml += '</tbody></table>';
 
-      htmlContent += 
+      htmlContent += `
         <div class="category">
           <div class="category-header" data-category="${categoryData.category}">
             ${categoryData.category} <span>${categoryData.items.length}</span>
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ${tableHtml}
           </div>
         </div>
-      ;
+      `;
     });
     output.innerHTML = htmlContent;
     addToggleListeners();
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch(rawMdUrl)
     .then(res => {
       if (!res.ok) {
-        throw new Error(HTTP error! status: ${res.status});
+        throw new Error(`HTTP error! status: ${res.status}`);
       }
       return res.text();
     })
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
     .catch(err => {
-      output.textContent = Hata: İçerik yüklenemedi. Detay: ${err.message};
+      output.textContent = `Hata: İçerik yüklenemedi. Detay: ${err.message}`;
       console.error('Fetch error:', err);
     });
 });
