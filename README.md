@@ -66,6 +66,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Beetekno | https://www.beetekno.com/feed/posts |
+| Campaign Türkiye | https://www.campaigntr.com/feed/ |
 | CHIP Online | https://www.chip.com.tr/rss |
 | ÇözümPark | https://www.cozumpark.com/feed/ |
 | Dijitaliyidir | https://dijitaliyidir.com/feed/ |
@@ -326,6 +327,11 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| Bigpara | https://bigpara.hurriyet.com.tr/rss/ |
+| CNBC-e | https://www.cnbce.com/rss |
+| Ekonomi Gazetesi | https://www.ekonomigazetesi.com/rss.xml |
+| Forbes Türkiye | https://www.forbes.com.tr/rss |
+| Foreks | https://www.foreks.com/rss/ |
 | Investing Genel | https://tr.investing.com/rss/market_overview.rss |
 | Investing Kripto | https://tr.investing.com/rss/302.rss |
 | Investing Döviz | https://tr.investing.com/rss/forex.rss |
@@ -355,6 +361,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | İşin Detayı Lojistik | https://www.isindetayi.com/rss/lojistik |
 | İşin Detayı Şirket Haberleri | https://www.isindetayi.com/rss/sirket-haberleri |
 | Megabayt Şirket Haberleri | https://www.megabayt.com/rss/categorynews/sirket-haberleri |
+| Midas | https://www.getmidas.com/feed/ |
 
 # Yaşam
 
