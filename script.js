@@ -184,49 +184,49 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   fetch(rawMdUrl)
-    .then(res => {
-      if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`);
-      }
-      return res.text();
-    })
-    .then(md => {
-      allCategoriesData = [];
-      allRssItems = [];
+  .then(res => {
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return res.text();
+  })
+  .then(md => {
+    allCategoriesData = [];
+    allRssItems = [];
 
-      const categoryRegex = /#\s+([^\n]+)\n\n\| Site Adı \| RSS Bağlantısı \|\n\|:-------- \| -----------:\|\n([\s\S]+?)(?=\n# |$)/g;
-      let match;
+    const categoryRegex = /#\s+(.+?)\n\n\| Site Adı \| RSS Bağlantısı \|\n\|:.*?:\|.*?:\|\n((?:\|.*\|\n?)*)/g;
+    let match;
 
-      while ((match = categoryRegex.exec(md)) !== null) {
-        const category = match[1].trim();
-        const tableContent = match[2].trim();
+    while ((match = categoryRegex.exec(md)) !== null) {
+      const category = match[1].trim();
+      const tableContent = match[2].trim();
 
-        const items = tableContent.split('\n').map(line => {
-          const parts = line.split('|').map(part => part.trim());
-          if (parts.length === 4 && parts[0] === '' && parts[3] === '') {
-            const siteName = parts[1];
-            const rssLink = parts[2];
-            return { siteName, rssLink, category };
-          }
-          return null;
-        }).filter(item => item !== null);
-
-        if (items.length > 0) {
-            allCategoriesData.push({ category, items });
-            allRssItems.push(...items);
+      const items = tableContent.split('\n').map(line => {
+        const parts = line.split('|').map(part => part.trim());
+        if (parts.length >= 4) {
+          const siteName = parts[1];
+          const rssLink = parts[2];
+          return { siteName, rssLink, category };
         }
-      }
-      renderCategories(allCategoriesData);
+        return null;
+      }).filter(item => item !== null);
 
-      const urlParams = new URLSearchParams(window.location.search);
-      const searchQuery = urlParams.get('q');
-      if (searchQuery) {
-        searchInput.value = searchQuery;
-        filterAndRenderSearchResults(searchQuery);
+      if (items.length > 0) {
+        allCategoriesData.push({ category, items });
+        allRssItems.push(...items);
       }
-    })
-    .catch(err => {
-      output.textContent = `Hata: İçerik yüklenemedi. Detay: ${err.message}`;
-      console.error('Fetch error:', err);
-    });
-});
+    }
+
+    renderCategories(allCategoriesData);
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchQuery = urlParams.get('q');
+    if (searchQuery) {
+      searchInput.value = searchQuery;
+      filterAndRenderSearchResults(searchQuery);
+    }
+  })
+  .catch(err => {
+    output.textContent = `Hata: İçerik yüklenemedi. Detay: ${err.message}`;
+    console.error('Fetch error:', err);
+  });
