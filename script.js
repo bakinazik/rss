@@ -90,9 +90,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filteredItems.length > 0) {
       let resultsHtml = '<div class="search-results-list"><table><thead><tr><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
       filteredItems.forEach(item => {
-        const domain = new URL(item.rssLink).hostname;
-        const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
-        resultsHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+        try {
+          const domain = new URL(item.rssLink).hostname;
+          const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+          resultsHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+        } catch (e) {
+          console.error('Invalid URL:', item.rssLink, e);
+          resultsHtml += `<tr><td data-label="Site Adı">${item.siteName}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
+        }
       });
       resultsHtml += '</tbody></table></div>';
       output.innerHTML = resultsHtml;
@@ -107,7 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
       let tableHtml = '<table><thead><tr><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
       categoryData.items.forEach(item => {
         try {
-          const domain = new URL(item.rssLink).hostname;
+          let urlForFavicon = item.rssLink;
+          let domain;
+          try {
+            domain = new URL(urlForFavicon).hostname;
+          } catch (e) {
+            const urlMatch = urlForFavicon.match(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/im);
+            domain = urlMatch ? urlMatch[1] : null;
+          }
           const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
           tableHtml += `<tr><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${item.siteName}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
         } catch (e) {
