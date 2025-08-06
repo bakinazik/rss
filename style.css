@@ -245,6 +245,7 @@ input:not(:checked) + .slider .icon.sun {
     border-radius: 20px;
     line-height: 1;
     min-width: 30px;
+    min-height: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
