@@ -249,6 +249,7 @@ input:not(:checked) + .slider .icon.sun {
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
