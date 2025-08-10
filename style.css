@@ -187,12 +187,9 @@ input:not(:checked) + .slider .icon.sun {
   margin: 0 auto;
 }
 
-.category {
-}
-
 .category-header {
   background-color: var(--category-bg-light);
-  padding: 15px 20px 15px 65px;
+  padding: 15px 20px 15px 15px;
   margin-bottom: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -206,6 +203,11 @@ input:not(:checked) + .slider .icon.sun {
   top: 0;
   z-index: 9;
   user-select: none;
+}
+
+.category-header p {
+    flex: 1;
+    padding-left: 15px;
 }
 
 .category-header:hover {
@@ -238,21 +240,13 @@ input:not(:checked) + .slider .icon.sun {
 
 
 .category-header span {
-    left: 15px;
     background-color: var(--bg-color);
     color: var(--link-color-light);
     padding: 5px;
     border-radius: 20px;
     line-height: 1;
-    min-width: 30px;
-    min-height: 30px;
+    min-width: 45px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
 }
 
 .category-content {
