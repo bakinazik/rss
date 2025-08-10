@@ -386,8 +386,6 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Megabayt Yaşam | https://www.megabayt.com/rss/categorynews/yasam |
 | Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
 | Medium Türkiye Yayını | https://mediumturkiye.com/feed |
-
-https://mediumturkiye.com/feed
 | Uplifers | https://www.uplifers.com/feed/ |
 | PlumeMag | https://www.plumemag.com/feed/ |
 
