@@ -29,6 +29,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 - [Kültür ve Sanat](#kültür-ve-sanat)
 - [Spor](#spor)
 - [Gündem](#gündem)
+- [Savunma ve Sanayi](#savunma-ve-sanayi)
 - [Ekonomi ve Finans](#ekonomi-ve-finans)
 - [İş Dünyası](#i̇ş-dünyası)
 - [Yaşam](#yaşam)
@@ -322,6 +323,18 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Yeni Yaşam Gazetesi | https://yeniyasamgazetesi9.com/feed/ |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
+
+# Savunma ve Sanayi
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| C4 Defence | https://www.c4defence.com/feed/ |
+| DefenceTurk | https://www.defenceturk.net/feed |
+| Mavi Savunma | https://mavisavunma.com/feed/ |
+| Sanayi Gazetesi | https://sanayigazetesi.com.tr/kategori/savunma-haberleri/feed/ |
+| Savunma Sanayi Gazetesi | https://savunmasanayigazetesi.com.tr/feed/ |
+| SavunmaSanayiST | https://www.savunmasanayist.com/feed/ |
+| SavunmaTR | https://www.savunmatr.com/feed/ |
 
 # Ekonomi ve Finans
 
