@@ -172,7 +172,7 @@ input:not(:checked) + .slider .icon.sun {
   background-color: transparent;
   color: var(--text-color);
   border: 1px solid var(--search-border-color-light);
-  border-radius: 30px;
+  border-radius: 10px;
   position: relative;
   z-index: 4;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
@@ -243,7 +243,7 @@ input:not(:checked) + .slider .icon.sun {
     background-color: var(--bg-color);
     color: var(--link-color-light);
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 10px;
     line-height: 1;
     min-width: 45px;
     text-align: center;
