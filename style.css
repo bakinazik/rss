@@ -172,7 +172,7 @@ input:not(:checked) + .slider .icon.sun {
   background-color: transparent;
   color: var(--text-color);
   border: 1px solid var(--search-border-color-light);
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
   z-index: 4;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
