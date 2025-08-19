@@ -592,6 +592,7 @@ body {
     border: none;
     position: relative;
     padding-left: 20px;
+    vertical-align: middle;
   }
 
   .category-content td::before,
