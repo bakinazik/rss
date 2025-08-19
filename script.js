@@ -140,9 +140,9 @@ document.addEventListener('DOMContentLoaded', () => {
         : 'https://github.com/bakinazik/rss/issues/new';
       output.innerHTML = `
         <div class="no-results">
-          <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mood-sad"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 10l.01 0" /><path d="M15 10l.01 0" /><path d="M9.5 15.25a3.5 3.5 0 0 1 5 0" /></svg><br>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="65"  height="65"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mood-sad"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 10l.01 0" /><path d="M15 10l.01 0" /><path d="M9.5 15.25a3.5 3.5 0 0 1 5 0" /></svg><br>
           Aramayla eşleşen bir sonuç bulunamadı<br>
-          <div style="margin-top:30px;">
+          <div style="display: flex;flex-direction: column;gap: 15px;width: fit-content;margin: 75px auto auto auto;">
           Bir bağlantının eksik olduğunu mu düşünüyorsun?<br>
           <a href="${githubIssueUrl}" target="_blank" class="btn github-issue-btn" style="display:inline-block;text-decoration: none;">Bildirmek için buraya tıkla</a>
           </div>
