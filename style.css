@@ -461,7 +461,6 @@ footer p {
 
 .btn {
     background: var(--search-border-color-light);
-    color: var(--link-color-light);
     border: none;
     border-radius: 15px;
     padding: 10px 20px;
@@ -472,8 +471,10 @@ footer p {
     outline: none;
     display: flex;
     font-size: 15px;
-    align-items: center;
     justify-content: center;
+    color: var(--text-color);
+    gap: 10px;
+    align-items: center;
 }
 
 .selected-count {
