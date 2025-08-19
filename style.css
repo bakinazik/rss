@@ -666,11 +666,11 @@ body {
     padding: 4px 12px;
     font-size: 14px;
     border-radius: 12px;
-    color: var(--header-color);
+    color: var(--bg-color);
     border: none;
     cursor: pointer;
-    background: var(--bg-color);
-    font-weight: lighter;
+    background: var(--text-color);
+    font-weight: bold;
 }
 .select-category-btn:hover {
   background: var(--link-color-light);
