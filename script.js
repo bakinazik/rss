@@ -217,12 +217,12 @@ function updateCategorySelectBtnVisibility() {
       btn.style.visibility = 'visible';
       btn.style.opacity = '1';
       btn.style.pointerEvents = 'auto';
-      btn.style.transition = 'opacity 0.3s ease';
+      btn.style.transition = '0.2s all';
     } else {
       btn.style.visibility = 'hidden';
       btn.style.opacity = '0';
       btn.style.pointerEvents = 'none';
-      btn.style.transition = 'opacity 0.3s ease';
+      btn.style.transition = '0.2s all';
     }
   });
 }
