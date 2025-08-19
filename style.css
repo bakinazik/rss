@@ -628,6 +628,9 @@ body {
     font-size: 14px;
     padding: 3px 8px;
   }
+  .category-content tr:hover {
+    background-color: transparent;
+  }
 }
 
 .rss-checkbox {
