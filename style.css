@@ -276,7 +276,7 @@ input:not(:checked) + .slider .icon.sun {
     font-weight: 700;
     border-radius: 10px;
     padding: 5px 12px;
-    min-width: 45px;
+    min-width: 55px;
     text-align: center;
     font-size: 16px;
     transition: background 0.2s, color 0.2s, border 0.2s;
@@ -466,7 +466,6 @@ footer p {
   font-weight: 600;
   cursor: pointer;
   margin-right: 8px;
-  box-shadow: 0 2px 8px rgba(243,156,18,0.08);
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
   outline: none;
   display: inline-block;
@@ -649,24 +648,24 @@ body {
   position: relative;
   vertical-align: middle;
   margin-right: 4px;
-  box-shadow: 0 2px 8px rgba(243,156,18,0.08);
   display: inline-block;
+  border: 1px solid var(--search-bg-color-light);
 }
 .rss-checkbox:checked {
   background: var(--link-color-light);
 }
 .rss-checkbox:checked::after {
-  content: '';
-  display: block;
-  width: 8px;
-  height: 14px;
-  border: solid #111;
-  border-width: 0 3px 3px 0;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -60%) rotate(45deg);
-  box-sizing: border-box;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 14px;
+    border: solid var(--bg-color);
+    border-width: 0 3px 3px 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%) rotate(45deg);
+    box-sizing: border-box;
 }
 .rss-checkbox:focus {
   outline: none;
@@ -700,18 +699,14 @@ body {
 }
 
 .select-category-btn {
-  padding: 4px 12px;
-  font-size: 14px;
-  border-radius: 12px;
-  margin-left: 10px;
-  margin-right: 0;
-  vertical-align: middle;
-  background: var(--search-border-color-light);
-  color: var(--link-color-light);
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 12px;
+    color: var(--header-color);
+    border: none;
+    cursor: pointer;
+    background: var(--bg-color);
+    font-weight: lighter;
 }
 .select-category-btn:hover {
   background: var(--link-color-light);
