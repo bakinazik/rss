@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       output.innerHTML = `
         <div class="no-results">
           Aramayla eşleşen bir sonuç bulunamadı<br>
-          Bir bağlantının eksik olduğunu mu düşünüyorsun?
+          Bir bağlantının eksik olduğunu mu düşünüyorsun?<br>
           <a href="${githubIssueUrl}" target="_blank" class="btn github-issue-btn" style="margin-top:32px;display:inline-block;text-decoration: none;">Bildirmek için buraya tıkla</a>
         </div>
       `;
