@@ -377,7 +377,7 @@ footer {
 footer a {
     padding: 10px 12px;
     background: var(--category-bg-hover-light);
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     text-decoration: none;
