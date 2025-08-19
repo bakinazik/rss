@@ -730,16 +730,13 @@ body {
   transform: none;
 }
 .select-category-btn {
-  margin-left: 10px;
-  margin-right: 0;
-  vertical-align: middle;
+  margin-right: 40px;
+  display: flex;
   opacity: 0;
-  transform: translateY(-8px) scale(0.95);
-  transition: opacity 0.3s, transform 0.3s;
+  transition: 0.2s all;
 }
 .category-header.expanded .select-category-btn {
   opacity: 1;
-  transform: translateY(0) scale(1);
 }
 
 .issue-footer-btn {
