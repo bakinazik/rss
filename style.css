@@ -421,10 +421,6 @@ footer a:hover{
   background-color: var(--table-even-row-bg-light);
 }
 
-.search-results-list tr:hover {
-  background-color: var(--table-row-hover-light);
-}
-
 h1 svg {
     color: #feb400;
 }
