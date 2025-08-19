@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
           const checked = selectedSet.has(item.rssLink) ? 'checked' : '';
-          tableHtml += `<tr><td data-label="Seç"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}></td><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+          tableHtml += `<tr><td data-label="Site Adı"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}><img src="${faviconUrl}" alt="Favicon" class="favicon">${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
         } catch (e) {
           console.error('Invalid URL:', item.rssLink, e);
           const checked = selectedSet.has(item.rssLink) ? 'checked' : '';
