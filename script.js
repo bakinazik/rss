@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="category-header" data-category="${categoryData.category}">
             <span class="${counterClass}">${counterText}</span>
             <p>${categoryData.category}</p>
-            <button class="btn select-category-btn" data-cat="${catIdx}" style="display:none;">Tümünü Seç</button>
+            <button class="btn select-category-btn" data-cat="${catIdx}" style="opacity: 0;visiblity: hidden;pointer-events: none;"><svg  xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-list-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3.5 5.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 11.5l1.5 1.5l2.5 -2.5" /><path d="M3.5 17.5l1.5 1.5l2.5 -2.5" /><path d="M11 6l9 0" /><path d="M11 12l9 0" /><path d="M11 18l9 0" /></svg><span>Tümünü Seç</span></button>
             <svg class="icon icon-tabler icon-tabler-menu closed-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8l16 0" /><path d="M4 16l16 0" /></svg>
             <svg class="icon icon-tabler icon-tabler-x open-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
           </div>
@@ -208,17 +208,24 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCategorySelectBtnVisibility();
   };
 
-  function updateCategorySelectBtnVisibility() {
-    document.querySelectorAll('.category').forEach(cat => {
-      const header = cat.querySelector('.category-header');
-      const btn = cat.querySelector('.select-category-btn');
-      if (header.classList.contains('expanded')) {
-        btn.style.display = 'inline-block';
-      } else {
-        btn.style.display = 'none';
-      }
-    });
-  }
+function updateCategorySelectBtnVisibility() {
+  document.querySelectorAll('.category').forEach(cat => {
+    const header = cat.querySelector('.category-header');
+    const btn = cat.querySelector('.select-category-btn');
+
+    if (header.classList.contains('expanded')) {
+      btn.style.visibility = 'visible';
+      btn.style.opacity = '1';
+      btn.style.pointerEvents = 'auto';
+      btn.style.transition = 'opacity 0.3s ease';
+    } else {
+      btn.style.visibility = 'hidden';
+      btn.style.opacity = '0';
+      btn.style.pointerEvents = 'none';
+      btn.style.transition = 'opacity 0.3s ease';
+    }
+  });
+}
 
   const addToggleListeners = () => {
     document.querySelectorAll('.category-header').forEach(header => {
