@@ -466,7 +466,7 @@ footer p {
     font-weight: 600;
     cursor: pointer;
     margin-right: 8px;
-    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    transition: 0.2s all;
     outline: none;
     display: flex;
     font-size: 15px;
@@ -477,7 +477,8 @@ footer p {
 }
 
 .btn:hover{
-  background: var(--table-row-hover-light);
+  background: var(--link-color-light);
+  color: var(--bg-color);
 }
 
 .selected-count {
