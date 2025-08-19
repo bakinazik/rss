@@ -461,7 +461,7 @@ footer p {
 .btn {
     background: var(--category-bg-hover-light);
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px 20px;
     font-weight: 600;
     cursor: pointer;
@@ -487,7 +487,7 @@ footer p {
     padding: 6px 16px;
     font-weight: 700;
     transition: background 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
