@@ -264,12 +264,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  function attachCheckboxListeners() {
-    document.querySelectorAll('.rss-checkbox').forEach(cb => {
-      cb.removeEventListener('change', onCheckboxChange);
-      cb.addEventListener('change', onCheckboxChange);
-    });
-  }
+function attachCheckboxListeners() {
+  document.querySelectorAll('.rss-checkbox').forEach(cb => {
+    cb.removeEventListener('change', onCheckboxChange);
+    cb.addEventListener('change', onCheckboxChange);
+
+    // td tıklanınca toggle edelim illa küçük kutucuğa tıklamak zorunda kalmayalım
+    const td = cb.closest('td[data-label="Site Adı"]');
+    if (td) {
+      td.removeEventListener('click', td._toggleHandler);
+      td._toggleHandler = function(e) {
+        if (e.target.tagName !== 'INPUT') {
+          cb.checked = !cb.checked;
+          onCheckboxChange({ target: cb });
+        }
+      };
+      td.addEventListener('click', td._toggleHandler);
+    }
+  });
+}
+
 
   function onCheckboxChange(e) {
     const rss = e.target.getAttribute('data-rss');
