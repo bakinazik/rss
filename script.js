@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const renderCategories = (data) => {
     let htmlContent = '';
     data.forEach((categoryData, catIdx) => {
-      let tableHtml = '<table><thead><tr><th>Seç</th><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
+      let tableHtml = '<table><thead><tr><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
       categoryData.items.forEach(item => {
         try {
           let urlForFavicon = item.rssLink;
