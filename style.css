@@ -684,6 +684,19 @@ body {
     min-width: 44px;
     max-width: 44px;
   }
+  /* tablo görünümünü mobilde iyileştirelim */
+  td[data-label="Seç"] {
+    display: flex;
+    align-items: center;
+  }
+
+  td[data-label="Seç"] .rss-checkbox {
+    margin-right: 8px;
+  }
+
+  td[data-label="Site Adı"] {
+    padding-left: 6px;
+  }
 }
 
 .select-category-btn {
