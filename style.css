@@ -686,31 +686,6 @@ body {
     min-width: 44px;
     max-width: 44px;
   }
-  tr {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  td[data-label="Seç"],
-  td[data-label="Site Adı"] {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-  }
-
-  td[data-label="Seç"] .rss-checkbox {
-    margin-right: 6px;
-  }
-
-  td[data-label="Site Adı"] {
-    padding-left: 6px;
-  }
-
-  td[data-label="RSS Bağlantısı"] {
-    flex: 1 1 100%;
-    margin-top: 6px; /* üstten biraz boşluk */
-  }
 }
 
 .select-category-btn {
