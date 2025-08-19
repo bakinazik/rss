@@ -679,12 +679,12 @@ footer p {
     padding: 4px 12px;
     font-size: 14px;
     border-radius: 8px;
-    color: var(--bg-color);
     border: none;
     cursor: pointer;
-    background: var(--text-color);
     font-weight: bold;
     transition: 0.2s all;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 .select-category-btn:hover {
   background: var(--link-color-light);
