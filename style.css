@@ -519,15 +519,14 @@ body {
   padding-bottom: 80px;
 }
 @media (max-width: 768px) {
-  .action-bar {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-    padding: 10px 8px;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-  }
+    .action-bar {
+        align-items: stretch;
+        gap: 8px;
+        padding: 10px 8px;
+    }
+    .action-bar button span{
+      display: none;
+    }
   body {
     padding-bottom: 120px;
   }
