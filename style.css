@@ -486,8 +486,8 @@ footer p {
 }
 
 .selected-count.active {
-  background: #27ae60;
-  color: #fff;
+    background: var(--link-color-light);
+    color: var(--bg-color);
 }
 
 @media (max-width: 768px) {
