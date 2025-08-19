@@ -2,6 +2,7 @@ html.light-theme {
   --bg-color: #fff6ef;
   --text-color: #503b2c;
   --header-color: #2c3e50;
+  --secondary: #222222;
   --category-bg-light: #f1e6db;
   --category-bg-hover-light: #edd9c5;
   --category-span-bg-light: #e5d4c2;
@@ -229,6 +230,7 @@ input:not(:checked) + .slider .icon.sun {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-weight: bold;
 }
 
 .category-header:hover {
@@ -637,7 +639,7 @@ body {
   width: 24px;
   height: 24px;
   border-radius: 7px;
-  background: #fff;
+  background: var(--secondary);
   transition: border-color 0.2s, box-shadow 0.2s;
   cursor: pointer;
   position: relative;
