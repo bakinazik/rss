@@ -140,7 +140,6 @@ input:checked + .slider:before {
 
 .icon {
     font-size: 18px;
-    color: #fff;
     z-index: 1;
     transition: color 0.3s ease;
 }
@@ -460,7 +459,7 @@ footer p {
 }
 
 .btn {
-    background: var(--search-border-color-light);
+    background: var(--category-bg-hover-light);
     border: none;
     border-radius: 15px;
     padding: 10px 20px;
@@ -475,6 +474,10 @@ footer p {
     color: var(--text-color);
     gap: 10px;
     align-items: center;
+}
+
+.btn:hover{
+  background: var(--table-row-hover-light);
 }
 
 .selected-count {
