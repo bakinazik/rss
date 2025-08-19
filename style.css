@@ -219,7 +219,7 @@ input:not(:checked) + .slider .icon.sun {
     align-items: center;
     gap: 10px;
     position: sticky;
-    top: 60px;
+    top: 69px;
     z-index: 9;
     user-select: none;
 }
