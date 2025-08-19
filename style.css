@@ -288,7 +288,7 @@ input:not(:checked) + .slider .icon.sun {
 }
 .category-header .category-count.selected {
     background-color: var(--link-color-light);
-    color: #fff;
+    color: var(--bg-color);
 }
 @media (max-width: 768px) {
     .category-header .category-count, .category-header .category-count.selected {
