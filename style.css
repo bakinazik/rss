@@ -545,6 +545,10 @@ footer p {
     padding: 10px;
   }
 
+  .category-header{
+    top: 55px;
+  }
+
   .main-header {
     flex-direction: column;
     align-items: flex-start;
