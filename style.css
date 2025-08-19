@@ -2,7 +2,7 @@ html.light-theme {
   --bg-color: #fff6ef;
   --text-color: #503b2c;
   --header-color: #2c3e50;
-  --secondary: #f1e6db;
+  --secondary: #d8bfa7;
   --category-bg-light: #f1e6db;
   --category-bg-hover-light: #edd9c5;
   --category-span-bg-light: #e5d4c2;
@@ -639,11 +639,9 @@ body {
   vertical-align: middle;
   margin-right: 4px;
   display: inline-block;
-  border: 1px solid var(--search-bg-color-light);
 }
 .rss-checkbox:checked {
     background: var(--link-color-light);
-    border-color: var(--link-color-light);
 }
 .rss-checkbox:checked::after {
     content: '';
