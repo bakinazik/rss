@@ -185,9 +185,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="category">
           <div class="category-header" data-category="${categoryData.category}">
             <span class="${counterClass}">${counterText}</span>
-            <p>${categoryData.category}
-              <button class="btn select-category-btn" data-cat="${catIdx}" style="margin-left:10px;display:none;">Tümünü Seç</button>
-            </p>
+            <p>${categoryData.category}</p>
+            <button class="btn select-category-btn" data-cat="${catIdx}" style="display:none;">Tümünü Seç</button>
             <svg class="icon icon-tabler icon-tabler-menu closed-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8l16 0" /><path d="M4 16l16 0" /></svg>
             <svg class="icon icon-tabler icon-tabler-x open-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
           </div>
