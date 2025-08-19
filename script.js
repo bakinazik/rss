@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {
           console.error('Invalid URL:', item.rssLink, e);
           const checked = selectedSet.has(item.rssLink) ? 'checked' : '';
-          tableHtml += `<tr><td data-label="Seç"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}></td><td data-label="Site Adı">${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
+          tableHtml += `<tr><td data-label="Site Adı"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}> ${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
         }
       });
       tableHtml += '</tbody></table>';
