@@ -669,7 +669,7 @@ body {
 .select-category-btn {
     padding: 4px 12px;
     font-size: 14px;
-    border-radius: 12px;
+    border-radius: 8px;
     color: var(--bg-color);
     border: none;
     cursor: pointer;
