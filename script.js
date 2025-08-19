@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     );
 
     if (filteredItems.length > 0) {
-      let resultsHtml = '<div class="search-results-list"><table><thead><tr><th></th><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
+      let resultsHtml = '<div class="search-results-list"><table><thead><tr><th>Site Adı</th><th>RSS Bağlantısı</th></tr></thead><tbody>';
       filteredItems.forEach(item => {
         try {
           const domain = new URL(item.rssLink).hostname;
