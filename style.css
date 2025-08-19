@@ -680,6 +680,7 @@ footer p {
     cursor: pointer;
     background: var(--text-color);
     font-weight: bold;
+    transition: 0.2s all;
 }
 .select-category-btn:hover {
   background: var(--link-color-light);
