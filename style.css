@@ -638,7 +638,7 @@ body {
   cursor: pointer;
   position: relative;
   vertical-align: middle;
-  margin-right: 4px;
+  margin-right: 15px;
   display: inline-block;
 }
 .rss-checkbox:checked {
@@ -659,33 +659,6 @@ body {
 }
 .rss-checkbox:focus {
   outline: none;
-}
-
-.category-content td[data-label="Seç"],
-.search-results-list td[data-label="Seç"] {
-  width: 54px;
-  min-width: 54px;
-  max-width: 54px;
-  text-align: center;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-.category-content th:first-child,
-.search-results-list th:first-child {
-  width: 54px;
-  min-width: 54px;
-  max-width: 54px;
-  text-align: center;
-}
-@media (max-width: 768px) {
-  .category-content td[data-label="Seç"],
-  .search-results-list td[data-label="Seç"],
-  .category-content th:first-child,
-  .search-results-list th:first-child {
-    width: 44px;
-    min-width: 44px;
-    max-width: 44px;
-  }
 }
 
 .select-category-btn {
