@@ -650,7 +650,8 @@ body {
   border: 1px solid var(--search-bg-color-light);
 }
 .rss-checkbox:checked {
-  background: var(--link-color-light);
+    background: var(--link-color-light);
+    border-color: var(--link-color-light);
 }
 .rss-checkbox:checked::after {
     content: '';
