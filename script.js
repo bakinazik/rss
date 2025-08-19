@@ -123,11 +123,11 @@ document.addEventListener('DOMContentLoaded', () => {
           const domain = new URL(item.rssLink).hostname;
           const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
           const checked = selectedSet.has(item.rssLink) ? 'checked' : '';
-          resultsHtml += `<tr><td data-label="Seç"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}></td><td data-label="Site Adı"><img src="${faviconUrl}" alt="Favicon" class="favicon">${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
+          resultsHtml += `<tr><td data-label="Site Adı"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}><img src="${faviconUrl}" alt="Favicon" class="favicon">${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı"><a href="${item.rssLink}" target="_blank">${item.rssLink}</a></td></tr>`;
         } catch (e) {
           console.error('Invalid URL:', item.rssLink, e);
           const checked = selectedSet.has(item.rssLink) ? 'checked' : '';
-          resultsHtml += `<tr><td data-label="Seç"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}></td><td data-label="Site Adı">${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
+          resultsHtml += `<tr><td data-label="Site Adı"><input type="checkbox" class="rss-checkbox" data-rss="${item.rssLink}" data-site="${escapeHtml(item.siteName)}" ${checked}> ${escapeHtml(item.siteName)}</td><td data-label="RSS Bağlantısı" style="color: red;">Geçersiz URL: ${item.rssLink}</td></tr>`;
         }
       });
       resultsHtml += '</tbody></table></div>';
