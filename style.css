@@ -219,7 +219,7 @@ input:not(:checked) + .slider .icon.sun {
     align-items: center;
     gap: 10px;
     position: sticky;
-    top: 69px;
+    top: 65px;
     z-index: 9;
     user-select: none;
 }
@@ -484,6 +484,8 @@ footer p {
     font-weight: 700;
     transition: background 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .selected-count.active {
