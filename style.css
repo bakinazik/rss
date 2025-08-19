@@ -687,8 +687,8 @@ footer p {
     color: var(--text-color);
 }
 .select-category-btn:hover {
-  background: var(--link-color-light);
-  color: #fff;
+    background: var(--link-color-light);
+    color: var(--bg-color);
 }
 .select-category-btn:active {
   transform: none;
