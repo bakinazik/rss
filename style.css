@@ -476,9 +476,9 @@ footer p {
     align-items: center;
 }
 
-.btn:hover{
-  background: var(--link-color-light);
-  color: var(--bg-color);
+.btn:hover {
+    background: var(--category-span-bg-light);
+    color: var(--text-color);
 }
 
 .selected-count {
