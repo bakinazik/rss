@@ -522,9 +522,10 @@ footer p {
     flex: 1;
 }
 
-body {
-  padding-bottom: 80px;
+.theme-switch .icon {
+    color: #fff;
 }
+
 @media (max-width: 768px) {
     .action-bar {
         align-items: stretch;
