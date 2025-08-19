@@ -140,8 +140,9 @@ document.addEventListener('DOMContentLoaded', () => {
         : 'https://github.com/bakinazik/rss/issues/new';
       output.innerHTML = `
         <div class="no-results">
-          Aradığınız kriterlere uygun sonuç bulunamadı.<br>
-          <a href="${githubIssueUrl}" target="_blank" class="btn github-issue-btn" style="margin-top:32px;display:inline-block;">Eklenmesini istediğiniz RSS bağlantısını bize bildirin</a>
+          Aramayla eşleşen bir sonuç bulunamadı<br>
+          Bir bağlantının eksik olduğunu mu düşünüyorsun?
+          <a href="${githubIssueUrl}" target="_blank" class="btn github-issue-btn" style="margin-top:32px;display:inline-block;text-decoration: none;">Bildirmek için buraya tıkla</a>
         </div>
       `;
     }
