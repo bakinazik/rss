@@ -473,11 +473,6 @@ footer p {
 .btn:last-child {
   margin-right: 0;
 }
-.btn:hover, .btn:focus {
-  background: var(--link-color-light);
-  color: #fff;
-  box-shadow: 0 4px 16px rgba(243,156,18,0.15);
-}
 .btn.primary {
   background: var(--link-color-light);
   color: #fff;
@@ -728,11 +723,13 @@ body {
   transform: translateY(0) scale(1);
 }
 
-.issue-footer-btn{
+.issue-footer-btn {
     background: var(--table-even-row-bg-light);
     border-radius: 10px;
     padding: 6px 16px;
     color: var(--text-color);
+    display: flex;
+    gap: 10px;
 }
 
 footer a.issue-btn, .no-results .issue-btn {
