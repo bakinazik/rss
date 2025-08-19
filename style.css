@@ -219,7 +219,7 @@ input:not(:checked) + .slider .icon.sun {
     align-items: center;
     gap: 10px;
     position: sticky;
-    top: 69px;
+    top: 60px;
     z-index: 9;
     user-select: none;
 }
@@ -506,6 +506,7 @@ footer p {
     position: sticky;
     top: 0;
     padding: 10px 0 15px;
+    z-index: 9;
 }
 
 .action-bar button {
