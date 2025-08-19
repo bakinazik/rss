@@ -555,6 +555,10 @@ footer p {
     gap: 15px;
     padding: 0 10px;
   }
+  
+  .select-category-btn p {
+      display: none;
+  }
 
   .header-controls {
     width: 100%;
