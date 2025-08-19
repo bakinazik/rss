@@ -2,7 +2,7 @@ html.light-theme {
   --bg-color: #fff6ef;
   --text-color: #503b2c;
   --header-color: #2c3e50;
-  --secondary: #222222;
+  --secondary: #f1e6db;
   --category-bg-light: #f1e6db;
   --category-bg-hover-light: #edd9c5;
   --category-span-bg-light: #e5d4c2;
@@ -18,6 +18,7 @@ html.light-theme {
 
 html:not(.light-theme) {
     --bg-color: #111;
+    --secondary: #222222;
     --text-color: #ccc;
     --header-color: #ecf0f1;
     --category-bg-light: #222;
