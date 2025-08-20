@@ -169,7 +169,7 @@ input:not(:checked) + .slider .icon.sun {
 .search-input {
   width: 100%;
   padding: 7px 7px 7px 45px;
-  font-size: 18px;
+  font-size: 16px;
   background-color: transparent;
   color: var(--text-color);
   border: 1px solid var(--search-border-color-light);
@@ -455,7 +455,7 @@ footer p {
 }
 
 .btn {
-    background: var(--category-bg-hover-light);
+    background: var(--category-bg-light);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
@@ -478,7 +478,7 @@ footer p {
 }
 
 .selected-count {
-    background: var(--category-bg-hover-light);
+    background: var(--category-bg-light);
     color: var(--link-color-light);
     padding: 6px 16px;
     font-weight: 700;
