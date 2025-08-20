@@ -278,7 +278,8 @@ input:not(:checked) + .slider .icon.sun {
     font-weight: 700;
     border-radius: 10px;
     padding: 5px 12px;
-    min-width: 55px;
+    min-width: 50px;
+    height: 25px;
     text-align: center;
     font-size: 16px;
     transition: background 0.2s, color 0.2s, border 0.2s;
@@ -288,13 +289,6 @@ input:not(:checked) + .slider .icon.sun {
 .category-header .category-count.selected {
     background-color: var(--link-color-light);
     color: var(--bg-color);
-}
-@media (max-width: 768px) {
-    .category-header .category-count, .category-header .category-count.selected {
-        font-size: 14px;
-        padding: 3px 8px;
-        min-width: 35px;
-    }
 }
 
 .category-content {
