@@ -479,7 +479,7 @@ footer p {
 
 .selected-count {
     background: var(--category-bg-light);
-    color: var(--link-color-light);
+    color: var(--text-color);
     padding: 6px 16px;
     font-weight: 700;
     transition: background 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
@@ -487,18 +487,16 @@ footer p {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 15px;
+}
+
+.selected-count svg{
+  color: var(--link-color-light);
 }
 
 .selected-count.active {
     background: var(--link-color-light);
     color: var(--bg-color);
-}
-
-@media (max-width: 768px) {
-  .selected-count, .selected-count.active {
-    font-size: 15px;
-    padding: 5px 10px;
-  }
 }
 
 .action-bar {
@@ -633,10 +631,7 @@ footer p {
     padding: 8px 12px;
     font-size: 15px;
   }
-  .selected-count {
-    font-size: 14px;
-    padding: 3px 8px;
-  }
+  
   .category-content tr:hover {
     background-color: transparent;
   }
