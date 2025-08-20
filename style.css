@@ -518,6 +518,10 @@ footer p {
     flex: 1;
 }
 
+.action-bar button svg {
+    color: var(--link-color-light);
+}
+
 .theme-switch .icon {
     color: #fff;
 }
