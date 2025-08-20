@@ -6,8 +6,8 @@
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/c311623c-52bc-48b4-834a-d0f17c3e4a45" style="width:100%;"/></a></td>
-    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/bf616720-fd05-486e-9743-b110c0cd20f2" style="width:100%;"/></a></td>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/be300e64-6d17-437f-bf60-560bf0bd4f6c" style="width:100%;"/></a></td>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/b37496dc-3c69-4007-8371-31b01f89a90c" style="width:100%;"/></a></td>
   </tr>
 </table>
 
