@@ -376,7 +376,7 @@ footer {
 
 footer a {
     padding: 10px 12px;
-    background: var(--category-bg-hover-light);
+    background: var(--category-bg-light);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -700,7 +700,7 @@ footer p {
 }
 
 .issue-footer-btn {
-    background: var(--table-even-row-bg-light);
+    background: var(--category-bg-light);
     border-radius: 10px;
     padding: 6px 16px;
     color: var(--text-color);
