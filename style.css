@@ -477,6 +477,10 @@ footer p {
     color: var(--text-color);
 }
 
+.btn svg, footer a {
+    color: var(--link-color-light);
+}
+
 .selected-count {
     background: var(--category-bg-light);
     color: var(--text-color);
