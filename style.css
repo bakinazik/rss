@@ -477,7 +477,7 @@ footer p {
     color: var(--text-color);
 }
 
-.btn svg, footer a {
+.btn svg, footer a svg {
     color: var(--link-color-light);
 }
 
