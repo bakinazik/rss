@@ -490,12 +490,12 @@ footer p {
     font-size: 15px;
 }
 
-.selected-count svg{
-  color: var(--link-color-light);
-}
-
 .selected-count.active {
     background: var(--link-color-light);
+    color: var(--bg-color);
+}
+
+.selected-count.active svg {
     color: var(--bg-color);
 }
 
