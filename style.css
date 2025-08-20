@@ -693,6 +693,9 @@ footer p {
     background: var(--link-color-light);
     color: var(--bg-color);
 }
+.select-category-btn:hover svg {
+    color: var(--bg-color);
+}
 .select-category-btn:active {
   transform: none;
 }
