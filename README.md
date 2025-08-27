@@ -258,6 +258,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Haber 3 | https://www.haber3.com/rss |
 | Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
 | Haber | https://www.haber.com/rss |
+| Haberler | https://rss.haberler.com/RssNew.aspx |
 | Haber Global | https://haberglobal.com.tr/rss |
 | Habertürk | https://www.haberturk.com/rss |
 | Haberet | https://www.haberet.com/export/rss |
