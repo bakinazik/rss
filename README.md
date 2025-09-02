@@ -88,7 +88,6 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Megabayt Teknoloji | https://www.megabayt.com/rss/categorynews/teknoloji |
 | Megabayt Yazılım | https://www.megabayt.com/rss/categorynews/yazilim |
 | PC Hocası | https://pchocasi.com.tr/feed |
-| Sihirli Elma | https://www.sihirlielma.com/feed/ |
 | Sordum | https://www.sordum.net/feed/ |
 | Swipeline | https://swipeline.co/feed/ |
 | Techolay | https://techolay.net/feed/ |
