@@ -314,6 +314,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | TGRT Haber | https://www.tgrthaber.com/rss/manset |
 | Ulusal Kanal | https://www.ulusal.com.tr/rss |
 | Ulusal Post | https://www.ulusalpost.com/service/rss.php |
+| Uyan32 | https://www.uyan32.com/rss |
 | Veryansın TV | https://www.veryansintv.com/feed |
 | Yeni Akit | https://www.yeniakit.com.tr/rss/haber/gundem |
 | Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
