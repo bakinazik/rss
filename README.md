@@ -188,6 +188,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Fotomaç Basketbol | https://www.fotomac.com.tr/rss/Basketbol.xml |
 | Fotospor | https://www.fotospor.com/feed/rss_sondakika.xml |
 | Megabayt Spor | https://www.megabayt.com/rss/categorynews/spor |
+| Kontraspor | https://kontraspor.com/rss |
 | NTV Spor Anasayfa | https://www.ntvspor.net/rss/anasayfa |
 | NTV Spor Basketbol | https://www.ntvspor.net/rss/kategori/basketbol |
 | NTV Spor Diğer Sporlar | https://www.ntvspor.net/rss/kategori/diger-sporlar |
