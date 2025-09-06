@@ -133,7 +133,6 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | The Geyik | https://www.thegeyik.com/feed/ |
 | Turkmmo | https://www.turkmmo.com/feed |
 | Turuncu Levye | https://www.turunculevye.com/feed/ |
-| Webtekno | https://www.webtekno.com/rss.xml |
 
 # Kültür ve Sanat
 
