@@ -342,6 +342,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 |:-------- | -----------:|
 | Bigpara | https://bigpara.hurriyet.com.tr/rss/ |
 | CNBC-e | https://www.cnbce.com/rss |
+| Döviz | https://www.doviz.com/news/rss |
 | Ekonomi Gazetesi | https://www.ekonomigazetesi.com/rss.xml |
 | Forbes Türkiye | https://www.forbes.com.tr/rss |
 | Foreks | https://www.foreks.com/rss/ |
