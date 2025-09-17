@@ -323,6 +323,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Yeni Yaşam Gazetesi | https://yeniyasamgazetesi9.com/feed/ |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
+| Yurtsever | https://yurtsever.org.tr/feed |
 
 # Savunma ve Sanayi
 
