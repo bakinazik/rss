@@ -57,7 +57,6 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Matematiksel | https://www.matematiksel.org/feed |
 | Megabayt Bilim | https://www.megabayt.com/rss/categorynews/bilim |
 | Moletik | https://moletik.com/feed/ |
-| Molekülce | https://www.molekulce.com/feed/ |
 | Popular Science | https://popsci.com.tr/feed/ |
 | Sarkaç | https://sarkac.org/feed/ |
 | Sinirbilim | https://sinirbilim.org/feed/ |
