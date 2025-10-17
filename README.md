@@ -283,6 +283,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | NewsLab Turkey | https://www.newslabturkey.org/feed/ |
 | NTV | https://www.ntv.com.tr/gundem.rss |
 | OdaTV | https://www.odatv.com/rss.xml |
+| Radikal | https://www.radikal.com.tr/feed/ |
 | Sabah | https://www.sabah.com.tr/rss/gundem.xml |
 | Serbestiyet | https://serbestiyet.com/feed/ |
 | Sözcü | https://www.sozcu.com.tr/feeds-rss-category-sozcu |
