@@ -115,6 +115,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Geekyapar | https://geekyapar.com/feed/ |
 | IGN Türkiye | https://tr.ign.com/feed.xml |
 | Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
+| Keşif Asya | https://kesifasya.com/feed/ |
 | ListeList | https://listelist.com/feed/ |
 | Marjinal Sinema | https://marjinalsinema.com/feed/ |
 | Merlin'in Kazanı | https://www.merlininkazani.com/feed/ |
