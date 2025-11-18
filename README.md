@@ -308,6 +308,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | T24 | https://t24.com.tr/rss |
 | Teyit | https://teyit.org/feed?lang=tr |
 | Tele1 | https://www.tele1.com.tr/rss |
+| Tele2 | https://www.tele2haber.com/rss |
 | Timeturk | https://www.timeturk.com/rss/ |
 | Türkiye Gazetesi | https://www.turkiyegazetesi.com.tr/feed |
 | Türkgün | https://www.turkgun.com/rss/news |
