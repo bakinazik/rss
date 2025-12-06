@@ -343,6 +343,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| Bloomberg HT | https://www.bloomberght.com/rss |
 | Bigpara | https://bigpara.hurriyet.com.tr/rss/ |
 | CNBC-e | https://www.cnbce.com/rss |
 | Döviz | https://www.doviz.com/news/rss |
