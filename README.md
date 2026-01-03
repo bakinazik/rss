@@ -128,6 +128,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Mister Noob | https://www.misternoob.com/feed/ |
 | Mobidictum | https://mobidictum.com/tr/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
+| Öteki Sinema | https://www.otekisinema.com/feed/ |
 | Sofos | https://blog.sofos.com.tr/feed/ |
 | Sinetopya | https://sinetopya.com/rss/ |
 | The Geyik | https://www.thegeyik.com/feed/ |
