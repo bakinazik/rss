@@ -305,6 +305,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Sözcü Yazarlar | https://www.sozcu.com.tr/feeds-rss-category-yazar |
 | Sözcü Yaşam | https://www.sozcu.com.tr/feeds-rss-category-yasam |
 | soL Haber | https://haber.sol.org.tr/rss.xml |
+| Sputnik | https://anlatilaninotesi.com.tr/export/rss2/archive/index.xml |
 | Star | https://www.star.com.tr/rss/rss.asp |
 | T24 | https://t24.com.tr/rss |
 | Teyit | https://teyit.org/feed?lang=tr |
