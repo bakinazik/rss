@@ -210,6 +210,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| 10Haber | https://10haber.net/feed/ |
 | ABC Haber | https://abcgazetesi.com.tr/rss |
 | A Haber | https://www.ahaber.com.tr/rss/gundem.xml |
 | Açık Gazete | https://www.acikgazete.com/feed/ |
