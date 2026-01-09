@@ -98,6 +98,8 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | VoiceTekno | https://voicetekno.com/feed/ |
 | Webmasto | https://webmasto.com/feed |
 | Webrazzi | https://webrazzi.com/feed |
+| Webtekno | https://www.webtekno.com/rss.xml |
+
 
 # Eğlence
 
