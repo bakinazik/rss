@@ -155,6 +155,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Fikir Turu | https://fikirturu.com/feed/ |
 | Kilikya Dergisi | https://dergipark.org.tr/tr/pub/kilikya/rss/lastissue/tr |
 | Kitap Haber | https://www.kitaphaber.com.tr/feed |
+| Kitaplar | https://www.kitaplar.org/konular/-/index.rss |
 | Görünüm Dergisi | https://dergipark.org.tr/tr/pub/gorunum/rss/lastissue/tr |
 | Gazete Sanat | https://www.gazetesanat.com/feed |
 | Hafta | https://www.hafta.com.tr/rss.xml |
