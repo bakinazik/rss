@@ -269,6 +269,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Haberport | https://www.haberport.com/rss/latest-posts |
 | Haberiniz | https://haberiniz.com.tr/feed/ |
 | Hürriyet | https://www.hurriyet.com.tr/rss/anasayfa |
+| İfade Özgürlüğü Derneği | https://ifade.org.tr/engelliweb/feed/ |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Independent | https://www.indyturk.com/rss.xml |
 | İnternet Haber | https://www.internethaber.com/rss |
