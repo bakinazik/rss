@@ -312,7 +312,6 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | soL Haber | https://haber.sol.org.tr/rss.xml |
 | Sputnik | https://anlatilaninotesi.com.tr/export/rss2/archive/index.xml |
 | Star | https://www.star.com.tr/rss/rss.asp |
-| T24 | https://t24.com.tr/rss |
 | Teyit | https://teyit.org/feed?lang=tr |
 | Tele1 | https://www.tele1.com.tr/rss |
 | Tele2 | https://www.tele2haber.com/rss |
