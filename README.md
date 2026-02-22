@@ -268,6 +268,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Halk TV | https://halktv.com.tr/service/rss.php |
 | Haberport | https://www.haberport.com/rss/latest-posts |
 | Haberiniz | https://haberiniz.com.tr/feed/ |
+| Hukuki Haber | https://www.hukukihaber.net/rss |
 | Hürriyet | https://www.hurriyet.com.tr/rss/anasayfa |
 | İfade Özgürlüğü Derneği | https://ifade.org.tr/engelliweb/feed/ |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
@@ -318,6 +319,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Timeturk | https://www.timeturk.com/rss/ |
 | Türkiye Gazetesi | https://www.turkiyegazetesi.com.tr/feed |
 | Türkgün | https://www.turkgun.com/rss/news |
+| TürkInform  | https://turkinform.com.tr/rss |
 | TRT Haber | https://www.trthaber.com/sondakika.rss |
 | TGRT Haber | https://www.tgrthaber.com/rss/manset |
 | Ulusal Kanal | https://www.ulusal.com.tr/rss |
