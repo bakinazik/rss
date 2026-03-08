@@ -44,7 +44,7 @@ html:not(.light-theme) {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
