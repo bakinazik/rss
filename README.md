@@ -95,6 +95,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | TeknoBurada | https://www.teknoburada.net/feed/ |
 | Tam İndir | https://feeds.feedburner.com/tamindir/stream |
+| Upcorn | https://upcorn.co/feed/ |
 | VoiceTekno | https://voicetekno.com/feed/ |
 | Webmasto | https://webmasto.com/feed |
 | Webrazzi | https://webrazzi.com/feed |
