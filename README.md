@@ -275,6 +275,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Independent | https://www.indyturk.com/rss.xml |
 | İnternet Haber | https://www.internethaber.com/rss |
+| İstiklal | https://www.istiklal.com.tr/service/rss.php |
 | İşin Detayı | https://www.isindetayi.com/rss/gundem |
 | İşçi Haber | https://www.iscihaber.net/rss/news |
 | İlke TV | https://ilketv.com.tr/feed/ |
