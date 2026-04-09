@@ -185,6 +185,8 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 |:-------- | -----------:|
 | A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
 | AjansSpor | https://ajansspor.com/rss |
+| Basket Dergisi | https://basketdergisi.com/feed |
+| Duhuliye | https://www.duhuliye.com/ |
 | Fotomaç | https://www.fotomac.com.tr/rss/anasayfa.xml |
 | Fotomaç Son 24 Saat | https://www.fotomac.com.tr/rss/son24saat.xml |
 | Fotomaç Süper Lig | https://www.fotomac.com.tr/rss/SuperLig.xml |
@@ -195,6 +197,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Fotomaç Bursaspor | https://www.fotomac.com.tr/rss/Bursaspor.xml |
 | Fotomaç Basketbol | https://www.fotomac.com.tr/rss/Basketbol.xml |
 | Fotospor | https://www.fotospor.com/feed/rss_sondakika.xml |
+| Futboo | https://www.futboo.com/rss.xml |
 | Megabayt Spor | https://www.megabayt.com/rss/categorynews/spor |
 | Kontraspor | https://kontraspor.com/rss |
 | NTV Spor Anasayfa | https://www.ntvspor.net/rss/anasayfa |
@@ -206,6 +209,8 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | NTV Spor Olimpiyat | https://www.ntvspor.net/rss/kategori/olimpiyat |
 | NTV Spor Tenis | https://www.ntvspor.net/rss/kategori/tenis |
 | NTV Spor Voleybol | https://www.ntvspor.net/rss/kategori/voleybol |
+| Orta Çizgi | https://ortacizgi.com/feed |
+| Sabah Spor | https://www.sabah.com.tr/rss/spor.xml |
 | Sözcü 2024 Paris Olimpiyatları | https://www.sozcu.com.tr/feeds-rss-category-2024-paris-olimpiyatlari |
 | Sözcü Basketbol | https://www.sozcu.com.tr/feeds-rss-category-basketbol |
 | Sözcü Diğer Sporlar | https://www.sozcu.com.tr/feeds-rss-category-diger-sporlar |
@@ -213,6 +218,8 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Sözcü Futbol | https://www.sozcu.com.tr/feeds-rss-category-futbol |
 | Sözcü Spor | https://www.sozcu.com.tr/feeds-rss-category-spor |
 | Sözcü Voleybol | https://www.sozcu.com.tr/feeds-rss-category-voleybol |
+| Türkiyede ve Dünyada Golf | https://www.turkiyedevedunyadagolf.com.tr/feed/ |
+
 
 # Gündem
 
