@@ -94,6 +94,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Teloji | https://teloji.com/feed/ |
 | Tech Dergi | https://www.techdergi.net/feed/ |
 | Technopat | https://www.technopat.net/feed/ |
+| Teknoblog | https://www.teknoblog.com/feed/ |
 | Teknodiot | https://teknodiot.com/feed/ |
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | TeknoBurada | https://www.teknoburada.net/feed/ |
