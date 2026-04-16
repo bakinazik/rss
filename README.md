@@ -269,6 +269,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | Gazete.net | https://gazete.net/rss |
 | Gazete Pencere | https://www.gazetepencere.com/service/rss.php |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
+| Google News | https://news.google.com/rss?hl=tr&gl=TR&ceid=TR:tr |
 | GZT | https://www.gzt.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
 | Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
@@ -291,6 +292,7 @@ Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull 
 | İşçi Haber | https://www.iscihaber.net/rss/news |
 | İlke TV | https://ilketv.com.tr/feed/ |
 | Journo | https://journo.com.tr/feed |
+| Kagi | https://news.kagi.com/world_tr.xml |
 | Karar | https://www.karar.com/service/rss.php |
 | Kamudan Haber | https://www.kamudanhaber.net/rss |
 | Kısa Dalga | https://kisadalga.net/service/rss.php |
