@@ -92,6 +92,27 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--link-color-light);
+  position: relative;
+}
+
+.logo-icon::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: -4px;
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  background: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>\
+<rect width='512' height='512' fill='%23E30A17'/>\
+<circle cx='200' cy='256' r='120' fill='%23fff'/>\
+<circle cx='240' cy='256' r='100' fill='%23E30A17'/>\
+<polygon fill='%23fff' points='360,220 375,255 415,255 382,280 395,320 360,295 325,320 338,280 305,255 345,255'/>\
+</svg>") center/cover no-repeat;
 }
 
 .logo-icon svg {

@@ -370,9 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateSelectedCount();
     renderList();
   }
-  
-  searchInput.focus();
-  
+    
   function buildOPML() {
     if (selectedSet.size === 0) {
       alert('Dışa aktarmak için en az bir RSS kaynağı seçin.');
