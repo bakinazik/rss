@@ -1,10 +1,24 @@
 # RSS Bağlantıları
 
-### Web Arayüzü:
+Algoritmaların hüküm sürdüğü bu çağda, kronolojik nizamı müdafaa etmeye azmetmiş olan yolcu, hoş geldin.
 
-<a href="https://bakinazik.github.io/rss/" target="_blank">https://bakinazik.github.io/rss/</a>
+Bil ki bu depo, dağınık ve başıboş bırakılmış bilginin derlenip toparlanması, muntazam bir akış hâline getirilmesi için tesis edilmiştir. Burada RSS bağlantıları toplanır; vazifesini yerine getiren kalır, iş görmeyen tereddütsüz ayıklanır.
+
+Şayet eksik yahut bozuk bir bağlantı görürsen, seyirci kalman kabul edilemez. Derhal müdahale etmen icap eder: commit atar, pull request gönderir yahut issues üzerinden keyfiyeti bildirirsin. README.md’ye ilave olunan her kaynak, gecikmeksizin neşredilir ve akışa dahil edilir.
+
+Gayemiz açıktır ve tavizsizdir: Bilgiyi nizama koymak, lüzumsuz kalabalığı bertaraf etmek ve kronolojik tertibi yeniden hâkim kılmak.
+
+Vazifeni bil ve gereğini yap. Mevcudiyet, ancak nizam ve süreklilikle anlam kazanır. 
+
+<br>
+
+<b>Web arayüzü:</b> <a href="https://bakinazik.github.io/rss/" target="_blank">https://bakinazik.github.io/rss/</a>
 
 <table style="width:100%;">
+  <tr>
+    <th>Karanlık Tema</th>
+    <th>Aydınlık Tema</th>
+  </tr>
   <tr>
     <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/47c96d85-3f65-4049-a7fd-91214d95b330" style="width:100%;"/></a></td>
     <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/0d237683-51b2-44e0-83a2-0257feff083e" style="width:100%;"/></a></td>
@@ -15,10 +29,6 @@
 
 Arama motoru olarak kullanabileceğin sorgu parametresi:
 <pre><code>https://bakinazik.github.io/rss/?q=<b>%s</b></code></pre>
-
-<br>
-
-Eksik ya da bozuk bir bağlantı olduğunu düşünüyorsan, commit atarak pull request isteğinde bulunabilir ya da issues alanından bildirebilirsin. <b>README.md</b> dosyasına eklenen kaynaklar, site üzerinde eşzamanlı olarak gösterilir.
 
 <br>
 
