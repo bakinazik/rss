@@ -1,14 +1,10 @@
 # RSS Bağlantıları
 
-Algoritmaların hüküm sürdüğü bu çağda, kronolojik nizamı müdafaa etmeye azmetmiş olan yolcu, hoş geldin.
+Bu depo, RSS kaynaklarını düzenli bir şekilde bir araya getirir ve statik bir site oluşturarak arama motoruna benzer bir yapı sunar.
 
-Bil ki bu depo, dağınık ve başıboş bırakılmış bilginin derlenip toparlanması, muntazam bir akış hâline getirilmesi için tesis edilmiştir. Burada RSS bağlantıları toplanır; vazifesini yerine getiren kalır, iş görmeyen tereddütsüz ayıklanır.
+Eksik veya hatalı bir kaynak fark edersen, pull request gönderebilir veya issue açarak bildirebilirsin. README.md’ye eklenen kaynaklar site üzerinde eşzamanlı olarak gösterilir.
 
-Şayet eksik yahut bozuk bir bağlantı görürsen, seyirci kalman kabul edilemez. Derhal müdahale etmen icap eder: commit atar, pull request gönderir yahut issues üzerinden keyfiyeti bildirirsin. README.md’ye ilave olunan her kaynak, gecikmeksizin neşredilir ve akışa dahil edilir.
-
-Gayemiz açıktır ve tavizsizdir: Bilgiyi nizama koymak, lüzumsuz kalabalığı bertaraf etmek ve kronolojik tertibi yeniden hâkim kılmak.
-
-Vazifeni bil ve gereğini yap. Mevcudiyet, ancak nizam ve süreklilikle anlam kazanır. 
+Umarım işine yarayacak birkaç bağlantı bulursun.
 
 <br>
 
