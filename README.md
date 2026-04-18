@@ -93,17 +93,19 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Megabayt Teknoloji | https://www.megabayt.com/rss/categorynews/teknoloji |
 | Megabayt Yazılım | https://www.megabayt.com/rss/categorynews/yazilim |
 | PC Hocası | https://pchocasi.com.tr/feed |
+| ShiftDelete | https://shiftdelete.net/feed |
+| Sihirli Elma | https://www.sihirlielma.com/feed/ |
 | Sordum | https://www.sordum.net/feed/ |
 | Swipeline | https://swipeline.co/feed/ |
-| Techolay | https://techolay.net/feed/ |
-| TechTurco | https://www.techturco.com/rss |
-| Teloji | https://teloji.com/feed/ |
 | Tech Dergi | https://www.techdergi.net/feed/ |
+| Techolay | https://techolay.net/feed/ |
 | Technopat | https://www.technopat.net/feed/ |
+| TechTurco | https://www.techturco.com/rss |
 | Teknoblog | https://www.teknoblog.com/feed/ |
+| TeknoBurada | https://www.teknoburada.net/feed/ |
 | Teknodiot | https://teknodiot.com/feed/ |
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
-| TeknoBurada | https://www.teknoburada.net/feed/ |
+| Teloji | https://teloji.com/feed/ |
 | Tam İndir | https://feeds.feedburner.com/tamindir/stream |
 | Upcorn | https://upcorn.co/feed/ |
 | VoiceTekno | https://voicetekno.com/feed/ |
