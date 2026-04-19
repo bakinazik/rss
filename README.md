@@ -293,7 +293,8 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Hürriyet | https://www.hurriyet.com.tr/rss/anasayfa |
 | İfade Özgürlüğü Derneği | https://ifade.org.tr/engelliweb/feed/ |
 | İklim Haber | https://www.iklimhaber.org/feed/ |
-| Independent | https://www.indyturk.com/rss.xml |
+| Independent Türkçe | https://www.indyturk.com/rss.xml |
+| IRNA Türkçe | https://tr.irna.ir/rss |
 | İnternet Haber | https://www.internethaber.com/rss |
 | İstiklal | https://www.istiklal.com.tr/service/rss.php |
 | İşin Detayı | https://www.isindetayi.com/rss/gundem |
