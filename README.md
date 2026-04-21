@@ -76,9 +76,11 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | CHIP Online | https://www.chip.com.tr/rss |
 | ÇözümPark | https://www.cozumpark.com/feed/ |
 | Dijitaliyidir | https://dijitaliyidir.com/feed/ |
+| Digital Report | https://digitalreport.com.tr/feed/ |
 | Donanım Haber | https://www.donanimhaber.com/rss/tum/ |
 | Donanım Günlüğü | https://donanimgunlugu.com/feed |
 | FounderN | https://foundern.com/feed/ |
+| Geç Bunları | https://gecbunlari.com/feed/ |
 | Hardware Plus | https://hwp.com.tr/feed |
 | Investing Teknoloji | https://tr.investing.com/rss/news_288.rss |
 | İndir | https://www.indir.com/haber/feed/ |
@@ -241,6 +243,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Al Ain Türkçe | https://tr.al-ain.com/feed |
 | Anadolu Ajansı | https://www.aa.com.tr/tr/rss/default?cat=guncel |
 | Agos | https://www.agos.com.tr/rss |
+| Ajans Kamu | https://www.ajanskamu.net/service/rss.php |
 | Artı Gerçek | https://artigercek.com/service/rss.php |
 | Aydınlık | https://www.aydinlik.com.tr/feed |
 | Aykırı | https://www.aykiri.com.tr/rss.xml |
@@ -274,8 +277,10 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | F5 Haber | https://www.f5haber.com/export/rss |
 | Fayn | https://www.fayn.press/rss/ |
 | Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
+| Gazete Emek | https://www.gazeteemek.net/rss |
 | Gazete.net | https://gazete.net/rss |
 | Gazete Pencere | https://www.gazetepencere.com/service/rss.php |
+| Gazete Zebra | https://www.gazetezebra.com.tr/rss |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
 | Google News | https://news.google.com/rss?hl=tr&gl=TR&ceid=TR:tr |
 | GZT | https://www.gzt.com/rss |
@@ -307,7 +312,9 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Kısa Dalga | https://kisadalga.net/service/rss.php |
 | Korkusuz | https://www.korkusuz.com.tr/feeds/rss |
 | KRT TV | https://www.krttv.com.tr/rss |
+| Lotus News | https://www.lotusnews.com.tr/rss |
 | Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
+| Medya Tilkisi | https://www.medyatilkisi.com.tr/rss |
 | Megabayt Gündem | https://www.megabayt.com/rss/categorynews/gundem |
 | Milli Gazete | https://www.milligazete.com.tr/rss |
 | Mynet | https://www.mynet.com/haber/rss/sondakika |
@@ -315,6 +322,8 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | NewsLab Turkey | https://www.newslabturkey.org/feed/ |
 | NTV | https://www.ntv.com.tr/gundem.rss |
 | OdaTV | https://www.odatv.com/rss.xml |
+| Perspektif | https://www.perspektif.online/feed/ |
+| Polemik Haber | https://www.polemikhaber.com/rss |
 | Radikal | https://www.radikal.com.tr/feed/ |
 | Sabah | https://www.sabah.com.tr/rss/gundem.xml |
 | Serbestiyet | https://serbestiyet.com/feed/ |
@@ -334,6 +343,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Sözcü Son Dakika | https://www.sozcu.com.tr/feeds-son-dakika |
 | Sözcü Yazarlar | https://www.sozcu.com.tr/feeds-rss-category-yazar |
 | Sözcü Yaşam | https://www.sozcu.com.tr/feeds-rss-category-yasam |
+| Son Mühür | https://www.sonmuhur.com/rss |
 | soL Haber | https://haber.sol.org.tr/rss.xml |
 | Sputnik | https://anlatilaninotesi.com.tr/export/rss2/archive/index.xml |
 | Star | https://www.star.com.tr/rss/rss.asp |
@@ -355,6 +365,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Yeniçağ Gazetesi | https://www.yenicaggazetesi.com.tr/service/rss.php |
 | Yeni Şafak | https://www.yenisafak.com/rss?xml=gundem |
 | Yeni Yaşam Gazetesi | https://yeniyasamgazetesi9.com/feed/ |
+| Yaşadıkça | https://yasadikca.com/feed/ |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
 | Yurtsever | https://yurtsever.org.tr/feed |
