@@ -196,7 +196,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
 | AjansSpor | https://ajansspor.com/rss |
 | Basket Dergisi | https://basketdergisi.com/feed |
-| Duhuliye | https://www.duhuliye.com/ |
+| Duhuliye | https://www.duhuliye.com/rss |
 | Fotomaç | https://www.fotomac.com.tr/rss/anasayfa.xml |
 | Fotomaç Son 24 Saat | https://www.fotomac.com.tr/rss/son24saat.xml |
 | Fotomaç Süper Lig | https://www.fotomac.com.tr/rss/SuperLig.xml |
