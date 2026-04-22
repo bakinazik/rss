@@ -10,10 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let allRssItems = [];
   let categories = [];
   let selectedSet = new Set();
-  let currentCategory = ''; // '' = tümü
+  let currentCategory = '';
   let currentSearchTerm = '';
-
-  // Infinite scroll
   let displayedCount = 0;
   const BATCH_SIZE = 15;
   let isLoading = false;
@@ -54,6 +52,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   themeToggle.addEventListener('change', () => setTheme(themeToggle.checked));
   initializeTheme();
+
+  // Logo tıklanınca aramayı ve filtreleri sıfırla
+  const logoArea = document.querySelector('.logo-area');
+  if (logoArea) {
+    logoArea.addEventListener('click', () => {
+      searchInput.value = '';
+      currentSearchTerm = '';
+      currentCategory = '';
+      updateUrlParameter('');
+      displayedCount = 0;
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      renderList();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   let isDragging = false;
   let startDragX = 0;
@@ -281,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function itemClickHandler(e) {
-    if (e.target.type !== 'checkbox' && !e.target.closest('.copy-btn') && !e.target.closest('.external-link')) {
+    if (e.target.type !== 'checkbox' && !e.target.closest('.copy-btn') && !e.target.closest('.external-link') && !e.target.closest('.rss-url')) {
       const cb = this.querySelector('.rss-checkbox');
       if (cb) {
         cb.checked = !cb.checked;
@@ -475,4 +488,20 @@ document.addEventListener('DOMContentLoaded', () => {
       output.innerHTML = `<div class="no-results"><p>❌ Veri yüklenemedi: ${err.message}</p><small>Lütfen daha sonra tekrar deneyin.</small></div>`;
       console.error('Fetch error:', err);
     });
+
+  const scrollTopBtn = document.getElementById('scrollTopBtn');
+  if (scrollTopBtn) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollTopBtn.classList.add('visible');
+      } else {
+        scrollTopBtn.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
 });
