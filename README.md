@@ -374,7 +374,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
-| C4 Defence | https://www.c4defence.com/feed/ |
+| C4 Defence | https://www.c4defence.com/tr/feed/ |
 | DefenceTurk | https://www.defenceturk.net/feed |
 | Mavi Savunma | https://mavisavunma.com/feed/ |
 | Sanayi Gazetesi | https://sanayigazetesi.com.tr/kategori/savunma-haberleri/feed/ |
