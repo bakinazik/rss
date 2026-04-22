@@ -429,7 +429,11 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Anne Kaz | https://www.annekaz.com/feed |
+| Elle Türkiye | https://www.elle.com.tr/rss |
+| Elele | https://www.elele.com.tr/export/rss |
 | İşin Detayı Gastronomi | https://www.isindetayi.com/rss/gastronomi |
+| Gardırop Magazin | https://www.gardiropmagazin.com/feed/ |
+| Güzellik Yayında | https://guzellikyayinda.com/feed/ |
 | İşin Detayı Moda | https://www.isindetayi.com/rss/moda |
 | İşin Detayı Sağlık | https://www.isindetayi.com/rss/saglik |
 | İşin Detayı Turizm | https://www.isindetayi.com/rss/turizm |
@@ -437,6 +441,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Istanbul Life | https://istanbullife.com.tr/feed/ |
 | Live To Bloom | https://livetobloom.com/feed/ |
 | Martı Dergisi | https://www.martidergisi.com/feed/ |
+| Marie Claire | https://www.marieclaire.com.tr/feed/ |
 | Megabayt Aksesuar | https://www.megabayt.com/rss/categorynews/aksesuar |
 | Megabayt Eğitim | https://www.megabayt.com/rss/categorynews/egitim |
 | Megabayt İnceleme | https://www.megabayt.com/rss/categorynews/inceleme |
@@ -449,4 +454,5 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Medium Türkiye Yayını | https://mediumturkiye.com/feed |
 | Uplifers | https://www.uplifers.com/feed/ |
 | PlumeMag | https://www.plumemag.com/feed/ |
+| Trendus | https://www.trendus.com/feed |
 
