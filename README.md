@@ -35,8 +35,8 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 <table>
   <tr>
     <td>Simge</td>
-    <td width="120">Ad</td>
-    <td width="140">Platform</td>
+    <td width="140">Ad</td>
+    <td width="160">Platform</td>
     <td width="130">Kaynak</td>
     <td>Not</td>
   </tr>
@@ -76,7 +76,8 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
     <td>FeedFlow</td>
     <td>
       <a href="https://play.google.com/store/apps/details?id=com.prof18.feedflow">Google Play</a><br>  
-      <a href="https://apps.apple.com/tr/app/feedflow-rss-feed-reader/id6447210518">App Store</a>
+      <a href="https://apps.apple.com/tr/app/feedflow-rss-feed-reader/id6447210518">App Store</a><br>
+      <a href="https://apps.microsoft.com/detail/9n5t1rfbb6v5">Microsoft Store</a>
     </td>
     <td><a href="https://github.com/prof18/feed-flow">Açık kaynak</a></td>
     <td>En aktif geliştirilen okuyuculardan biri. Hız ve performans odaklı ilerliyor. Takip ettiğim bazı bağlantılar çalışmadığı için kullanamadım. Yine de bi' göz atabilirsin.</td>
