@@ -35,8 +35,8 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 <table>
   <tr>
     <td>Simge</td>
-    <td width="140">Ad</td>
-    <td width="160">Platform</td>
+    <td width="130">Ad</td>
+    <td width="140">Platform</td>
     <td width="130">Kaynak</td>
     <td>Not</td>
   </tr>
