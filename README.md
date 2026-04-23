@@ -1,6 +1,12 @@
-# RSS Bağlantıları
+# Merhaba!
 
-Bu depo, RSS kaynaklarını düzenli bir şekilde bir araya getirir ve statik bir site oluşturarak arama motoruna benzer bir yapı sunar.
+Bu rehber, Türkçe RSS kaynaklarını bir araya getirerek kendi akışını oluşturmana olanak tanır. Kategorileri inceleyip ilgini çeken kaynakları önerilen okuyucu uygulamalarından birine ekleyerek içeriği daha hızlı ve düzenli şekilde takip edebilirsin.
+
+Aklına takılan bir şey olursa sormaktan çekinme.
+
+<br>
+
+# RSS Bağlantıları
 
 Eksik veya hatalı bir kaynak fark edersen, pull request gönderebilir veya issue açarak bildirebilirsin. README.md’ye eklenen kaynaklar site üzerinde eşzamanlı olarak gösterilir.
 
@@ -9,6 +15,8 @@ Umarım işine yarayacak birkaç bağlantı bulursun.
 <br>
 
 <b>Web arayüzü:</b> <a href="https://bakinazik.github.io/rss/" target="_blank">https://bakinazik.github.io/rss/</a>
+
+<br>
 
 <table style="width:100%;">
   <tr>
