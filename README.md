@@ -1,16 +1,12 @@
 # Merhaba!
 
-Bu rehber, Türkçe RSS kaynaklarını bir araya getirerek kendi akışını oluşturmana olanak tanır. Kategorileri inceleyip ilgini çeken kaynakları önerilen okuyucu uygulamalarından birine ekleyerek içeriği daha hızlı ve düzenli şekilde takip edebilirsin.
-
-Aklına takılan bir şey olursa sormaktan çekinme.
+Bu rehber, Türkçe RSS kaynaklarını bir araya getirerek kendi akışını oluşturmanı kolaylaştırmak amacıyla hazırlanmıştır. Kategorileri inceleyerek ilgi alanına uygun kaynakları seçebilir, önerilen okuycu uygulamalarından birine ekleyerek içerikleri daha hızlı ve düzenli bir şekilde takip edebilirsin.
 
 <br>
 
 # RSS Bağlantıları
 
-Eksik veya hatalı bir kaynak fark edersen, pull request gönderebilir veya issue açarak bildirebilirsin. README.md’ye eklenen kaynaklar site üzerinde eşzamanlı olarak gösterilir.
-
-Umarım işine yarayacak birkaç bağlantı bulursun.
+Eksik veya hatalı bir kaynak tespit edersen, pull request göndererek veya issue oluşturarak bildirebilirsin. README.md dosyasına eklenen kaynaklar, site üzerinde eşzamanlı olarak görüntülenir.
 
 <br>
 
@@ -56,7 +52,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
       <a href="https://play.google.com/store/apps/details?id=com.and96.aggregator_news">Google Play</a><br>
     </td>
     <td>Kapalı kaynak</td>
-    <td>Eğer takip ettiğin kaynakların sayısı otuzun üzerindeyse ve Google News bağlantılarını iyi ayrıştırmak istiyorum diyorsan tam sana göre bir okuyucu. Aktif olarak geliştirilmiyor ancak geliştiriciyle e-posta üzerinden iletişime geçip durumunu sorduğumda güvenlik güncellemelerini yapacağını söyledi.</td>
+    <td>Eğer takip ettiğin kaynakların sayısı otuzun üzerindeyse ve Google News bağlantılarını iyi ayrıştırmak istiyorsan, tam sana göre bir okuyucu. Aktif olarak geliştirilmiyor; ancak geliştiriciyle e-posta üzerinden iletişime geçip durumunu sorduğumda, güvenlik güncellemelerini yapacağını söyledi.</td>
   </tr>
 
   <tr>
@@ -98,7 +94,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
       <a href="https://gitlab.com/ondrejfoltyn/nunti/-/releases">GitLab</a>
     </td>
     <td><a href="https://gitlab.com/ondrejfoltyn/nunti/">Açık kaynak</a></td>
-    <td>Takip ettiğin yazıları beğenip/beğenmemene göre akış oluşturuyor. Hem kronolojik hem de algoritmik akışı yerel olarak sağlayan tek okuyucu.</td>
+    <td>Takip ettiğin yazıları beğenip beğenmemene göre bir akış oluşturuyor. Hem kronolojik hem de algoritmik akışı yerel olarak sağlayan tek okuyucu.</td>
   </tr>
 
   <tr>
@@ -108,7 +104,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
       <a href="https://github.com/ReadYouApp/ReadYou/releases">GitHub</a><br>
     </td>
     <td><a href="https://github.com/ReadYouApp/ReadYou">Açık kaynak</a></td>
-    <td>Modern bir arayüzü var. Aktif olarak geliştirilmesine rağmen ana geliştirici projeyi kenarda hobi niyetine tutuyor. Diğer insanların eklediği yeni özellikleri tartışmaya sunmadan reddediyor. Özellik ve tasarım konusunda çok keskin görüşleri var. Bunu bilerek kullanmanı öneririm.</td>
+    <td>Modern bir arayüzü var. Aktif olarak geliştirilmesine rağmen ana geliştirici projeyi kenarda hobi niyetine tutuyor. Diğer insanların eklediği yeni özellikleri tartışmaya sunmadan reddediyor. Özellik ve tasarım konusunda oldukça keskin görüşleri var. Bunu bilerek kullanmanı öneririm.</td>
   </tr>
 
   <tr>
