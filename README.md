@@ -244,6 +244,7 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 | Beyaz Perde | https://www.beyazperde.com/rss/haberler.xml |
 | Bigumigu | https://bigumigu.com/feed/ |
 | Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/feed/ |
+| Ekşi Şeyler | https://news.google.com/rss/search?q=site:eksiseyler.com+when:7d&hl=tr&gl=TR&ceid=TR:tr |
 | Fantastik Canavarlar | https://fantastikcanavarlar.com/feed/ |
 | FRPNET | https://frpnet.net/feed |
 | Geekyapar | https://geekyapar.com/feed/ |
