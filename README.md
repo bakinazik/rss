@@ -34,110 +34,126 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 
 # Okuyucu Önerileri
 
-Şu an için sadece iOS/Android ağırlıklı öneriler ekledim. Vakit buldukça diğer platformlar için de eklemeler yapacağım.
-
 <table>
   <tr>
     <td>Simge</td>
     <td width="130">Ad</td>
-    <td width="140">Platform</td>
+    <td width="360">Platform</td>
     <td width="130">Kaynak</td>
-    <td>Not</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://play-lh.googleusercontent.com/Gp28DLRkbeD6Hp7eHmKVRRPtUhvDT9nW8dFCi5BrW8RmjHG6AFdV8Ve2i4XmKYwxFFE=w480-h960-rw"></td>
     <td>Aggregator News</td>
     <td>
-      <a href="https://play.google.com/store/apps/details?id=com.and96.aggregator_news">Google Play</a><br>
+      <a href="https://play.google.com/store/apps/details?id=com.and96.aggregator_news">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
     </td>
     <td>Kapalı kaynak</td>
-    <td>Eğer takip ettiğin kaynakların sayısı otuzun üzerindeyse ve Google News bağlantılarını iyi ayrıştırmak istiyorsan, tam sana göre bir okuyucu. Aktif olarak geliştirilmiyor; ancak geliştiriciyle e-posta üzerinden iletişime geçip durumunu sorduğumda, güvenlik güncellemelerini yapacağını söyledi.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://play-lh.googleusercontent.com/6CMltjANQil8LRSbY3O5jLRp4TdEmwo2vNkfaxA_X3awW3jeJh9javH_nBEAu_JGfK8=w480-h960-rw"></td>
     <td>Capy Reader</td>
     <td>
-      <a href="https://play.google.com/store/apps/details?id=com.capyreader.app">Google Play</a>
+      <a href="https://play.google.com/store/apps/details?id=com.capyreader.app">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
     </td>
     <td><a href="https://github.com/jocmp/capyreader">Açık kaynak</a></td>
-    <td>Geliştirici uygulamayı tek başına geliştirdiği için süreç yavaş ilerliyor. Yeni özellik beklentisi olmadan kullanmanı öneririm.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://play-lh.googleusercontent.com/4dvr7Fx_rm3jAfyhbB22IZsV9vhOk20d0cblT6ru_2ktwjpOzdbULgpGFoGpn_SIjUo=w480-h960-rw"></td>
     <td>Feeder</td>
     <td>
-      <a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play">Google Play</a><br>
+      <a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
     </td>
     <td><a href="https://github.com/spacecowboy/feeder">Açık kaynak</a></td>
-    <td>En çok kitleye sahip olan okuyucu.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://play-lh.googleusercontent.com/_9X-aO8LYAkd39dSFlTnXC9tPj3GlnVwsSalPCFfTDEVYEqw2eKIQKf7d1oEHJ-r6yuCmpctd8RNQG_Fe0d_wA=w480-h960-rw"></td>
     <td>FeedFlow</td>
     <td>
-      <a href="https://play.google.com/store/apps/details?id=com.prof18.feedflow">Google Play</a><br>  
-      <a href="https://apps.apple.com/tr/app/feedflow-rss-feed-reader/id6447210518">App Store</a><br>
-      <a href="https://apps.microsoft.com/detail/9n5t1rfbb6v5">Microsoft Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.prof18.feedflow">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
+      <a href="https://apps.apple.com/tr/app/feedflow-rss-feed-reader/id6447210518">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
+      </a>
+      <a href="https://apps.microsoft.com/detail/9n5t1rfbb6v5">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/microsoft-store.webp">
+      </a>
     </td>
     <td><a href="https://github.com/prof18/feed-flow">Açık kaynak</a></td>
-    <td>En aktif geliştirilen okuyuculardan biri. Hız ve performans odaklı ilerliyor. Takip ettiğim bazı bağlantılar çalışmadığı için kullanamadım. Yine de bi' göz atabilirsin.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://gitlab.com/uploads/-/system/project/avatar/24697319/rect1179.png?width=96"></td>
     <td>Nunti</td>
     <td>
-      <a href="https://gitlab.com/ondrejfoltyn/nunti/-/releases">GitLab</a>
+      <a href="https://gitlab.com/ondrejfoltyn/nunti/-/releases">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/gitlab.webp">
+      </a>
     </td>
     <td><a href="https://gitlab.com/ondrejfoltyn/nunti/">Açık kaynak</a></td>
-    <td>Takip ettiğin yazıları beğenip beğenmemene göre bir akış oluşturuyor. Hem kronolojik hem de algoritmik akışı yerel olarak sağlayan tek okuyucu.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://raw.githubusercontent.com/ReadYouApp/ReadYou/main/fastlane/metadata/android/en-US/images/icon.png"></td>
     <td>Read You</td>
     <td>
-      <a href="https://github.com/ReadYouApp/ReadYou/releases">GitHub</a><br>
+      <a href="https://github.com/ReadYouApp/ReadYou/releases">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/github.webp">
+      </a>
     </td>
     <td><a href="https://github.com/ReadYouApp/ReadYou">Açık kaynak</a></td>
-    <td>Modern bir arayüzü var. Aktif olarak geliştirilmesine rağmen ana geliştirici projeyi kenarda hobi niyetine tutuyor. Diğer insanların eklediği yeni özellikleri tartışmaya sunmadan reddediyor. Özellik ve tasarım konusunda oldukça keskin görüşleri var. Bunu bilerek kullanmanı öneririm.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://play-lh.googleusercontent.com/h15MkBT42WxIGUabI-GQssU45NKEGrev01N4VQJ7fF88GmG007sZJq4rr2SSTc3cWpSdaNCprvdwDQNrKU0GHA=w480-h960-rw"></td>
     <td>SmartRSS</td>
     <td>
-      <a href="https://play.google.com/store/apps/details?id=com.vinsonguo.flutter_rss_reader">Google Play</a><br>
-      <a href="https://apps.apple.com/tr/app/smartrss-rss-reader-podcast/id6749771900">App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.vinsonguo.flutter_rss_reader">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
+      <a href="https://apps.apple.com/tr/app/smartrss-rss-reader-podcast/id6749771900">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
+      </a>
     </td>
     <td>Kapalı kaynak</td>
-    <td>Yapay zeka özeti gibi özellikler ilgini çekerse bi' göz atabilirsin. Fiyatı biraz pahalı ancak tek seferlik ödeme seçeneği sunuyor. Son kontrol ettiğimde bin lira civarındaydı. Geliştiriciye ulaşıp yerel fiyatlandırma talebinde bulundum ancak pek umursamadı.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://play-lh.googleusercontent.com/xaFaXZ-axF22w9HzRIm3kANddTGP5M9a2n0B_IxSgJEzYz7lQml5BX-YH9goiBpYBxAeks2Bp6zlYinDFKFr4Q=w480-h960-rw"></td>
     <td>Twine</td>
     <td>
-      <a href="https://play.google.com/store/apps/details?id=dev.sasikanth.rss.reader">Google Play</a><br>
-      <a href="https://apps.apple.com/tr/app/twine-smart-rss-news-reader/id6465694958">App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=dev.sasikanth.rss.reader">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
+      <a href="https://apps.apple.com/tr/app/twine-smart-rss-news-reader/id6465694958">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
+      </a>
     </td>
     <td><a href="https://github.com/msasikanth/twine">Açık kaynak</a></td>
-    <td>Mağazadaki versiyonda bazı özellikler ücretli. Android kullanıyorsan direkt kaynak kodu bağlantısından indirmeni tavsiye ederim.</td>
   </tr>
 
   <tr>
     <td><img width="50" src="https://play-lh.googleusercontent.com/62JxeJsAbE5MbNKzmo6JgymzkH5eUpUmWvg2i7THpK1ke1ieuWstpG7TsGUWv9ucSrY=w480-h960-rw"></td>
     <td>Your News</td>
     <td>
-      <a href="https://play.google.com/store/apps/details?id=com.your_news">Google Play</a><br> 
-      <a href="https://apps.apple.com/us/app/rss-reader-your-news/id6744372214">App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.your_news">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
+      <a href="https://apps.apple.com/us/app/rss-reader-your-news/id6744372214">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
+      </a>
     </td>
     <td>Kapalı kaynak</td>
-    <td>Reddit ve YouTube bağlantılarını en iyi işleyen okuyucu. Bu sitelerden kaynak takibi yapacaksan senin için en uygun okuyuculardan biri. Yerel fiyatlandırma talebi sonucunda fiyatı 30% azaltıldı.</td>
   </tr>
 </table>
 
