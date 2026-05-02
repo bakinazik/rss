@@ -1,6 +1,6 @@
 # Merhaba!
 
-Bu rehber, Türkçe RSS kaynaklarını bir araya getirerek kendi akışını oluşturmanı kolaylaştırmak amacıyla hazırlanmıştır. Kategorileri inceleyerek ilgi alanına uygun kaynakları seçebilir, önerilen okuycu uygulamalarından birine ekleyerek içerikleri daha hızlı ve düzenli bir şekilde takip edebilirsin.
+Bu rehber, Türkçe RSS kaynaklarını bir araya getirip kendi akışını oluşturmanı kolaylaştırmak için hazırlandı. Kategorilerdeki kaynakları inceleyebilir veya aşağıya eklenen araçları kullanarak henüz buraya eklenmemiş sitelerin RSS bağlantılarını bulabilirsin. Seçtiğin kaynakları önerilen okuyucu uygulamalarına ekleyerek tüm içerikleri tek bir yerden, düzenli bir şekilde takip etmeye başlayabilirsin.
 
 <br>
 
