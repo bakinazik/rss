@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
   chipsContainer.addEventListener('wheel', (e) => {
     if (chipsContainer.scrollWidth > chipsContainer.clientWidth) {
       e.preventDefault();
-      const delta = e.deltaY > 0 ? 400 : -400; // 3-4 kat hız
+      const delta = e.deltaY > 0 ? 400 : -400;
       chipsContainer.scrollBy({
         left: delta,
         behavior: 'smooth'
@@ -114,6 +114,54 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       searchInput.focus();
       searchInput.select();
+    }
+  });
+
+  let pendingKey = null;
+
+  function focusAndType() {
+    if (searchInput && document.activeElement !== searchInput && pendingKey) {
+      const activeTag = document.activeElement?.tagName;
+      const isEditable = document.activeElement?.isContentEditable;
+      const isInputOrTextarea = activeTag === 'INPUT' || activeTag === 'TEXTAREA';
+      
+      if (!isInputOrTextarea && !isEditable) {
+        const keyToType = pendingKey;
+        pendingKey = null;
+        
+        searchInput.focus();
+        
+        const currentValue = searchInput.value;
+        const start = searchInput.selectionStart;
+        const end = searchInput.selectionEnd;
+        
+        const newValue = currentValue.substring(0, start) + keyToType + currentValue.substring(end);
+        searchInput.value = newValue;
+        
+        searchInput.selectionStart = searchInput.selectionEnd = start + 1;
+        
+        const inputEvent = new Event('input', { bubbles: true });
+        searchInput.dispatchEvent(inputEvent);
+      }
+    }
+    pendingKey = null;
+  }
+
+  document.addEventListener('keydown', (event) => {
+    if (event.ctrlKey || event.altKey || event.metaKey || event.key === 'Escape') {
+      return;
+    }
+    
+    const activeElement = document.activeElement;
+    const isSearchActive = activeElement === searchInput;
+    const isFormElement = activeElement?.tagName === 'INPUT' || 
+                          activeElement?.tagName === 'TEXTAREA' || 
+                          activeElement?.isContentEditable;
+    
+    if (!isSearchActive && !isFormElement && (event.key.length === 1 || event.key === ' ')) {
+      event.preventDefault();
+      pendingKey = event.key;
+      focusAndType();
     }
   });
 
@@ -199,7 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filtered.length === 0) {
       output.innerHTML = `
         <div class="no-results">
-          <svg  xmlns="http://www.w3.org/2000/svg"  width="65"  height="65"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mood-sad"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 10l.01 0" /><path d="M15 10l.01 0" /><path d="M9.5 15.25a3.5 3.5 0 0 1 5 0" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-mood-sad"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 10l.01 0" /><path d="M15 10l.01 0" /><path d="M9.5 15.25a3.5 3.5 0 0 1 5 0" /></svg>
           <p>Aramayla eşleşen bir sonuç bulunamadı</p>
           <a href="https://github.com/bakinazik/rss/issues/new" target="_blank" class="btn github-issue-btn">Eksik bağlantıyı bildir</a>
         </div>
@@ -485,7 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
     .catch(err => {
-      output.innerHTML = `<div class="no-results"><p>❌ Veri yüklenemedi: ${err.message}</p><small>Lütfen daha sonra tekrar deneyin.</small></div>`;
+      output.innerHTML = `<div class="no-results"><p>Veri yüklenemedi: ${err.message}</p><small>Lütfen daha sonra tekrar deneyin.</small></div>`;
       console.error('Fetch error:', err);
     });
 
