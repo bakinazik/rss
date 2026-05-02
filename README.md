@@ -38,8 +38,8 @@ Tarayıcına aşağıdaki eklentiyi kurup RSS bağlantısı aradığın siteyi z
 
 <table>
   <tr>
-    <th>Firefox Addons</th>
-    <th>Chrome Web Store</th>
+    <th>Gecko</th>
+    <th>Chromium</th>
   </tr>
   <tr>
     <td>
