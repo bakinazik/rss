@@ -70,6 +70,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
     <td width="130">Ad</td>
     <td width="360">Platform</td>
     <td width="130">Kaynak</td>
+    <td width="150">Destek</td>
   </tr>
 
   <tr>
@@ -81,6 +82,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td>Kapalı kaynak</td>
+    <td>Android</td>
   </tr>
 
   <tr>
@@ -92,6 +94,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td><a href="https://github.com/jocmp/capyreader">Açık kaynak</a></td>
+    <td>Android</td>
   </tr>
 
   <tr>
@@ -103,6 +106,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td><a href="https://github.com/spacecowboy/feeder">Açık kaynak</a></td>
+    <td>Android</td>
   </tr>
 
   <tr>
@@ -120,6 +124,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td><a href="https://github.com/prof18/feed-flow">Açık kaynak</a></td>
+    <td>Android, iOS, macOS, Windows, Linux</td>
   </tr>
 
   <tr>
@@ -131,6 +136,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td><a href="https://gitlab.com/ondrejfoltyn/nunti/">Açık kaynak</a></td>
+    <td>Android</td>
   </tr>
 
   <tr>
@@ -142,6 +148,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td><a href="https://github.com/ReadYouApp/ReadYou">Açık kaynak</a></td>
+    <td>Android</td>
   </tr>
 
   <tr>
@@ -156,6 +163,19 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td>Kapalı kaynak</td>
+    <td>Android, iOS</td>
+  </tr>
+
+  <tr>
+    <td><img width="50" src="https://play-lh.googleusercontent.com/KOLyXjVcTErHWnpJCSV6Bh7LPF8TvJxBnTCY5z7uZOnAXnpoIT1cLb69f29S16Vepgg=w480-h960-rw"></td>
+    <td>StreamSphere</td>
+    <td>
+      <a href="https://play.google.com/store/apps/details?id=com.niviva.rssreader.streamsphere">
+        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
+      </a>
+    </td>
+    <td>Kapalı kaynak</td>
+    <td>Android</td>
   </tr>
 
   <tr>
@@ -170,6 +190,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td><a href="https://github.com/msasikanth/twine">Açık kaynak</a></td>
+    <td>Android, iOS</td>
   </tr>
 
   <tr>
@@ -184,6 +205,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
       </a>
     </td>
     <td>Kapalı kaynak</td>
+    <td>Android, iOS</td>
   </tr>
 </table>
 
