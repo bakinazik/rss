@@ -64,150 +64,18 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 
 # Okuyucu Önerileri
 
-<table>
-  <tr>
-    <td>Simge</td>
-    <td width="130">Ad</td>
-    <td width="360">Platform</td>
-    <td width="130">Kaynak</td>
-    <td width="150">Destek</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/Gp28DLRkbeD6Hp7eHmKVRRPtUhvDT9nW8dFCi5BrW8RmjHG6AFdV8Ve2i4XmKYwxFFE=w480-h960-rw"></td>
-    <td>Aggregator News</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.and96.aggregator_news">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-    </td>
-    <td>Kapalı kaynak</td>
-    <td>Android</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/6CMltjANQil8LRSbY3O5jLRp4TdEmwo2vNkfaxA_X3awW3jeJh9javH_nBEAu_JGfK8=w480-h960-rw"></td>
-    <td>Capy Reader</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.capyreader.app">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-    </td>
-    <td><a href="https://github.com/jocmp/capyreader">Açık kaynak</a></td>
-    <td>Android</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/4dvr7Fx_rm3jAfyhbB22IZsV9vhOk20d0cblT6ru_2ktwjpOzdbULgpGFoGpn_SIjUo=w480-h960-rw"></td>
-    <td>Feeder</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-    </td>
-    <td><a href="https://github.com/spacecowboy/feeder">Açık kaynak</a></td>
-    <td>Android</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/_9X-aO8LYAkd39dSFlTnXC9tPj3GlnVwsSalPCFfTDEVYEqw2eKIQKf7d1oEHJ-r6yuCmpctd8RNQG_Fe0d_wA=w480-h960-rw"></td>
-    <td>FeedFlow</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.prof18.feedflow">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-      <a href="https://apps.apple.com/tr/app/feedflow-rss-feed-reader/id6447210518">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
-      </a>
-      <a href="https://apps.microsoft.com/detail/9n5t1rfbb6v5">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/microsoft-store.webp">
-      </a>
-    </td>
-    <td><a href="https://github.com/prof18/feed-flow">Açık kaynak</a></td>
-    <td>Android, iOS, macOS, Windows, Linux</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://gitlab.com/uploads/-/system/project/avatar/24697319/rect1179.png?width=96"></td>
-    <td>Nunti</td>
-    <td>
-      <a href="https://gitlab.com/ondrejfoltyn/nunti/-/releases">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/gitlab.webp">
-      </a>
-    </td>
-    <td><a href="https://gitlab.com/ondrejfoltyn/nunti/">Açık kaynak</a></td>
-    <td>Android</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://raw.githubusercontent.com/ReadYouApp/ReadYou/main/fastlane/metadata/android/en-US/images/icon.png"></td>
-    <td>Read You</td>
-    <td>
-      <a href="https://github.com/ReadYouApp/ReadYou/releases">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/github.webp">
-      </a>
-    </td>
-    <td><a href="https://github.com/ReadYouApp/ReadYou">Açık kaynak</a></td>
-    <td>Android</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/h15MkBT42WxIGUabI-GQssU45NKEGrev01N4VQJ7fF88GmG007sZJq4rr2SSTc3cWpSdaNCprvdwDQNrKU0GHA=w480-h960-rw"></td>
-    <td>SmartRSS</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.vinsonguo.flutter_rss_reader">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-      <a href="https://apps.apple.com/tr/app/smartrss-rss-reader-podcast/id6749771900">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
-      </a>
-    </td>
-    <td>Kapalı kaynak</td>
-    <td>Android, iOS</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/KOLyXjVcTErHWnpJCSV6Bh7LPF8TvJxBnTCY5z7uZOnAXnpoIT1cLb69f29S16Vepgg=w480-h960-rw"></td>
-    <td>StreamSphere</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.niviva.rssreader.streamsphere">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-    </td>
-    <td>Kapalı kaynak</td>
-    <td>Android</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/xaFaXZ-axF22w9HzRIm3kANddTGP5M9a2n0B_IxSgJEzYz7lQml5BX-YH9goiBpYBxAeks2Bp6zlYinDFKFr4Q=w480-h960-rw"></td>
-    <td>Twine</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=dev.sasikanth.rss.reader">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-      <a href="https://apps.apple.com/tr/app/twine-smart-rss-news-reader/id6465694958">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
-      </a>
-    </td>
-    <td><a href="https://github.com/msasikanth/twine">Açık kaynak</a></td>
-    <td>Android, iOS</td>
-  </tr>
-
-  <tr>
-    <td><img width="50" src="https://play-lh.googleusercontent.com/62JxeJsAbE5MbNKzmo6JgymzkH5eUpUmWvg2i7THpK1ke1ieuWstpG7TsGUWv9ucSrY=w480-h960-rw"></td>
-    <td>Your News</td>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.your_news">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp">
-      </a>
-      <a href="https://apps.apple.com/us/app/rss-reader-your-news/id6744372214">
-        <img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp">
-      </a>
-    </td>
-    <td>Kapalı kaynak</td>
-    <td>Android, iOS</td>
-  </tr>
-</table>
+| Simge | Ad | Platform | Kaynak | Destek |
+|-------|----|----------|--------|--------|
+| <img width="50" src="https://play-lh.googleusercontent.com/Gp28DLRkbeD6Hp7eHmKVRRPtUhvDT9nW8dFCi5BrW8RmjHG6AFdV8Ve2i4XmKYwxFFE=w480-h960-rw"> | Aggregator News | <a href="https://play.google.com/store/apps/details?id=com.and96.aggregator_news"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | Kapalı kaynak | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/6CMltjANQil8LRSbY3O5jLRp4TdEmwo2vNkfaxA_X3awW3jeJh9javH_nBEAu_JGfK8=w480-h960-rw"> | Capy Reader | <a href="https://play.google.com/store/apps/details?id=com.capyreader.app"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | <a href="https://github.com/jocmp/capyreader">Açık kaynak</a> | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/4dvr7Fx_rm3jAfyhbB22IZsV9vhOk20d0cblT6ru_2ktwjpOzdbULgpGFoGpn_SIjUo=w480-h960-rw"> | Feeder | <a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | <a href="https://github.com/spacecowboy/feeder">Açık kaynak</a> | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/_9X-aO8LYAkd39dSFlTnXC9tPj3GlnVwsSalPCFfTDEVYEqw2eKIQKf7d1oEHJ-r6yuCmpctd8RNQG_Fe0d_wA=w480-h960-rw"> | FeedFlow | <a href="https://play.google.com/store/apps/details?id=com.prof18.feedflow"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/tr/app/feedflow-rss-feed-reader/id6447210518"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> <a href="https://apps.microsoft.com/detail/9n5t1rfbb6v5"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/microsoft-store.webp"></a> | <a href="https://github.com/prof18/feed-flow">Açık kaynak</a> | Android, iOS, macOS, Windows, Linux |
+| <img width="50" src="https://gitlab.com/uploads/-/system/project/avatar/24697319/rect1179.png?width=96"> | Nunti | <a href="https://gitlab.com/ondrejfoltyn/nunti/-/releases"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/gitlab.webp"></a> | <a href="https://gitlab.com/ondrejfoltyn/nunti/">Açık kaynak</a> | Android |
+| <img width="50" src="https://raw.githubusercontent.com/ReadYouApp/ReadYou/main/fastlane/metadata/android/en-US/images/icon.png"> | Read You | <a href="https://github.com/ReadYouApp/ReadYou/releases"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/github.webp"></a> | <a href="https://github.com/ReadYouApp/ReadYou">Açık kaynak</a> | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/h15MkBT42WxIGUabI-GQssU45NKEGrev01N4VQJ7fF88GmG007sZJq4rr2SSTc3cWpSdaNCprvdwDQNrKU0GHA=w480-h960-rw"> | SmartRSS | <a href="https://play.google.com/store/apps/details?id=com.vinsonguo.flutter_rss_reader"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/tr/app/smartrss-rss-reader-podcast/id6749771900"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> | Kapalı kaynak | Android, iOS |
+| <img width="50" src="https://play-lh.googleusercontent.com/KOLyXjVcTErHWnpJCSV6Bh7LPF8TvJxBnTCY5z7uZOnAXnpoIT1cLb69f29S16Vepgg=w480-h960-rw"> | StreamSphere | <a href="https://play.google.com/store/apps/details?id=com.niviva.rssreader.streamsphere"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | Kapalı kaynak | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/xaFaXZ-axF22w9HzRIm3kANddTGP5M9a2n0B_IxSgJEzYz7lQml5BX-YH9goiBpYBxAeks2Bp6zlYinDFKFr4Q=w480-h960-rw"> | Twine | <a href="https://play.google.com/store/apps/details?id=dev.sasikanth.rss.reader"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/tr/app/twine-smart-rss-news-reader/id6465694958"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> | <a href="https://github.com/msasikanth/twine">Açık kaynak</a> | Android, iOS |
+| <img width="50" src="https://play-lh.googleusercontent.com/62JxeJsAbE5MbNKzmo6JgymzkH5eUpUmWvg2i7THpK1ke1ieuWstpG7TsGUWv9ucSrY=w480-h960-rw"> | Your News | <a href="https://play.google.com/store/apps/details?id=com.your_news"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/us/app/rss-reader-your-news/id6744372214"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> | Kapalı kaynak | Android, iOS |
 
 <br>
 
@@ -220,7 +88,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 - [Gündem](#gündem)
 - [Savunma ve Sanayi](#savunma-ve-sanayi)
 - [Ekonomi ve Finans](#ekonomi-ve-finans)
-- [İş Dünyası](#i̇ş-dünyası)
+- [İş Dünyası](#iş-dünyası)
 - [Yaşam](#yaşam)
 
 <br>
@@ -239,7 +107,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Evrim Ağacı | https://evrimagaci.org/rss.xml |
 | Tarihli Bilim | https://www.tarihlibilim.com/feed/ |
 | Tarihten Yazılar | https://tarihtenyazilar.com/feed/ |
-| Fizikist | https://www.fizikist.com/feed |
 | Gerçek Bilim | https://www.gercekbilim.com/feed/ |
 | Gelecek Bilimde | https://gelecekbilimde.net/feed/ |
 | Herkese Bilim Teknoloji | https://www.herkesebilimteknoloji.com/feed |
@@ -250,7 +117,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Moletik | https://moletik.com/feed/ |
 | Popular Science | https://popsci.com.tr/feed/ |
 | Sarkaç | https://sarkac.org/feed/ |
-| Sinirbilim | https://sinirbilim.org/feed/ |
 
 # Teknoloji
 
@@ -266,6 +132,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Donanım Günlüğü | https://donanimgunlugu.com/feed |
 | FounderN | https://foundern.com/feed/ |
 | Geç Bunları | https://gecbunlari.com/feed/ |
+| Hangisi Alınmalı | https://hangisialinmali.com/feed/ |
 | Hardware Plus | https://hwp.com.tr/feed |
 | Investing Teknoloji | https://tr.investing.com/rss/news_288.rss |
 | İndir | https://www.indir.com/haber/feed/ |
@@ -279,7 +146,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Megabayt Sosyal Medya | https://www.megabayt.com/rss/categorynews/sosyal-medya |
 | Megabayt Teknoloji | https://www.megabayt.com/rss/categorynews/teknoloji |
 | Megabayt Yazılım | https://www.megabayt.com/rss/categorynews/yazilim |
-| PC Hocası | https://pchocasi.com.tr/feed |
 | ShiftDelete | https://shiftdelete.net/feed |
 | Sihirli Elma | https://www.sihirlielma.com/feed/ |
 | Sordum | https://www.sordum.net/feed/ |
@@ -297,9 +163,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Upcorn | https://upcorn.co/feed/ |
 | VoiceTekno | https://voicetekno.com/feed/ |
 | Webmasto | https://webmasto.com/feed |
-| Webrazzi | https://webrazzi.com/feed |
 | Webtekno | https://www.webtekno.com/rss.xml |
-
 
 # Eğlence
 
@@ -331,10 +195,12 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Mister Noob | https://www.misternoob.com/feed/ |
 | Mobidictum | https://mobidictum.com/tr/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
+| Oyungezer | https://oyungezer.com.tr/rss |
 | Öteki Sinema | https://www.otekisinema.com/feed/ |
 | Sofos | https://blog.sofos.com.tr/feed/ |
 | Sinetopya | https://sinetopya.com/rss/ |
 | The Geyik | https://www.thegeyik.com/feed/ |
+| Tourens | https://tourens.com/feed/ |
 | Turkmmo | https://www.turkmmo.com/feed |
 | Turuncu Levye | https://www.turunculevye.com/feed/ |
 
@@ -415,7 +281,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Sözcü Spor | https://www.sozcu.com.tr/feeds-rss-category-spor |
 | Sözcü Voleybol | https://www.sozcu.com.tr/feeds-rss-category-voleybol |
 | Türkiyede ve Dünyada Golf | https://www.turkiyedevedunyadagolf.com.tr/feed/ |
-
 
 # Gündem
 
@@ -609,6 +474,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İşin Detayı Şirket Haberleri | https://www.isindetayi.com/rss/sirket-haberleri |
 | Megabayt Şirket Haberleri | https://www.megabayt.com/rss/categorynews/sirket-haberleri |
 | Midas | https://www.getmidas.com/feed/ |
+| Webrazzi | https://webrazzi.com/feed |
 
 # Yaşam
 
@@ -641,4 +507,3 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Uplifers | https://www.uplifers.com/feed/ |
 | PlumeMag | https://www.plumemag.com/feed/ |
 | Trendus | https://www.trendus.com/feed |
-
