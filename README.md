@@ -471,7 +471,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 |:-------- | -----------:|
 | Borsanın Gündemi | https://www.borsaningundemi.com/rss |
 | Capital | https://www.capital.com.tr/rss/all |
-| Foreks | https://www.foreks.com/rss |
 | Finans Gündem | https://www.finansingundemi.com/rss |
 | Halka Arz | https://halkarz.com/feed/ |
 | INC Türkiye | https://incturkiye.com/story-feeds |
