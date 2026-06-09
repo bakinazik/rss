@@ -97,6 +97,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| 2N Haber Bilim | https://2nhaber.com/category/neden/feed/ |
 | Arkeofili | https://arkeofili.com/feed/ |
 | Beyinsizler | https://beyinsizler.net/feed/ |
 | Bilim Günlüğü | https://www.bilimgunlugu.com/feed/ |
@@ -122,6 +123,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| 2N Haber Teknoloji | https://2nhaber.com/category/nasil/feed/ |
 | Beetekno | https://www.beetekno.com/feed/posts |
 | Campaign Türkiye | https://www.campaigntr.com/feed/ |
 | CHIP Online | https://www.chip.com.tr/rss |
@@ -164,6 +166,9 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | VoiceTekno | https://voicetekno.com/feed/ |
 | Webmasto | https://webmasto.com/feed |
 | Webtekno | https://www.webtekno.com/rss.xml |
+| Webrazzi | https://webrazzi.com/feed |
+| Webrazzi Teknoloji | https://webrazzi.com/kategori/teknoloji/feed |
+| Webrazzi Yapay Zeka | https://webrazzi.com/kategori/yapay-zeka/feed |
 
 # Eğlence
 
@@ -464,6 +469,12 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
+| Borsanın Gündemi | https://www.borsaningundemi.com/rss |
+| Capital | https://www.capital.com.tr/rss/all |
+| Foreks | https://www.foreks.com/rss |
+| Finans Gündem | https://www.finansingundemi.com/rss |
+| Halka Arz | https://halkarz.com/feed/ |
+| INC Türkiye | https://incturkiye.com/story-feeds |
 | İşin Detayı | https://www.isindetayi.com/rss |
 | İşin Detayı Borsa | https://www.isindetayi.com/rss/borsa |
 | İşin Detayı Ekonomi | https://www.isindetayi.com/rss/ekonomi |
@@ -474,7 +485,9 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İşin Detayı Şirket Haberleri | https://www.isindetayi.com/rss/sirket-haberleri |
 | Megabayt Şirket Haberleri | https://www.megabayt.com/rss/categorynews/sirket-haberleri |
 | Midas | https://www.getmidas.com/feed/ |
-| Webrazzi | https://webrazzi.com/feed |
+| Mynet Finans | https://www.mynet.com/rss/publisher-finans.rss |
+| Paranın Yönü | https://www.paraninyonu.com.tr/rss.xml |
+| Webrazzi Yatırım | https://webrazzi.com/kategori/yatirim/feed |
 
 # Yaşam
 
