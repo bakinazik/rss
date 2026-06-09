@@ -217,6 +217,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | 10layn | https://10layn.com/feed/ |
+| 2yaka | https://2yaka.org/feed/ |
 | Artdog | https://artdogistanbul.com/feed/ |
 | Artkolik | https://www.artkolik.net/feed |
 | Argonotlar | https://argonotlar.com/feed/ |
@@ -504,6 +505,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Site Adı | RSS Bağlantısı |
 |:-------- | -----------:|
 | Anne Kaz | https://www.annekaz.com/feed |
+| DMAX Blog | https://www.dmax.com.tr/feed/blog |
 | Elle Türkiye | https://www.elle.com.tr/rss |
 | Elele | https://www.elele.com.tr/export/rss |
 | İşin Detayı Gastronomi | https://www.isindetayi.com/rss/gastronomi |
@@ -528,6 +530,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
 | Medium Türkiye Yayını | https://mediumturkiye.com/feed |
 | NTV Yaşam | https://www.ntv.com.tr/yasam.rss |
+| Outdoor Türkiye | https://www.outdoorturkiye.com.tr/feed/ |
 | Uplifers | https://www.uplifers.com/feed/ |
 | PlumeMag | https://www.plumemag.com/feed/ |
 | Trendus | https://www.trendus.com/feed |
