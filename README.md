@@ -148,6 +148,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Megabayt Sosyal Medya | https://www.megabayt.com/rss/categorynews/sosyal-medya |
 | Megabayt Teknoloji | https://www.megabayt.com/rss/categorynews/teknoloji |
 | Megabayt Yazılım | https://www.megabayt.com/rss/categorynews/yazilim |
+| NTV Teknoloji | https://www.ntv.com.tr/teknoloji.rss |
 | ShiftDelete | https://shiftdelete.net/feed |
 | Sihirli Elma | https://www.sihirlielma.com/feed/ |
 | Sordum | https://www.sordum.net/feed/ |
@@ -162,6 +163,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Teknolojioku | https://www.teknolojioku.com/export/rss |
 | Teloji | https://teloji.com/feed/ |
 | Tam İndir | https://feeds.feedburner.com/tamindir/stream |
+| Türk İnternet | https://turk-internet.com/feed/ |
 | Upcorn | https://upcorn.co/feed/ |
 | VoiceTekno | https://voicetekno.com/feed/ |
 | Webmasto | https://webmasto.com/feed |
@@ -458,6 +460,8 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Investing Haberler | https://tr.investing.com/rss/news.rss |
 | Megabayt Ekonomi | https://www.megabayt.com/rss/categorynews/ekonomi |
 | Megabayt Kripto Para | https://www.megabayt.com/rss/categorynews/kripto-para |
+| NTV Para | https://www.ntv.com.tr/ntvpara.rss |
+| NTV Ekonomi | https://www.ntv.com.tr/ekonomi.rss |
 | Sözcü Borsa | https://www.sozcu.com.tr/feeds-rss-category-borsa |
 | Sözcü Ekonomi | https://www.sozcu.com.tr/feeds-rss-category-ekonomi |
 | Sözcü Emlak | https://www.sozcu.com.tr/feeds-rss-category-emlak |
@@ -516,6 +520,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Megabayt Yaşam | https://www.megabayt.com/rss/categorynews/yasam |
 | Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
 | Medium Türkiye Yayını | https://mediumturkiye.com/feed |
+| NTV Yaşam | https://www.ntv.com.tr/yasam.rss |
 | Uplifers | https://www.uplifers.com/feed/ |
 | PlumeMag | https://www.plumemag.com/feed/ |
 | Trendus | https://www.trendus.com/feed |
