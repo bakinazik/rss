@@ -200,6 +200,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Megabayt Televizyon | https://www.megabayt.com/rss/categorynews/televizyon |
 | Megabayt Youtube | https://www.megabayt.com/rss/categorynews/youtube |
 | Mister Noob | https://www.misternoob.com/feed/ |
+| Mixmag Turkey | https://mixmag.com.tr/rss.xml |
 | Mobidictum | https://mobidictum.com/tr/feed/ |
 | Onedio | https://onedio.com/Publisher/publisher-daily.rss |
 | Oyungezer | https://oyungezer.com.tr/rss |
@@ -221,11 +222,16 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Argonotlar | https://argonotlar.com/feed/ |
 | Arkitera | https://www.arkitera.com/feed/ |
 | Bant Mag | https://bantmag.com/feed/ |
+| Binbir Kitap | https://binbirkitap.net/feed/ |
+| Bir Baba Indie | https://www.birbabaindie.com/feed/ |
 | Cafrande | https://www.cafrande.org/feed/ |
+| Cazkolik | https://cazkolik.com/rss.xml |
 | Çekiçle Felsefe | https://cekiclefelsefe.com/feed/ |
+| DeliKasap | https://www.delikasap.org/feed/ |
 | Edebi Bülten | https://edebibulten.com/feed/ |
 | Edebiyat Burada | https://edebiyatburada.com/feed/ |
 | Edebiyat Haber | https://www.edebiyathaber.net/feed/ |
+| Eventmag | https://eventmag.co/feed/ |
 | Fikir Turu | https://fikirturu.com/feed/ |
 | Kilikya Dergisi | https://dergipark.org.tr/tr/pub/kilikya/rss/lastissue/tr |
 | Kitap Haber | https://www.kitaphaber.com.tr/feed |
@@ -244,6 +250,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Play Tuşu | https://playtusu.com/feed/ |
 | Rotka | https://www.rotka.org/feed/ |
 | Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
+| Tarihistan | https://www.tarihistan.org/rss |
 | Terrabayt | https://terrabayt.com/feed |
 | Vesaire | https://vesaire.press/feed/ |
 | Yedikıta | https://yedikita.com.tr/feed/ |
