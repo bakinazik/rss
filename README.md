@@ -311,7 +311,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Dijital Gaste | https://www.dijitalgaste.com/rss |
 | dikGAZETE | https://www.dikgazete.com/xml/rss.xml |
 | Doğru Haber | https://dogruhaber.com.tr/rss |
-| Dokuz8 Haber | https://www.dokuz8haber.net/rss |
+| Dokuz8 Haber | https://dokuz8haber.net/rss.xml |
 | Dünya | https://www.dunya.com/rss?dunya |
 | DW Haber | https://rss.dw.com/rdf/rss-tur-all |
 | En Politik | https://www.enpolitik.com/rss.xml |
