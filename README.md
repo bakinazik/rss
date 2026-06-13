@@ -100,11 +100,9 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | 2N Haber Bilim | https://2nhaber.com/category/neden/feed/ |
 | Arkeofili | https://arkeofili.com/feed/ |
 | Beyinsizler | https://beyinsizler.net/feed/ |
-| Bilim Günlüğü | https://www.bilimgunlugu.com/feed/ |
 | Bilim ve Gelecek | https://bilimvegelecek.com.tr/index.php/feed/ |
 | Bilimoloji | https://www.bilimoloji.com/feed/ |
 | Bilimup | https://www.bilimup.com/rss.xml |
-| DijitalX | https://www.dijitalx.com/feed/ |
 | Evrim Ağacı | https://evrimagaci.org/rss.xml |
 | Tarihli Bilim | https://www.tarihlibilim.com/feed/ |
 | Tarihten Yazılar | https://tarihtenyazilar.com/feed/ |
@@ -114,9 +112,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Independent Bilim | https://www.indyturk.com/taxonomy/term/48791/%2A/feed |
 | Kozmik Anafor | https://www.kozmikanafor.com/feed/ |
 | Matematiksel | https://www.matematiksel.org/feed |
-| Megabayt Bilim | https://www.megabayt.com/rss/categorynews/bilim |
 | Moletik | https://moletik.com/feed/ |
-| Popular Science | https://popsci.com.tr/feed/ |
 | Sarkaç | https://sarkac.org/feed/ |
 
 # Teknoloji
