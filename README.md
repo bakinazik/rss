@@ -136,14 +136,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İndir | https://www.indir.com/haber/feed/ |
 | LOG | https://www.log.com.tr/feed/ |
 | Megabayt | https://www.megabayt.com/rss/news |
-| Megabayt Bilgisayar | https://www.megabayt.com/rss/categorynews/bilgisayar |
-| Megabayt Bilim ve Teknoloji | https://www.megabayt.com/rss/categorynews/bilim-ve-teknoloji |
-| Megabayt Donanım | https://www.megabayt.com/rss/categorynews/donanim |
-| Megabayt Nasıl Yapılır? | https://www.megabayt.com/rss/categorynews/nasil-yapilir |
-| Megabayt Siber Güvenlik | https://www.megabayt.com/rss/categorynews/siber-guvenlik |
-| Megabayt Sosyal Medya | https://www.megabayt.com/rss/categorynews/sosyal-medya |
-| Megabayt Teknoloji | https://www.megabayt.com/rss/categorynews/teknoloji |
-| Megabayt Yazılım | https://www.megabayt.com/rss/categorynews/yazilim |
 | NTV Teknoloji | https://www.ntv.com.tr/teknoloji.rss |
 | ShiftDelete | https://shiftdelete.net/feed |
 | Sihirli Elma | https://www.sihirlielma.com/feed/ |
@@ -189,12 +181,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | ListeList | https://listelist.com/feed/ |
 | Marjinal Sinema | https://marjinalsinema.com/feed/ |
 | Merlin'in Kazanı | https://www.merlininkazani.com/feed/ |
-| Megabayt Dijital Platformlar | https://www.megabayt.com/rss/categorynews/dijital-platformlar |
-| Megabayt Dizi-sinema | https://www.megabayt.com/rss/categorynews/dizi-sinema |
-| Megabayt Oyun | https://www.megabayt.com/rss/categorynews/oyun |
-| Megabayt Sinema | https://www.megabayt.com/rss/categorynews/sinema |
-| Megabayt Televizyon | https://www.megabayt.com/rss/categorynews/televizyon |
-| Megabayt Youtube | https://www.megabayt.com/rss/categorynews/youtube |
 | Mister Noob | https://www.misternoob.com/feed/ |
 | Mixmag Turkey | https://mixmag.com.tr/rss.xml |
 | Mobidictum | https://mobidictum.com/tr/feed/ |
@@ -239,7 +225,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İşin Detayı Kültür Sanat | https://www.isindetayi.com/rss/kultur-sanat |
 | Manifold | https://manifold.press/rss |
 | Mesail | https://www.mesail.org/feed/ |
-| Megabayt Kültür Sanat | https://www.megabayt.com/rss/categorynews/kultur-sanat |
 | Mitoloji | https://mitoloji.org.tr/feed/ |
 | Mürekkep Haber | https://www.murekkephaber.com/rss.xml |
 | Nouvart | https://www.nouvart.net/feed/ |
@@ -271,7 +256,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Fotomaç Basketbol | https://www.fotomac.com.tr/rss/Basketbol.xml |
 | Fotospor | https://www.fotospor.com/feed/rss_sondakika.xml |
 | Futboo | https://www.futboo.com/rss.xml |
-| Megabayt Spor | https://www.megabayt.com/rss/categorynews/spor |
 | Kontraspor | https://kontraspor.com/rss |
 | NTV Spor Anasayfa | https://www.ntvspor.net/rss/anasayfa |
 | NTV Spor Basketbol | https://www.ntvspor.net/rss/kategori/basketbol |
@@ -377,7 +361,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Lotus News | https://www.lotusnews.com.tr/rss |
 | Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
 | Medya Tilkisi | https://www.medyatilkisi.com.tr/rss |
-| Megabayt Gündem | https://www.megabayt.com/rss/categorynews/gundem |
 | Milli Gazete | https://www.milligazete.com.tr/rss |
 | Mynet | https://www.mynet.com/haber/rss/sondakika |
 | Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
@@ -462,8 +445,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Investing Emtia | https://tr.investing.com/rss/commodities.rss |
 | Investing Tahvil | https://tr.investing.com/rss/bonds.rss |
 | Investing Haberler | https://tr.investing.com/rss/news.rss |
-| Megabayt Ekonomi | https://www.megabayt.com/rss/categorynews/ekonomi |
-| Megabayt Kripto Para | https://www.megabayt.com/rss/categorynews/kripto-para |
 | NTV Para | https://www.ntv.com.tr/ntvpara.rss |
 | NTV Ekonomi | https://www.ntv.com.tr/ekonomi.rss |
 | Sözcü Borsa | https://www.sozcu.com.tr/feeds-rss-category-borsa |
@@ -490,7 +471,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İşin Detayı İş Dünyası | https://www.isindetayi.com/rss/is-dunyasi |
 | İşin Detayı Lojistik | https://www.isindetayi.com/rss/lojistik |
 | İşin Detayı Şirket Haberleri | https://www.isindetayi.com/rss/sirket-haberleri |
-| Megabayt Şirket Haberleri | https://www.megabayt.com/rss/categorynews/sirket-haberleri |
 | Midas | https://www.getmidas.com/feed/ |
 | Mynet Finans | https://www.mynet.com/rss/publisher-finans.rss |
 | Paranın Yönü | https://www.paraninyonu.com.tr/rss.xml |
@@ -515,14 +495,6 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Live To Bloom | https://livetobloom.com/feed/ |
 | Martı Dergisi | https://www.martidergisi.com/feed/ |
 | Marie Claire | https://www.marieclaire.com.tr/feed/ |
-| Megabayt Aksesuar | https://www.megabayt.com/rss/categorynews/aksesuar |
-| Megabayt Eğitim | https://www.megabayt.com/rss/categorynews/egitim |
-| Megabayt İnceleme | https://www.megabayt.com/rss/categorynews/inceleme |
-| Megabayt Magazin | https://www.megabayt.com/rss/categorynews/magazin |
-| Megabayt Otomobil | https://www.megabayt.com/rss/categorynews/otomobil |
-| Megabayt Popüler Haberler | https://www.megabayt.com/rss/categorynews/populer-haberler |
-| Megabayt Sağlık | https://www.megabayt.com/rss/categorynews/saglik |
-| Megabayt Yaşam | https://www.megabayt.com/rss/categorynews/yasam |
 | Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
 | Medium Türkiye Yayını | https://mediumturkiye.com/feed |
 | NTV Yaşam | https://www.ntv.com.tr/yasam.rss |
