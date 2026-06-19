@@ -216,6 +216,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Edebiyat Haber | https://www.edebiyathaber.net/feed/ |
 | Eventmag | https://eventmag.co/feed/ |
 | Fikir Turu | https://fikirturu.com/feed/ |
+| Kayıp Rıhtım Haftalık Kitap Önerisi | https://kayiprihtim.com/category/kayip-rihtim/kayip-rihtim-oneriyor/feed/ |
 | Kilikya Dergisi | https://dergipark.org.tr/tr/pub/kilikya/rss/lastissue/tr |
 | Kitap Haber | https://www.kitaphaber.com.tr/feed |
 | Kitaplar | https://www.kitaplar.org/konular/-/index.rss |
