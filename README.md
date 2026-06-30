@@ -172,6 +172,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Bigumigu | https://bigumigu.com/feed/ |
 | Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/feed/ |
 | Ekşi Şeyler | https://news.google.com/rss/search?q=site:eksiseyler.com+when:7d&hl=tr&gl=TR&ceid=TR:tr |
+| Fanzade | https://fanzade.com/feed/ |
 | Fantastik Canavarlar | https://fantastikcanavarlar.com/feed/ |
 | FRPNET | https://frpnet.net/feed |
 | Geekyapar | https://geekyapar.com/feed/ |
