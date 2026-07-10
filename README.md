@@ -366,7 +366,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Mynet | https://www.mynet.com/haber/rss/sondakika |
 | Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
 | NewsLab Turkey | https://www.newslabturkey.org/feed/ |
-| Notbir | https://notbir.com.tr/ |
+| Notbir | https://notbir.com.tr/rss.xml |
 | NTV | https://www.ntv.com.tr/gundem.rss |
 | OdaTV | https://www.odatv.com/rss.xml |
 | Perspektif | https://www.perspektif.online/feed/ |
