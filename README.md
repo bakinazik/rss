@@ -394,6 +394,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | soL Haber | https://haber.sol.org.tr/rss.xml |
 | Sputnik | https://anlatilaninotesi.com.tr/export/rss2/archive/index.xml |
 | Star | https://www.star.com.tr/rss/rss.asp |
+| TamgaTürk | https://www.tamgaturk.com/rss.xml |
 | Teyit | https://teyit.org/feed?lang=tr |
 | Tele1 | https://www.tele1.com.tr/rss |
 | Tele2 | https://www.tele2haber.com/rss |
