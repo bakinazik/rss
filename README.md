@@ -137,6 +137,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | LOG | https://www.log.com.tr/feed/ |
 | Megabayt | https://www.megabayt.com/rss/news |
 | NTV Teknoloji | https://www.ntv.com.tr/teknoloji.rss |
+| Samsung Newsroom Türkiye | https://news.samsung.com/tr/feed |
 | ShiftDelete | https://shiftdelete.net/feed |
 | Sihirli Elma | https://www.sihirlielma.com/feed/ |
 | Sordum | https://www.sordum.net/feed/ |
