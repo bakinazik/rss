@@ -342,6 +342,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Halk TV | https://halktv.com.tr/service/rss.php |
 | Haberport | https://www.haberport.com/rss/latest-posts |
 | Haberiniz | https://haberiniz.com.tr/feed/ |
+| Harici | https://harici.com.tr/feed/ |
 | Hukuki Haber | https://www.hukukihaber.net/rss |
 | Hürriyet | https://www.hurriyet.com.tr/rss/anasayfa |
 | İfade Özgürlüğü Derneği | https://ifade.org.tr/engelliweb/feed/ |
