@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchClearBtn = document.getElementById('searchClearBtn');
   const chipsContainer = document.getElementById('chipsContainer');
   const chipsScroll = document.getElementById('chipsScroll');
+  const listCount = document.getElementById('listCount');
 
   let allRssItems = [];
   let categories = [];
@@ -22,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearSelectionBtn = document.getElementById('clearSelectionBtn');
   const exportBtn = document.getElementById('exportBtn');
   const selectedCountSpan = document.getElementById('selectedCount');
-  const totalCountSpan = document.getElementById('totalCount');
 
   const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -199,8 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
       chip.className = 'chip';
       if (currentCategory === cat) chip.classList.add('active');
       chip.setAttribute('data-category', cat);
-      const itemCount = allRssItems.filter(i => i.category === cat).length;
-      chip.textContent = `${cat} (${itemCount})`;
+      chip.textContent = cat;
       
       chip.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -243,6 +242,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (reset) {
       displayedCount = Math.min(BATCH_SIZE, filtered.length);
     }
+    
+    listCount.textContent = `${filtered.length} öğe listeleniyor`;
     
     if (filtered.length === 0) {
       output.innerHTML = `
@@ -519,7 +520,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
       
-      totalCountSpan.textContent = allRssItems.length;
       buildChips();
       renderList();
       setupScrollObserver();
@@ -549,6 +549,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
     scrollTopBtn.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  const menuBtn = document.getElementById('menuBtn');
+  const menuDropdown = document.getElementById('menuDropdown');
+  if (menuBtn && menuDropdown) {
+    const positionMenu = () => {
+      // Reset before measuring so previous alignment doesn't skew the calculation
+      menuDropdown.classList.remove('align-right');
+      const btnRect = menuBtn.getBoundingClientRect();
+      const dropdownWidth = menuDropdown.offsetWidth || 220;
+      const viewportWidth = window.innerWidth;
+      const spaceOnRight = viewportWidth - btnRect.left;
+      const spaceOnLeft = btnRect.right;
+      // If opening from the left edge would overflow the viewport,
+      // but there's enough room on the left side of the button, flip it.
+      if (spaceOnRight < dropdownWidth + 16 && spaceOnLeft >= dropdownWidth + 16) {
+        menuDropdown.classList.add('align-right');
+      }
+    };
+    const closeMenu = () => {
+      menuDropdown.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    };
+    const openMenu = () => {
+      positionMenu();
+      menuDropdown.classList.add('open');
+      menuBtn.setAttribute('aria-expanded', 'true');
+    };
+    menuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (menuDropdown.classList.contains('open')) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+    document.addEventListener('click', (e) => {
+      if (!menuDropdown.contains(e.target) && e.target !== menuBtn) {
+        closeMenu();
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeMenu();
+    });
+    window.addEventListener('resize', () => {
+      if (menuDropdown.classList.contains('open')) positionMenu();
     });
   }
 

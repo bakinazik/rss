@@ -45,12 +45,15 @@ html.light-theme {
   --search-bg-color: transparent;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.5;
-  overflow-x: hidden;
 }
 
 .app-container {
@@ -423,6 +426,17 @@ input:not(:checked) + .slider .icon.sun {
   to { transform: rotate(360deg); }
 }
 
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 4px 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  width: 100%;
+}
+
 .rss-list {
     display: flex;
     flex-direction: column;
@@ -588,46 +602,95 @@ a.btn.github-issue-btn:hover {
   margin: 0 auto 10px;
 }
 
-.app-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 0;
-  margin-top: 40px;
-  border-top: 1px solid var(--secondary);
-  font-size: 0.85rem;
-  color: var(--text-color);
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.footer-links {
-  display: flex;
-  gap: 24px;
-}
-
-.footer-link {
+.logo-group {
   display: flex;
   align-items: center;
-  gap: 8px;
-  text-decoration: none;
+  gap: 14px;
+}
+
+.menu-wrapper {
+  position: relative;
+}
+
+.menu-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  border: 1px solid var(--secondary);
+  background: transparent;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   transition: var(--transition);
 }
 
-.footer-link svg {
-  width: 18px;
-  height: 18px;
+.menu-btn svg {
+  width: 20px;
+  height: 20px;
 }
 
-.footer-link:hover {
+.menu-btn:hover {
+  background: var(--category-bg-light);
   color: var(--link-color-light);
 }
 
-.footer-stats {
-  padding: 6px 14px;
+.menu-btn:focus {
+  outline: none;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  min-width: 220px;
+  background: var(--bg-color);
+  border: 1px solid var(--secondary);
+  border-radius: var(--radius-md);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+  z-index: 100;
+}
+
+.menu-dropdown.align-right {
+  left: auto;
+  right: 0;
+}
+
+.menu-dropdown.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.menu-link svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.menu-link:hover {
   background: var(--category-bg-light);
-  border-radius: 40px;
+  color: var(--link-color-light);
 }
 
 @media (max-width: 668px) {
@@ -641,9 +704,20 @@ a.btn.github-issue-btn:hover {
     padding: 16px 0;
   }
 
+  .logo-group {
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+  }
+
   .logo-area {
     justify-content: center;
-    width: 100%;
+  }
+
+  .menu-dropdown {
+    left: auto;
+    right: 0;
   }
 
   .search-box {
@@ -669,7 +743,10 @@ a.btn.github-issue-btn:hover {
   }
 
   .selected-badge {
-    margin-left: 0;
+      margin-left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
   }
 
   .rss-item {
@@ -691,11 +768,6 @@ a.btn.github-issue-btn:hover {
     display: none;
   }
 
-  .app-footer {
-    flex-direction: column;
-    text-align: center;
-  }
-  
 .header-actions {
     justify-content: space-between;;
 }
