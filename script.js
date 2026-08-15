@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const chipsContainer = document.getElementById('chipsContainer');
   const chipsScroll = document.getElementById('chipsScroll');
   const listCount = document.getElementById('listCount');
-
   let allRssItems = [];
   let categories = [];
   let selectedSet = new Set();
@@ -18,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let isLoading = false;
   let scrollSentinel = null;
   let currentFilteredItems = [];
-
   const selectAllBtn = document.getElementById('selectAllBtn');
   const clearSelectionBtn = document.getElementById('clearSelectionBtn');
   const exportBtn = document.getElementById('exportBtn');

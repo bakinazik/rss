@@ -772,15 +772,16 @@ a.btn.github-issue-btn:hover {
     justify-content: space-between;;
 }
 
-  .header-inner {
-    flex-direction: column;
-    gap: 10px;
-  }
+.header-inner {
+  flex-direction: column;
+  gap: 10px;
+}
 
-  .chip {
-    padding: 6px 16px;
-    font-size: 0.8rem;
-  }
+.chip {
+  padding: 6px 16px;
+  font-size: 0.8rem;
+}
+
 }
 
 .scroll-top-btn {
