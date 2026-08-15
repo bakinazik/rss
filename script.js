@@ -53,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
   themeToggle.addEventListener('change', () => setTheme(themeToggle.checked));
   initializeTheme();
 
-  // Logo tıklanınca aramayı ve filtreleri sıfırla
   const logoArea = document.querySelector('.logo-area');
   if (logoArea) {
     logoArea.addEventListener('click', () => {
@@ -556,15 +555,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const menuDropdown = document.getElementById('menuDropdown');
   if (menuBtn && menuDropdown) {
     const positionMenu = () => {
-      // Reset before measuring so previous alignment doesn't skew the calculation
       menuDropdown.classList.remove('align-right');
       const btnRect = menuBtn.getBoundingClientRect();
       const dropdownWidth = menuDropdown.offsetWidth || 220;
       const viewportWidth = window.innerWidth;
       const spaceOnRight = viewportWidth - btnRect.left;
       const spaceOnLeft = btnRect.right;
-      // If opening from the left edge would overflow the viewport,
-      // but there's enough room on the left side of the button, flip it.
       if (spaceOnRight < dropdownWidth + 16 && spaceOnLeft >= dropdownWidth + 16) {
         menuDropdown.classList.add('align-right');
       }
