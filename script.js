@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let displayedCount = 0;
   const BATCH_SIZE = 15;
   let isLoading = false;
-  let scrollSentinel = null;
+  let scrollTicking = false;
+  const SCROLL_THRESHOLD_PX = 600;
   let currentFilteredItems = [];
   const selectAllBtn = document.getElementById('selectAllBtn');
   const clearSelectionBtn = document.getElementById('clearSelectionBtn');
@@ -257,11 +258,25 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const itemsToShow = filtered.slice(0, displayedCount);
     let html = searchInfo + '<div class="rss-list">';
+    html += itemsToShow.map(buildItemHTML).join('');
+    html += '</div>';
     
-    itemsToShow.forEach(item => {
-      const isChecked = selectedSet.has(item.rssLink);
-      const domain = getDomain(item.rssLink);
-      html += `
+    if (displayedCount < filtered.length) {
+      html += `<div class="loading-more" id="loadingMore"><div class="loader-small"></div><span>Daha fazla yükleniyor...</span></div>`;
+    }
+    
+    output.innerHTML = html;
+    
+    attachCheckboxListeners();
+    attachCopyButtons();
+    attachItemClickListeners();
+    checkScrollPosition();
+  }
+  
+  function buildItemHTML(item) {
+    const isChecked = selectedSet.has(item.rssLink);
+    const domain = getDomain(item.rssLink);
+    return `
         <div class="rss-item" data-rss-link="${escapeHtml(item.rssLink)}">
           <input type="checkbox" class="rss-checkbox" data-rss="${escapeHtml(item.rssLink)}" data-site="${escapeHtml(item.siteName)}" ${isChecked ? 'checked' : ''}>
           <img class="favicon" src="https://www.google.com/s2/favicons?domain=${domain}&sz=32" alt="" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%2371717a%22><path d=%22M4 4h16v16H4z%22/></svg>'">
@@ -285,19 +300,6 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         </div>
       `;
-    });
-    
-    html += '</div>';
-    
-    if (displayedCount < filtered.length) {
-      html += `<div class="loading-more" id="loadingMore"><div class="loader-small"></div><span>Daha fazla yükleniyor...</span></div>`;
-    }
-    
-    output.innerHTML = html;
-    
-    attachCheckboxListeners();
-    attachCopyButtons();
-    attachItemClickListeners();
   }
   
   function loadMore() {
@@ -305,35 +307,61 @@ document.addEventListener('DOMContentLoaded', () => {
     if (displayedCount >= currentFilteredItems.length) return;
     
     isLoading = true;
-    const loadingMore = document.getElementById('loadingMore');
-    if (loadingMore) loadingMore.style.opacity = '0.5';
     
-    setTimeout(() => {
-      displayedCount = Math.min(displayedCount + BATCH_SIZE, currentFilteredItems.length);
-      renderList(false);
-      isLoading = false;
-      setupScrollObserver();
-    }, 100);
+    const previousCount = displayedCount;
+    displayedCount = Math.min(displayedCount + BATCH_SIZE, currentFilteredItems.length);
+    const newItems = currentFilteredItems.slice(previousCount, displayedCount);
+    
+    const listEl = output.querySelector('.rss-list');
+    if (listEl && newItems.length) {
+      listEl.insertAdjacentHTML('beforeend', newItems.map(buildItemHTML).join(''));
+      
+      const addedNodes = Array.from(listEl.children).slice(-newItems.length);
+      attachCheckboxListeners(addedNodes);
+      attachCopyButtons(addedNodes);
+      attachItemClickListeners(addedNodes);
+    }
+    
+    const loadingMore = document.getElementById('loadingMore');
+    if (loadingMore && displayedCount >= currentFilteredItems.length) {
+      loadingMore.remove();
+    }
+    
+    isLoading = false;
+
+    checkScrollPosition();
+  }
+
+  function checkScrollPosition() {
+    if (isLoading) return;
+    if (displayedCount >= currentFilteredItems.length) return;
+    
+    const distanceFromBottom =
+      document.documentElement.scrollHeight - (window.scrollY + window.innerHeight);
+    
+    if (distanceFromBottom < SCROLL_THRESHOLD_PX) {
+      loadMore();
+    }
+  }
+  
+  function onScrollOrResize() {
+    if (scrollTicking) return;
+    scrollTicking = true;
+    requestAnimationFrame(() => {
+      checkScrollPosition();
+      scrollTicking = false;
+    });
   }
   
   function setupScrollObserver() {
-    if (scrollSentinel) {
-      scrollSentinel.removeEventListener('click', loadMore);
-    }
-    scrollSentinel = document.getElementById('scrollSentinel');
-    if (scrollSentinel) {
-      const observer = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting && !isLoading && displayedCount < currentFilteredItems.length) {
-          loadMore();
-        }
-      }, { threshold: 0.1, rootMargin: '0px 0px 100px 0px' });
-      
-      observer.observe(scrollSentinel);
-    }
+    window.addEventListener('scroll', onScrollOrResize, { passive: true });
+    window.addEventListener('resize', onScrollOrResize, { passive: true });
+    checkScrollPosition();
   }
   
-  function attachItemClickListeners() {
-    document.querySelectorAll('.rss-item').forEach(item => {
+  function attachItemClickListeners(scope) {
+    const items = scope || document.querySelectorAll('.rss-item');
+    items.forEach(item => {
       item.removeEventListener('click', itemClickHandler);
       item.addEventListener('click', itemClickHandler);
     });
@@ -358,8 +386,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   
-  function attachCopyButtons() {
-    document.querySelectorAll('.copy-btn').forEach(btn => {
+  function attachCopyButtons(scope) {
+    const btns = scope
+      ? scope.flatMap(node => Array.from(node.querySelectorAll('.copy-btn')))
+      : document.querySelectorAll('.copy-btn');
+    btns.forEach(btn => {
       btn.removeEventListener('click', copyHandler);
       btn.addEventListener('click', copyHandler);
     });
@@ -376,8 +407,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   
-  function attachCheckboxListeners() {
-    document.querySelectorAll('.rss-checkbox').forEach(cb => {
+  function attachCheckboxListeners(scope) {
+    const checkboxes = scope
+      ? scope.flatMap(node => Array.from(node.querySelectorAll('.rss-checkbox')))
+      : document.querySelectorAll('.rss-checkbox');
+    checkboxes.forEach(cb => {
       cb.removeEventListener('change', onCheckboxChange);
       cb.addEventListener('change', onCheckboxChange);
     });
