@@ -22,9 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearSelectionBtn = document.getElementById('clearSelectionBtn');
   const exportBtn = document.getElementById('exportBtn');
   const selectedCountSpan = document.getElementById('selectedCount');
-
   const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-
   function setTheme(isLight) {
     if (isLight) {
       document.documentElement.classList.add('light-theme');
@@ -34,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('theme', 'dark');
     }
   }
-
   const initializeTheme = () => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'light') {

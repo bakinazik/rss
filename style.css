@@ -70,14 +70,14 @@ body {
 }
 
 .top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    flex-wrap: wrap;
-    position: sticky;
-    top: 0;
-    background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background: var(--bg-color);
 }
 
 .logo-area {
