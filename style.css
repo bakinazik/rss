@@ -697,7 +697,7 @@ a.btn.github-issue-btn:hover {
 
 @media (max-width: 668px) {
   .app-container {
-    padding: 0 16px;
+    padding: 0 16px 50px;
   }
 
   .top-bar {
