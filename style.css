@@ -556,13 +556,15 @@ input:not(:checked) + .slider .icon.sun {
 }
 
 .no-results {
-    text-align: center;
-    padding: 80px 20px;
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
 }
 
 .no-results svg {
