@@ -20,10 +20,12 @@ Eksik veya hatalı bir kaynak tespit edersen, pull request göndererek veya issu
     <th>Aydınlık Tema</th>
   </tr>
   <tr>
-    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/47c96d85-3f65-4049-a7fd-91214d95b330" style="width:100%;"/></a></td>
-    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/0d237683-51b2-44e0-83a2-0257feff083e" style="width:100%;"/></a></td>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/963e868b-e114-4769-a6d8-ae5fa06d1f9d" style="width:100%;"/></a></td>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/e36c0c16-985d-484f-bcf4-496abc21c1e1" style="width:100%;"/></a></td>
   </tr>
 </table>
+
+
 
 <br>
 
