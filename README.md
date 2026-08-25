@@ -38,20 +38,8 @@ Arama motoru olarak kullanabileceğin sorgu parametresi:
 
 Tarayıcına aşağıdaki eklentiyi kurup RSS bağlantısı aradığın siteyi ziyaret ederek bağlantı olup olmadığını kontrol edebilirsin. Eğer bulduğun bağlantı henüz buraya eklenmemişse, bir issue oluşturarak eklenmesini isteyebilirsin. Eklentiyi açık kaynak olarak geliştiriyorum; <a href="https://github.com/bakinazik/rssfinder">kaynak kodunu</a> buradan görüntüleyebilirsin.
 
-<table>
-  <tr>
-    <th>Gecko</th>
-    <th>Chromium</th>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://addons.mozilla.org/en/firefox/addon/rss-finder-bn/" target="_blank"><img width="200" src="https://raw.githubusercontent.com/bakinazik/rssfinder/refs/heads/main/dist/firefox-addons.webp" alt="Firefox Add-ons"></a>
-    </td>
-    <td>
-      <a href="https://chromewebstore.google.com/detail/rss-finder/neodhllmmmmhfohbkeapdencnhegflfm" target="_blank"><img width="200" src="https://raw.githubusercontent.com/bakinazik/rssfinder/refs/heads/main/dist/chrome-web-store.webp" alt="Chrome Web Store"></a>
-    </td>
-  </tr>
-</table>
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/neodhllmmmmhfohbkeapdencnhegflfm.svg)](https://chromewebstore.google.com/detail/rss-finder/neodhllmmmmhfohbkeapdencnhegflfm)
+[![Firefox Add-ons](https://img.shields.io/amo/v/rss-finder-bn.svg)](https://addons.mozilla.org/en-US/firefox/addon/rss-finder-bn/)
 
 <br>
 
