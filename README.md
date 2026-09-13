@@ -127,6 +127,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | LOG | https://www.log.com.tr/feed/ |
 | Megabayt | https://www.megabayt.com/rss/news |
 | NTV Teknoloji | https://www.ntv.com.tr/teknoloji.rss |
+| Patronlar Dünyası Teknoloji | https://www.patronlardunyasi.com/rss/teknoloji |
 | Samsung Newsroom Türkiye | https://news.samsung.com/tr/feed |
 | ShiftDelete | https://shiftdelete.net/feed |
 | Sihirli Elma | https://www.sihirlielma.com/feed/ |
@@ -148,6 +149,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Webmasto | https://webmasto.com/feed |
 | Webtekno | https://www.webtekno.com/rss.xml |
 | Webrazzi | https://webrazzi.com/feed |
+| Webrazzi Dijital | https://webrazzi.com/kategori/dijital/feed |
 | Webrazzi Teknoloji | https://webrazzi.com/kategori/teknoloji/feed |
 | Webrazzi Yapay Zeka | https://webrazzi.com/kategori/yapay-zeka/feed |
 
@@ -206,6 +208,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Edebi Bülten | https://edebibulten.com/feed/ |
 | Edebiyat Burada | https://edebiyatburada.com/feed/ |
 | Edebiyat Haber | https://www.edebiyathaber.net/feed/ |
+| EkoYapı Dergisi | https://www.ekoyapidergisi.org/feed/ |
 | Eventmag | https://eventmag.co/feed/ |
 | Fikir Turu | https://fikirturu.com/feed/ |
 | Kayıp Rıhtım Haftalık Kitap Önerisi | https://kayiprihtim.com/category/kayip-rihtim/kayip-rihtim-oneriyor/feed/ |
@@ -217,6 +220,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İşin Detayı Kültür Sanat | https://www.isindetayi.com/rss/kultur-sanat |
 | Manifold | https://manifold.press/rss |
 | Mesail | https://www.mesail.org/feed/ |
+| Mimarizm | https://www.mimarizm.com/RSS/Content.aspx |
 | Mitoloji | https://mitoloji.org.tr/feed/ |
 | Mürekkep Haber | https://www.murekkephaber.com/rss.xml |
 | Nouvart | https://www.nouvart.net/feed/ |
@@ -236,6 +240,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
 | AjansSpor | https://ajansspor.com/rss |
 | Basket Dergisi | https://basketdergisi.com/feed |
+| CNN Türk Spor | https://www.cnnturk.com/feed/rss/spor/news |
 | Duhuliye | https://www.duhuliye.com/rss |
 | Fotomaç | https://www.fotomac.com.tr/rss/anasayfa.xml |
 | Fotomaç Son 24 Saat | https://www.fotomac.com.tr/rss/son24saat.xml |
@@ -248,6 +253,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Fotomaç Basketbol | https://www.fotomac.com.tr/rss/Basketbol.xml |
 | Fotospor | https://www.fotospor.com/feed/rss_sondakika.xml |
 | Futboo | https://www.futboo.com/rss.xml |
+| Galatasaray | https://www.galatasaray.org/xml/gs.rss |
 | Kontraspor | https://kontraspor.com/rss |
 | NTV Spor Anasayfa | https://www.ntvspor.net/rss/anasayfa |
 | NTV Spor Basketbol | https://www.ntvspor.net/rss/kategori/basketbol |
@@ -267,6 +273,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Sözcü Futbol | https://www.sozcu.com.tr/feeds-rss-category-futbol |
 | Sözcü Spor | https://www.sozcu.com.tr/feeds-rss-category-spor |
 | Sözcü Voleybol | https://www.sozcu.com.tr/feeds-rss-category-voleybol |
+| TRT Spor | https://www.trthaber.com/spor_articles.rss |
 | Türkiyede ve Dünyada Golf | https://www.turkiyedevedunyadagolf.com.tr/feed/ |
 
 # Gündem
@@ -294,8 +301,10 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Bir Gazete | https://www.birgazete.com/feed |
 | BirGün | https://www.birgun.net/rss/home |
 | CNN Türk | https://www.cnnturk.com/feed/rss/all/news |
+| CNN Türk Dünya | https://www.cnnturk.com/feed/rss/dunya/news |
 | Cumhuriyet | https://www.cumhuriyet.com.tr/rss/son_dakika.xml |
 | CGTN Türk | https://www.cgtnturk.com/rss |
+| Daktilo1984 | https://daktilo1984.com/feed/ |
 | Demokrat Haber | https://www.demokrathaber.org/rss |
 | Diken | https://www.diken.com.tr/feed/ |
 | Diriliş Postası | https://www.dirilispostasi.com/rss |
@@ -319,12 +328,14 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Gazete.net | https://gazete.net/rss |
 | Gazete Pencere | https://www.gazetepencere.com/service/rss.php |
 | Gazete Zebra | https://www.gazetezebra.com.tr/rss |
+| GDH | https://gdhdijital.com/rss/tum.xml |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
 | Google News | https://news.google.com/rss?hl=tr&gl=TR&ceid=TR:tr |
 | GZT | https://www.gzt.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
 | Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
 | Haber | https://www.haber.com/rss |
+| HaberSitesi.org | https://habersitesi.org/rss.xml |
 | Haberler | https://rss.haberler.com/RssNew.aspx |
 | Haber Global | https://haberglobal.com.tr/rss |
 | Habertürk | https://www.haberturk.com/rss |
@@ -353,14 +364,17 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | KRT TV | https://www.krttv.com.tr/rss |
 | Lotus News | https://www.lotusnews.com.tr/rss |
 | Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
+| Medyascope | https://medyascope.tv/feed/ |
 | Medya Tilkisi | https://www.medyatilkisi.com.tr/rss |
 | Milli Gazete | https://www.milligazete.com.tr/rss |
+| Milliyet | https://www.milliyet.com.tr/rss/rssnew/sondakikarss.xml |
 | Mynet | https://www.mynet.com/haber/rss/sondakika |
 | Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
 | NewsLab Turkey | https://www.newslabturkey.org/feed/ |
 | Notbir | https://notbir.com.tr/rss.xml |
 | NTV | https://www.ntv.com.tr/gundem.rss |
 | OdaTV | https://www.odatv.com/rss.xml |
+| Özgün Manşet | https://www.ozgunmanset.com/rss/guncel |
 | Perspektif | https://www.perspektif.online/feed/ |
 | Polemik Haber | https://www.polemikhaber.com/rss |
 | Radikal | https://www.radikal.com.tr/feed/ |
@@ -386,6 +400,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | soL Haber | https://haber.sol.org.tr/rss.xml |
 | Sputnik | https://anlatilaninotesi.com.tr/export/rss2/archive/index.xml |
 | Star | https://www.star.com.tr/rss/rss.asp |
+| Takvim | https://www.takvim.com.tr/rss/son24saat.xml |
 | TamgaTürk | https://www.tamgaturk.com/rss.xml |
 | Teyit | https://teyit.org/feed?lang=tr |
 | Tele1 | https://www.tele1.com.tr/rss |
@@ -394,8 +409,10 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Türkiye Gazetesi | https://www.turkiyegazetesi.com.tr/feed |
 | Türkgün | https://www.turkgun.com/rss/news |
 | TürkInform  | https://turkinform.com.tr/rss |
+| TRT Dünya | https://www.trthaber.com/dunya_articles.rss |
 | TRT Haber | https://www.trthaber.com/sondakika.rss |
 | TGRT Haber | https://www.tgrthaber.com/rss/manset |
+| Ulus Gazetesi | https://www.ulusgazetesi.com/rss.xml |
 | Ulusal Kanal | https://www.ulusal.com.tr/rss |
 | Ulusal Post | https://www.ulusalpost.com/service/rss.php |
 | Uyan32 | https://www.uyan32.com/rss |
@@ -407,6 +424,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Yeni Yaşam Gazetesi | https://yeniyasamgazetesi9.com/feed/ |
 | Yaşadıkça | https://yasadikca.com/feed/ |
 | Yeşil Gazete | https://yesilgazete.org/feed/ |
+| Yetkin Report | https://yetkinreport.com/feed/ |
 | Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
 | Yurtsever | https://yurtsever.org.tr/feed |
 
@@ -429,10 +447,12 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Bloomberg HT | https://www.bloomberght.com/rss |
 | Bigpara | https://bigpara.hurriyet.com.tr/rss/ |
 | CNBC-e | https://www.cnbce.com/rss |
+| CNN Türk Ekonomi | https://www.cnnturk.com/feed/rss/ekonomi/news |
 | Döviz | https://www.doviz.com/news/rss |
 | Ekonomi Gazetesi | https://www.ekonomigazetesi.com/rss.xml |
 | Forbes Türkiye | https://www.forbes.com.tr/rss |
 | Foreks | https://www.foreks.com/rss/ |
+| Habertürk Ekonomi | https://www.haberturk.com/rss/ekonomi.xml |
 | Investing Genel | https://tr.investing.com/rss/market_overview.rss |
 | Investing Kripto | https://tr.investing.com/rss/302.rss |
 | Investing Döviz | https://tr.investing.com/rss/forex.rss |
@@ -442,12 +462,17 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Investing Haberler | https://tr.investing.com/rss/news.rss |
 | NTV Para | https://www.ntv.com.tr/ntvpara.rss |
 | NTV Ekonomi | https://www.ntv.com.tr/ekonomi.rss |
+| Para Dergi Finans | https://www.paradergi.com.tr/rss/finans.xml |
+| Patronlar Dünyası Ekonomi | https://www.patronlardunyasi.com/rss/ekonomi |
+| Patronlar Dünyası Finans | https://www.patronlardunyasi.com/rss/finans |
 | Sözcü Borsa | https://www.sozcu.com.tr/feeds-rss-category-borsa |
 | Sözcü Ekonomi | https://www.sozcu.com.tr/feeds-rss-category-ekonomi |
 | Sözcü Emlak | https://www.sozcu.com.tr/feeds-rss-category-emlak |
 | Sözcü Emtia | https://www.sozcu.com.tr/feeds-rss-category-emtia |
 | Sözcü Finans | https://www.sozcu.com.tr/feeds-rss-category-finans |
 | Sözcü Kripto | https://www.sozcu.com.tr/feeds-rss-category-kripto |
+| TRT Ekonomi | https://www.trthaber.com/ekonomi_articles.rss |
+| Ulus Gazetesi Ekonomi | https://www.ulusgazetesi.com/rss/ekonomi.xml |
 
 # İş Dünyası
 
@@ -468,7 +493,11 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İşin Detayı Şirket Haberleri | https://www.isindetayi.com/rss/sirket-haberleri |
 | Midas | https://www.getmidas.com/feed/ |
 | Mynet Finans | https://www.mynet.com/rss/publisher-finans.rss |
+| Para Dergi | https://www.paradergi.com.tr/rss/anasayfa.xml |
+| Para Dergi Girişimcilik | https://www.paradergi.com.tr/rss/girisimcilik.xml |
+| Para Dergi İş Dünyası Kulis | https://www.paradergi.com.tr/rss/is-dunyasi-kulis.xml |
 | Paranın Yönü | https://www.paraninyonu.com.tr/rss.xml |
+| Patronlar Dünyası Patronlar | https://www.patronlardunyasi.com/rss/patronlar |
 | Webrazzi Yatırım | https://webrazzi.com/kategori/yatirim/feed |
 
 # Yaşam
@@ -497,3 +526,4 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Uplifers | https://www.uplifers.com/feed/ |
 | PlumeMag | https://www.plumemag.com/feed/ |
 | Trendus | https://www.trendus.com/feed |
+| TRT Yaşam | https://www.trthaber.com/yasam_articles.rss |
