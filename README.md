@@ -93,6 +93,9 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Bilim ve Gelecek | https://bilimvegelecek.com.tr/index.php/feed/ |
 | Bilimoloji | https://www.bilimoloji.com/feed/ |
 | Bilimup | https://www.bilimup.com/rss.xml |
+| Euronews Çevre | https://tr.euronews.com/rss?level=theme&name=earth-news |
+| Euronews Doğa | https://tr.euronews.com/rss?level=theme&name=nature |
+| Euronews Su | https://tr.euronews.com/rss?level=theme&name=water |
 | Evrim Ağacı | https://evrimagaci.org/rss.xml |
 | Tarihli Bilim | https://www.tarihlibilim.com/feed/ |
 | Tarihten Yazılar | https://tarihtenyazilar.com/feed/ |
@@ -209,6 +212,10 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Edebiyat Burada | https://edebiyatburada.com/feed/ |
 | Edebiyat Haber | https://www.edebiyathaber.net/feed/ |
 | EkoYapı Dergisi | https://www.ekoyapidergisi.org/feed/ |
+| Euronews Kültür | https://tr.euronews.com/rss?level=vertical&name=culture |
+| Euronews Kültür Haberleri | https://tr.euronews.com/rss?level=theme&name=culture-news |
+| Euronews Sanat | https://tr.euronews.com/rss?level=theme&name=art |
+| Euronews Tasarım | https://tr.euronews.com/rss?level=theme&name=design |
 | Eventmag | https://eventmag.co/feed/ |
 | Fikir Turu | https://fikirturu.com/feed/ |
 | Kayıp Rıhtım Haftalık Kitap Önerisi | https://kayiprihtim.com/category/kayip-rihtim/kayip-rihtim-oneriyor/feed/ |
@@ -320,6 +327,9 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Ekonomim | https://www.ekonomim.com/export/rss |
 | Ekol TV | https://www.ekoltv.com.tr/service/rss.php |
 | En Son Haber | https://www.ensonhaber.com/rss/ensonhaber.xml |
+| Euronews | https://tr.euronews.com/rss |
+| Euronews Haberler | https://tr.euronews.com/rss?level=vertical&name=news |
+| Euronews My Europe | https://tr.euronews.com/rss?level=vertical&name=my-europe |
 | Evrensel | https://www.evrensel.net/rss/haber.xml |
 | F5 Haber | https://www.f5haber.com/export/rss |
 | Fayn | https://www.fayn.press/rss/ |
@@ -450,6 +460,8 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | CNN Türk Ekonomi | https://www.cnnturk.com/feed/rss/ekonomi/news |
 | Döviz | https://www.doviz.com/news/rss |
 | Ekonomi Gazetesi | https://www.ekonomigazetesi.com/rss.xml |
+| Euronews Ekonomi | https://tr.euronews.com/rss?level=theme&name=economy |
+| Euronews Piyasalar | https://tr.euronews.com/rss?level=theme&name=markets |
 | Forbes Türkiye | https://www.forbes.com.tr/rss |
 | Foreks | https://www.foreks.com/rss/ |
 | Habertürk Ekonomi | https://www.haberturk.com/rss/ekonomi.xml |
@@ -480,6 +492,8 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 |:-------- | -----------:|
 | Borsanın Gündemi | https://www.borsaningundemi.com/rss |
 | Capital | https://www.capital.com.tr/rss/all |
+| Euronews Business | https://tr.euronews.com/rss?level=theme&name=business |
+| Euronews İş Dünyası | https://tr.euronews.com/rss?level=vertical&name=business |
 | Finans Gündem | https://www.finansingundemi.com/rss |
 | Halka Arz | https://halkarz.com/feed/ |
 | INC Türkiye | https://incturkiye.com/story-feeds |
@@ -508,6 +522,12 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | DMAX Blog | https://www.dmax.com.tr/feed/blog |
 | Elle Türkiye | https://www.elle.com.tr/rss |
 | Elele | https://www.elele.com.tr/export/rss |
+| Euronews Beslenme | https://tr.euronews.com/rss?level=theme&name=nutrition |
+| Euronews Sağlık Haberleri | https://tr.euronews.com/rss?level=theme&name=health-news |
+| Euronews Sağlık Hizmetleri | https://tr.euronews.com/rss?level=theme&name=healthcare |
+| Euronews Sağlıklı Yaşam | https://tr.euronews.com/rss?level=theme&name=wellbeing |
+| Euronews Seyahat | https://tr.euronews.com/rss?level=vertical&name=travel |
+| Euronews Yemek ve İçecek | https://tr.euronews.com/rss?level=theme&name=food-and-drink |
 | İşin Detayı Gastronomi | https://www.isindetayi.com/rss/gastronomi |
 | Gardırop Magazin | https://www.gardiropmagazin.com/feed/ |
 | Güzellik Yayında | https://guzellikyayinda.com/feed/ |
