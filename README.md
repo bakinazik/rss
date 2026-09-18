@@ -197,6 +197,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 |:-------- | -----------:|
 | 10layn | https://10layn.com/feed/ |
 | 2yaka | https://2yaka.org/feed/ |
+| 5Harfliler | https://www.5harfliler.com/feed/ |
 | Artdog | https://artdogistanbul.com/feed/ |
 | Artkolik | https://www.artkolik.net/feed |
 | Argonotlar | https://argonotlar.com/feed/ |
@@ -427,6 +428,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Ulusal Post | https://www.ulusalpost.com/service/rss.php |
 | Uyan32 | https://www.uyan32.com/rss |
 | Veryansın TV | https://www.veryansintv.com/feed |
+| VOA Türkçe | https://www.voaturkce.com/api/ |
 | Yeni Akit | https://www.yeniakit.com.tr/rss/haber/gundem |
 | Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
 | Yeniçağ Gazetesi | https://www.yenicaggazetesi.com.tr/service/rss.php |
@@ -460,10 +462,12 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | CNN Türk Ekonomi | https://www.cnnturk.com/feed/rss/ekonomi/news |
 | Döviz | https://www.doviz.com/news/rss |
 | Ekonomi Gazetesi | https://www.ekonomigazetesi.com/rss.xml |
+| Ekonomist | https://www.ekonomist.com.tr/rss |
 | Euronews Ekonomi | https://tr.euronews.com/rss?level=theme&name=economy |
 | Euronews Piyasalar | https://tr.euronews.com/rss?level=theme&name=markets |
 | Forbes Türkiye | https://www.forbes.com.tr/rss |
 | Foreks | https://www.foreks.com/rss/ |
+| Fortune Türkiye | https://www.fortuneturkey.com/feed |
 | Habertürk Ekonomi | https://www.haberturk.com/rss/ekonomi.xml |
 | Investing Genel | https://tr.investing.com/rss/market_overview.rss |
 | Investing Kripto | https://tr.investing.com/rss/302.rss |
@@ -531,6 +535,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İşin Detayı Gastronomi | https://www.isindetayi.com/rss/gastronomi |
 | Gardırop Magazin | https://www.gardiropmagazin.com/feed/ |
 | Güzellik Yayında | https://guzellikyayinda.com/feed/ |
+| Harper's Bazaar Türkiye | https://www.harpersbazaar.com.tr/feed/ |
 | İşin Detayı Moda | https://www.isindetayi.com/rss/moda |
 | İşin Detayı Sağlık | https://www.isindetayi.com/rss/saglik |
 | İşin Detayı Turizm | https://www.isindetayi.com/rss/turizm |
