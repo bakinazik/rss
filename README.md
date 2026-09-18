@@ -186,6 +186,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Öteki Sinema | https://www.otekisinema.com/feed/ |
 | Sofos | https://blog.sofos.com.tr/feed/ |
 | Sinetopya | https://sinetopya.com/rss/ |
+| Taraftar Haber | https://taraftarhaber.com.tr/rss.xml |
 | The Geyik | https://www.thegeyik.com/feed/ |
 | Tourens | https://tourens.com/feed/ |
 | Turkmmo | https://www.turkmmo.com/feed |
@@ -292,6 +293,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | ABC Haber | https://abcgazetesi.com.tr/rss |
 | A Haber | https://www.ahaber.com.tr/rss/gundem.xml |
 | Açık Gazete | https://www.acikgazete.com/feed/ |
+| Açıksöz | https://www.aciksoz.com.tr/rss |
 | Akşam | https://www.aksam.com.tr/rss/rss.asp |
 | Al Ain Türkçe | https://tr.al-ain.com/feed |
 | Anadolu Ajansı | https://www.aa.com.tr/tr/rss/default?cat=guncel |
@@ -308,6 +310,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Bianet | https://bianet.org/biamag.rss |
 | Bir Gazete | https://www.birgazete.com/feed |
 | BirGün | https://www.birgun.net/rss/home |
+| Bursa'da Bugün | https://www.bursadabugun.com/rss/?feed=haberler |
 | CNN Türk | https://www.cnnturk.com/feed/rss/all/news |
 | CNN Türk Dünya | https://www.cnnturk.com/feed/rss/dunya/news |
 | Cumhuriyet | https://www.cumhuriyet.com.tr/rss/son_dakika.xml |
@@ -323,6 +326,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Dokuz8 Haber | https://dokuz8haber.net/rss.xml |
 | Dünya | https://www.dunya.com/rss?dunya |
 | DW Haber | https://rss.dw.com/rdf/rss-tur-all |
+| Ege Haber | https://www.egehaber.com/rss |
 | En Politik | https://www.enpolitik.com/rss.xml |
 | Elips Haber | https://www.elipshaber.com/rss |
 | Ekonomim | https://www.ekonomim.com/export/rss |
@@ -342,6 +346,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | GDH | https://gdhdijital.com/rss/tum.xml |
 | Gerçek Gündem | https://www.gercekgundem.com/rss |
 | Google News | https://news.google.com/rss?hl=tr&gl=TR&ceid=TR:tr |
+| Gündem Kıbrıs | https://www.gundemkibris.com/rss |
 | GZT | https://www.gzt.com/rss |
 | Haber 3 | https://www.haber3.com/rss |
 | Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
@@ -361,7 +366,9 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | İklim Haber | https://www.iklimhaber.org/feed/ |
 | Independent Türkçe | https://www.indyturk.com/rss.xml |
 | IRNA Türkçe | https://tr.irna.ir/rss |
+| İnegöl Online | https://www.e-inegol.com/rss-baglantilari/rss.xml |
 | İnternet Haber | https://www.internethaber.com/rss |
+| İstanbul Times | https://www.istanbultimes.com.tr/rss |
 | İstiklal | https://www.istiklal.com.tr/service/rss.php |
 | İşin Detayı | https://www.isindetayi.com/rss/gundem |
 | İşçi Haber | https://www.iscihaber.net/rss/news |
@@ -370,8 +377,10 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Kagi | https://news.kagi.com/world_tr.xml |
 | Karar | https://www.karar.com/service/rss.php |
 | Kamudan Haber | https://www.kamudanhaber.net/rss |
+| Kıbrıs Gazetesi | https://kibrisgazetesi.com.tr/rss.xml |
 | Kısa Dalga | https://kisadalga.net/service/rss.php |
 | Korkusuz | https://www.korkusuz.com.tr/feeds/rss |
+| Kronos | https://kronos41.news/feed/ |
 | KRT TV | https://www.krttv.com.tr/rss |
 | Lotus News | https://www.lotusnews.com.tr/rss |
 | Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
@@ -381,6 +390,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Milliyet | https://www.milliyet.com.tr/rss/rssnew/sondakikarss.xml |
 | Mynet | https://www.mynet.com/haber/rss/sondakika |
 | Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
+| Ne Haber Kıbrıs | https://www.nehaberkibris.com/rss/genel-0 |
 | NewsLab Turkey | https://www.newslabturkey.org/feed/ |
 | Notbir | https://notbir.com.tr/rss.xml |
 | NTV | https://www.ntv.com.tr/gundem.rss |
@@ -391,6 +401,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | Radikal | https://www.radikal.com.tr/feed/ |
 | Sabah | https://www.sabah.com.tr/rss/gundem.xml |
 | Serbestiyet | https://serbestiyet.com/feed/ |
+| Son Dakika | https://rss.sondakika.com/rssnew.aspx |
 | Sözcü | https://www.sozcu.com.tr/feeds-rss-category-sozcu |
 | Sözcü Astroloji | https://www.sozcu.com.tr/feeds-rss-category-astroloji |
 | Sözcü Bilim ve Teknoloji | https://www.sozcu.com.tr/feeds-rss-category-bilim-teknoloji |
@@ -431,6 +442,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 | VOA Türkçe | https://www.voaturkce.com/api/ |
 | Yeni Akit | https://www.yeniakit.com.tr/rss/haber/gundem |
 | Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
+| Yenice İda | https://yeniceida.com/rss |
 | Yeniçağ Gazetesi | https://www.yenicaggazetesi.com.tr/service/rss.php |
 | Yeni Şafak | https://www.yenisafak.com/rss?xml=gundem |
 | Yeni Yaşam Gazetesi | https://yeniyasamgazetesi9.com/feed/ |
@@ -446,6 +458,7 @@ RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştı
 |:-------- | -----------:|
 | C4 Defence | https://www.c4defence.com/tr/feed/ |
 | DefenceTurk | https://www.defenceturk.net/feed |
+| Defence Turkey | https://defenceturkey.com/rss.xml |
 | Mavi Savunma | https://mavisavunma.com/feed/ |
 | Sanayi Gazetesi | https://sanayigazetesi.com.tr/kategori/savunma-haberleri/feed/ |
 | Savunma Sanayi Gazetesi | https://savunmasanayigazetesi.com.tr/feed/ |
