@@ -1,0 +1,567 @@
+# Merhaba!
+
+Bu rehber, Türkçe RSS kaynaklarını bir araya getirip kendi akışını oluşturmanı kolaylaştırmak için hazırlandı. Kategorilerdeki kaynakları inceleyebilir veya aşağıya eklenen araçları kullanarak henüz buraya eklenmemiş sitelerin RSS bağlantılarını bulabilirsin. Seçtiğin kaynakları önerilen okuyucu uygulamalarına ekleyerek tüm içerikleri tek bir yerden, düzenli bir şekilde takip etmeye başlayabilirsin.
+
+<br>
+
+# RSS Bağlantıları
+
+Eksik veya hatalı bir kaynak tespit edersen, pull request göndererek veya issue oluşturarak bildirebilirsin. README.md dosyasına eklenen kaynaklar, site üzerinde eşzamanlı olarak görüntülenir.
+
+<br>
+
+<b>Web arayüzü:</b> <a href="https://bakinazik.github.io/rss/" target="_blank">https://bakinazik.github.io/rss/</a>
+
+<br>
+
+<table style="width:100%;">
+  <tr>
+    <th>Karanlık Tema</th>
+    <th>Aydınlık Tema</th>
+  </tr>
+  <tr>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/963e868b-e114-4769-a6d8-ae5fa06d1f9d" style="width:100%;"/></a></td>
+    <td style="width:50%;"><a href="https://bakinazik.github.io/rss/" target="_blank"><img src="https://github.com/user-attachments/assets/e36c0c16-985d-484f-bcf4-496abc21c1e1" style="width:100%;"/></a></td>
+  </tr>
+</table>
+
+
+
+<br>
+
+Arama motoru olarak kullanabileceğin sorgu parametresi:
+<pre><code>https://bakinazik.github.io/rss/?q=<b>%s</b></code></pre>
+
+<br>
+
+# Aradığın bağlantıyı bulamadın mı?
+
+Tarayıcına aşağıdaki eklentiyi kurup RSS bağlantısı aradığın siteyi ziyaret ederek bağlantı olup olmadığını kontrol edebilirsin. Eğer bulduğun bağlantı henüz buraya eklenmemişse, bir issue oluşturarak eklenmesini isteyebilirsin. Eklentiyi açık kaynak olarak geliştiriyorum; <a href="https://github.com/bakinazik/rssfinder">kaynak kodunu</a> buradan görüntüleyebilirsin.
+
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/neodhllmmmmhfohbkeapdencnhegflfm.svg)](https://chromewebstore.google.com/detail/rss-finder/neodhllmmmmhfohbkeapdencnhegflfm)
+[![Firefox Add-ons](https://img.shields.io/amo/v/rss-finder-bn.svg)](https://addons.mozilla.org/en-US/firefox/addon/rss-finder-bn/)
+
+<br>
+
+## Kullandığın tarayıcıda eklenti desteği yok mu?
+
+RSS bağlantısını aradığın sitenin adresini aşağıdaki siteye yapıştırarak sorgulama yapabilirsin.
+
+İlgili site: <a href="https://rssfinder.app" target="_blank">https://rssfinder.app</a>
+
+<br>
+<br>
+
+# Okuyucu Önerileri
+
+| Simge | Ad | Platform | Kaynak | Destek |
+|-------|----|----------|--------|--------|
+| <img width="50" src="https://play-lh.googleusercontent.com/Gp28DLRkbeD6Hp7eHmKVRRPtUhvDT9nW8dFCi5BrW8RmjHG6AFdV8Ve2i4XmKYwxFFE=w480-h960-rw"> | Aggregator News | <a href="https://play.google.com/store/apps/details?id=com.and96.aggregator_news"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | Kapalı kaynak | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/6CMltjANQil8LRSbY3O5jLRp4TdEmwo2vNkfaxA_X3awW3jeJh9javH_nBEAu_JGfK8=w480-h960-rw"> | Capy Reader | <a href="https://play.google.com/store/apps/details?id=com.capyreader.app"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | <a href="https://github.com/jocmp/capyreader">Açık kaynak</a> | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/4dvr7Fx_rm3jAfyhbB22IZsV9vhOk20d0cblT6ru_2ktwjpOzdbULgpGFoGpn_SIjUo=w480-h960-rw"> | Feeder | <a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | <a href="https://github.com/spacecowboy/feeder">Açık kaynak</a> | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/_9X-aO8LYAkd39dSFlTnXC9tPj3GlnVwsSalPCFfTDEVYEqw2eKIQKf7d1oEHJ-r6yuCmpctd8RNQG_Fe0d_wA=w480-h960-rw"> | FeedFlow | <a href="https://play.google.com/store/apps/details?id=com.prof18.feedflow"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/tr/app/feedflow-rss-feed-reader/id6447210518"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> <a href="https://apps.microsoft.com/detail/9n5t1rfbb6v5"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/microsoft-store.webp"></a> | <a href="https://github.com/prof18/feed-flow">Açık kaynak</a> | Android, iOS, macOS, Windows, Linux |
+| <img width="50" src="https://gitlab.com/uploads/-/system/project/avatar/24697319/rect1179.png?width=96"> | Nunti | <a href="https://gitlab.com/ondrejfoltyn/nunti/-/releases"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/gitlab.webp"></a> | <a href="https://gitlab.com/ondrejfoltyn/nunti/">Açık kaynak</a> | Android |
+| <img width="50" src="https://raw.githubusercontent.com/ReadYouApp/ReadYou/main/fastlane/metadata/android/en-US/images/icon.png"> | Read You | <a href="https://github.com/ReadYouApp/ReadYou/releases"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/github.webp"></a> | <a href="https://github.com/ReadYouApp/ReadYou">Açık kaynak</a> | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/h15MkBT42WxIGUabI-GQssU45NKEGrev01N4VQJ7fF88GmG007sZJq4rr2SSTc3cWpSdaNCprvdwDQNrKU0GHA=w480-h960-rw"> | SmartRSS | <a href="https://play.google.com/store/apps/details?id=com.vinsonguo.flutter_rss_reader"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/tr/app/smartrss-rss-reader-podcast/id6749771900"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> | Kapalı kaynak | Android, iOS |
+| <img width="50" src="https://play-lh.googleusercontent.com/KOLyXjVcTErHWnpJCSV6Bh7LPF8TvJxBnTCY5z7uZOnAXnpoIT1cLb69f29S16Vepgg=w480-h960-rw"> | StreamSphere | <a href="https://play.google.com/store/apps/details?id=com.niviva.rssreader.streamsphere"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> | Kapalı kaynak | Android |
+| <img width="50" src="https://play-lh.googleusercontent.com/xaFaXZ-axF22w9HzRIm3kANddTGP5M9a2n0B_IxSgJEzYz7lQml5BX-YH9goiBpYBxAeks2Bp6zlYinDFKFr4Q=w480-h960-rw"> | Twine | <a href="https://play.google.com/store/apps/details?id=dev.sasikanth.rss.reader"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/tr/app/twine-smart-rss-news-reader/id6465694958"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> | <a href="https://github.com/msasikanth/twine">Açık kaynak</a> | Android, iOS |
+| <img width="50" src="https://play-lh.googleusercontent.com/62JxeJsAbE5MbNKzmo6JgymzkH5eUpUmWvg2i7THpK1ke1ieuWstpG7TsGUWv9ucSrY=w480-h960-rw"> | Your News | <a href="https://play.google.com/store/apps/details?id=com.your_news"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/google-play.webp"></a> <a href="https://apps.apple.com/us/app/rss-reader-your-news/id6744372214"><img height="60" src="https://raw.githubusercontent.com/bakinazik/rss/refs/heads/main/dist/store/app-store.webp"></a> | Kapalı kaynak | Android, iOS |
+
+<br>
+
+**Kategoriler:** 
+- [Bilim](#bilim)
+- [Teknoloji](#teknoloji)
+- [Eğlence](#eğlence)
+- [Kültür ve Sanat](#kültür-ve-sanat)
+- [Spor](#spor)
+- [Gündem](#gündem)
+- [Savunma ve Sanayi](#savunma-ve-sanayi)
+- [Ekonomi ve Finans](#ekonomi-ve-finans)
+- [İş Dünyası](#iş-dünyası)
+- [Yaşam](#yaşam)
+
+<br>
+
+# Bilim
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| 2N Haber Bilim | https://2nhaber.com/category/neden/feed/ |
+| Arkeofili | https://arkeofili.com/feed/ |
+| Beyinsizler | https://beyinsizler.net/feed/ |
+| Bilim ve Gelecek | https://bilimvegelecek.com.tr/index.php/feed/ |
+| Bilimoloji | https://www.bilimoloji.com/feed/ |
+| Bilimup | https://www.bilimup.com/rss.xml |
+| Euronews Çevre | https://tr.euronews.com/rss?level=theme&name=earth-news |
+| Euronews Doğa | https://tr.euronews.com/rss?level=theme&name=nature |
+| Euronews Su | https://tr.euronews.com/rss?level=theme&name=water |
+| Evrim Ağacı | https://evrimagaci.org/rss.xml |
+| Tarihli Bilim | https://www.tarihlibilim.com/feed/ |
+| Tarihten Yazılar | https://tarihtenyazilar.com/feed/ |
+| Gerçek Bilim | https://www.gercekbilim.com/feed/ |
+| Gelecek Bilimde | https://gelecekbilimde.net/feed/ |
+| Herkese Bilim Teknoloji | https://www.herkesebilimteknoloji.com/feed |
+| Independent Bilim | https://www.indyturk.com/taxonomy/term/48791/%2A/feed |
+| Kozmik Anafor | https://www.kozmikanafor.com/feed/ |
+| Matematiksel | https://www.matematiksel.org/feed |
+| Moletik | https://moletik.com/feed/ |
+| Sarkaç | https://sarkac.org/feed/ |
+
+# Teknoloji
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| 2N Haber Teknoloji | https://2nhaber.com/category/nasil/feed/ |
+| Beetekno | https://www.beetekno.com/feed/posts |
+| Campaign Türkiye | https://www.campaigntr.com/feed/ |
+| CHIP Online | https://www.chip.com.tr/rss |
+| ÇözümPark | https://www.cozumpark.com/feed/ |
+| Dijitaliyidir | https://dijitaliyidir.com/feed/ |
+| Digital Report | https://digitalreport.com.tr/feed/ |
+| Donanım Haber | https://www.donanimhaber.com/rss/tum/ |
+| Donanım Günlüğü | https://donanimgunlugu.com/feed |
+| FounderN | https://foundern.com/feed/ |
+| Geç Bunları | https://gecbunlari.com/feed/ |
+| Hangisi Alınmalı | https://hangisialinmali.com/feed/ |
+| Hardware Plus | https://hwp.com.tr/feed |
+| Investing Teknoloji | https://tr.investing.com/rss/news_288.rss |
+| İndir | https://www.indir.com/haber/feed/ |
+| LOG | https://www.log.com.tr/feed/ |
+| Megabayt | https://www.megabayt.com/rss/news |
+| NTV Teknoloji | https://www.ntv.com.tr/teknoloji.rss |
+| Patronlar Dünyası Teknoloji | https://www.patronlardunyasi.com/rss/teknoloji |
+| Samsung Newsroom Türkiye | https://news.samsung.com/tr/feed |
+| ShiftDelete | https://shiftdelete.net/feed |
+| Sihirli Elma | https://www.sihirlielma.com/feed/ |
+| Sordum | https://www.sordum.net/feed/ |
+| Swipeline | https://swipeline.co/feed/ |
+| Tech Dergi | https://www.techdergi.net/feed/ |
+| Techolay | https://techolay.net/feed/ |
+| Technopat | https://www.technopat.net/feed/ |
+| TechTurco | https://www.techturco.com/rss |
+| Teknoblog | https://www.teknoblog.com/feed/ |
+| TeknoBurada | https://www.teknoburada.net/feed/ |
+| Teknodiot | https://teknodiot.com/feed/ |
+| Teknolojioku | https://www.teknolojioku.com/export/rss |
+| Teloji | https://teloji.com/feed/ |
+| Tam İndir | https://feeds.feedburner.com/tamindir/stream |
+| Türk İnternet | https://turk-internet.com/feed/ |
+| Upcorn | https://upcorn.co/feed/ |
+| VoiceTekno | https://voicetekno.com/feed/ |
+| Webmasto | https://webmasto.com/feed |
+| Webtekno | https://www.webtekno.com/rss.xml |
+| Webrazzi | https://webrazzi.com/feed |
+| Webrazzi Dijital | https://webrazzi.com/kategori/dijital/feed |
+| Webrazzi Teknoloji | https://webrazzi.com/kategori/teknoloji/feed |
+| Webrazzi Yapay Zeka | https://webrazzi.com/kategori/yapay-zeka/feed |
+
+# Eğlence
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| 22 Dakika | https://22dakika.org/feed/ |
+| Atarita | https://www.atarita.com/feed/ |
+| Altyazı | https://altyazi.net/feed/ |
+| Bağımsız Sinema | https://www.bagimsizsinema.com/feed |
+| Beyaz Perde | https://www.beyazperde.com/rss/haberler.xml |
+| Bigumigu | https://bigumigu.com/feed/ |
+| Bilimkurgu Kulübü | https://www.bilimkurgukulubu.com/feed/ |
+| Ekşi Şeyler | https://news.google.com/rss/search?q=site:eksiseyler.com+when:7d&hl=tr&gl=TR&ceid=TR:tr |
+| Fanzade | https://fanzade.com/feed/ |
+| Fantastik Canavarlar | https://fantastikcanavarlar.com/feed/ |
+| FRPNET | https://frpnet.net/feed |
+| Geekyapar | https://geekyapar.com/feed/ |
+| IGN Türkiye | https://tr.ign.com/feed.xml |
+| Kayıp Rıhtım | https://kayiprihtim.com/feed/ |
+| Keşif Asya | https://kesifasya.com/feed/ |
+| ListeList | https://listelist.com/feed/ |
+| Marjinal Sinema | https://marjinalsinema.com/feed/ |
+| Merlin'in Kazanı | https://www.merlininkazani.com/feed/ |
+| Mister Noob | https://www.misternoob.com/feed/ |
+| Mixmag Turkey | https://mixmag.com.tr/rss.xml |
+| Mobidictum | https://mobidictum.com/tr/feed/ |
+| Onedio | https://onedio.com/Publisher/publisher-daily.rss |
+| Oyungezer | https://oyungezer.com.tr/rss |
+| Öteki Sinema | https://www.otekisinema.com/feed/ |
+| Sofos | https://blog.sofos.com.tr/feed/ |
+| Sinetopya | https://sinetopya.com/rss/ |
+| Taraftar Haber | https://taraftarhaber.com.tr/rss.xml |
+| The Geyik | https://www.thegeyik.com/feed/ |
+| Tourens | https://tourens.com/feed/ |
+| Turkmmo | https://www.turkmmo.com/feed |
+| Turuncu Levye | https://www.turunculevye.com/feed/ |
+
+# Kültür ve Sanat
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| 10layn | https://10layn.com/feed/ |
+| 2yaka | https://2yaka.org/feed/ |
+| 5Harfliler | https://www.5harfliler.com/feed/ |
+| Artdog | https://artdogistanbul.com/feed/ |
+| Artkolik | https://www.artkolik.net/feed |
+| Argonotlar | https://argonotlar.com/feed/ |
+| Arkitera | https://www.arkitera.com/feed/ |
+| Bant Mag | https://bantmag.com/feed/ |
+| Binbir Kitap | https://binbirkitap.net/feed/ |
+| Bir Baba Indie | https://www.birbabaindie.com/feed/ |
+| Cafrande | https://www.cafrande.org/feed/ |
+| Cazkolik | https://cazkolik.com/rss.xml |
+| Çekiçle Felsefe | https://cekiclefelsefe.com/feed/ |
+| DeliKasap | https://www.delikasap.org/feed/ |
+| Edebi Bülten | https://edebibulten.com/feed/ |
+| Edebiyat Burada | https://edebiyatburada.com/feed/ |
+| Edebiyat Haber | https://www.edebiyathaber.net/feed/ |
+| EkoYapı Dergisi | https://www.ekoyapidergisi.org/feed/ |
+| Euronews Kültür | https://tr.euronews.com/rss?level=vertical&name=culture |
+| Euronews Kültür Haberleri | https://tr.euronews.com/rss?level=theme&name=culture-news |
+| Euronews Sanat | https://tr.euronews.com/rss?level=theme&name=art |
+| Euronews Tasarım | https://tr.euronews.com/rss?level=theme&name=design |
+| Eventmag | https://eventmag.co/feed/ |
+| Fikir Turu | https://fikirturu.com/feed/ |
+| Kayıp Rıhtım Haftalık Kitap Önerisi | https://kayiprihtim.com/category/kayip-rihtim/kayip-rihtim-oneriyor/feed/ |
+| Kilikya Dergisi | https://dergipark.org.tr/tr/pub/kilikya/rss/lastissue/tr |
+| Kitap Haber | https://www.kitaphaber.com.tr/feed |
+| Görünüm Dergisi | https://dergipark.org.tr/tr/pub/gorunum/rss/lastissue/tr |
+| Gazete Sanat | https://www.gazetesanat.com/feed |
+| Hafta | https://www.hafta.com.tr/rss.xml |
+| İşin Detayı Kültür Sanat | https://www.isindetayi.com/rss/kultur-sanat |
+| Manifold | https://manifold.press/rss |
+| Mesail | https://www.mesail.org/feed/ |
+| Mimarizm | https://www.mimarizm.com/RSS/Content.aspx |
+| Mitoloji | https://mitoloji.org.tr/feed/ |
+| Mürekkep Haber | https://www.murekkephaber.com/rss.xml |
+| Nouvart | https://www.nouvart.net/feed/ |
+| Öncül | https://onculanalitikfelsefe.com/feed/ |
+| Play Tuşu | https://playtusu.com/feed/ |
+| Rotka | https://www.rotka.org/feed/ |
+| Sosyal Bilimler | https://www.sosyalbilimler.org/feed/ |
+| Tarihistan | https://www.tarihistan.org/rss |
+| Terrabayt | https://terrabayt.com/feed |
+| Vesaire | https://vesaire.press/feed/ |
+| Yedikıta | https://yedikita.com.tr/feed/ |
+
+# Spor
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| A Spor | https://www.aspor.com.tr/rss/anasayfa.xml |
+| AjansSpor | https://ajansspor.com/rss |
+| Basket Dergisi | https://basketdergisi.com/feed |
+| CNN Türk Spor | https://www.cnnturk.com/feed/rss/spor/news |
+| Duhuliye | https://www.duhuliye.com/rss |
+| Fotomaç | https://www.fotomac.com.tr/rss/anasayfa.xml |
+| Fotomaç Son 24 Saat | https://www.fotomac.com.tr/rss/son24saat.xml |
+| Fotomaç Süper Lig | https://www.fotomac.com.tr/rss/SuperLig.xml |
+| Fotomaç Beşiktaş | https://www.fotomac.com.tr/rss/Besiktas.xml |
+| Fotomaç Fenerbahçe | https://www.fotomac.com.tr/rss/Fenerbahce.xml |
+| Fotomaç Galatasaray | https://www.fotomac.com.tr/rss/Galatasaray.xml |
+| Fotomaç Trabzonspor | https://www.fotomac.com.tr/rss/Trabzonspor.xml |
+| Fotomaç Bursaspor | https://www.fotomac.com.tr/rss/Bursaspor.xml |
+| Fotomaç Basketbol | https://www.fotomac.com.tr/rss/Basketbol.xml |
+| Fotospor | https://www.fotospor.com/feed/rss_sondakika.xml |
+| Futboo | https://www.futboo.com/rss.xml |
+| Galatasaray | https://www.galatasaray.org/xml/gs.rss |
+| Kontraspor | https://kontraspor.com/rss |
+| NTV Spor Anasayfa | https://www.ntvspor.net/rss/anasayfa |
+| NTV Spor Basketbol | https://www.ntvspor.net/rss/kategori/basketbol |
+| NTV Spor Diğer Sporlar | https://www.ntvspor.net/rss/kategori/diger-sporlar |
+| NTV Spor Dünyadan Futbol | https://www.ntvspor.net/rss/kategori/dunyadan-futbol |
+| NTV Spor Futbol | https://www.ntvspor.net/rss/kategori/futbol |
+| NTV Spor Motor Sporları | https://www.ntvspor.net/rss/kategori/motor-sporlari |
+| NTV Spor Olimpiyat | https://www.ntvspor.net/rss/kategori/olimpiyat |
+| NTV Spor Tenis | https://www.ntvspor.net/rss/kategori/tenis |
+| NTV Spor Voleybol | https://www.ntvspor.net/rss/kategori/voleybol |
+| Orta Çizgi | https://ortacizgi.com/feed |
+| Sabah Spor | https://www.sabah.com.tr/rss/spor.xml |
+| Sözcü 2024 Paris Olimpiyatları | https://www.sozcu.com.tr/feeds-rss-category-2024-paris-olimpiyatlari |
+| Sözcü Basketbol | https://www.sozcu.com.tr/feeds-rss-category-basketbol |
+| Sözcü Diğer Sporlar | https://www.sozcu.com.tr/feeds-rss-category-diger-sporlar |
+| Sözcü Dünyadan Futbol | https://www.sozcu.com.tr/feeds-rss-category-dunyadan-spor |
+| Sözcü Futbol | https://www.sozcu.com.tr/feeds-rss-category-futbol |
+| Sözcü Spor | https://www.sozcu.com.tr/feeds-rss-category-spor |
+| Sözcü Voleybol | https://www.sozcu.com.tr/feeds-rss-category-voleybol |
+| TRT Spor | https://www.trthaber.com/spor_articles.rss |
+| Türkiyede ve Dünyada Golf | https://www.turkiyedevedunyadagolf.com.tr/feed/ |
+
+# Gündem
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| 10Haber | https://10haber.net/feed/ |
+| ABC Haber | https://abcgazetesi.com.tr/rss |
+| A Haber | https://www.ahaber.com.tr/rss/gundem.xml |
+| Açık Gazete | https://www.acikgazete.com/feed/ |
+| Açıksöz | https://www.aciksoz.com.tr/rss |
+| Akşam | https://www.aksam.com.tr/rss/rss.asp |
+| Al Ain Türkçe | https://tr.al-ain.com/feed |
+| Anadolu Ajansı | https://www.aa.com.tr/tr/rss/default?cat=guncel |
+| Agos | https://www.agos.com.tr/rss |
+| Ajans Kamu | https://www.ajanskamu.net/service/rss.php |
+| Artı Gerçek | https://artigercek.com/service/rss.php |
+| Aydınlık | https://www.aydinlik.com.tr/feed |
+| Aykırı | https://www.aykiri.com.tr/rss.xml |
+| Ayandon | https://www.ayandon.com.tr/rss.xml |
+| BBC Türkçe | https://feeds.bbci.co.uk/turkce/rss.xml |
+| Bengütürk | https://www.benguturk.com/rss |
+| Beyaz Gazete | https://beyazgazete.com/rss/guncel.xml |
+| BHA | https://bha.net.tr/rss |
+| Bianet | https://bianet.org/biamag.rss |
+| Bir Gazete | https://www.birgazete.com/feed |
+| BirGün | https://www.birgun.net/rss/home |
+| Bursa'da Bugün | https://www.bursadabugun.com/rss/?feed=haberler |
+| CNN Türk | https://www.cnnturk.com/feed/rss/all/news |
+| CNN Türk Dünya | https://www.cnnturk.com/feed/rss/dunya/news |
+| Cumhuriyet | https://www.cumhuriyet.com.tr/rss/son_dakika.xml |
+| CGTN Türk | https://www.cgtnturk.com/rss |
+| Daktilo1984 | https://daktilo1984.com/feed/ |
+| Demokrat Haber | https://www.demokrathaber.org/rss |
+| Diken | https://www.diken.com.tr/feed/ |
+| Diriliş Postası | https://www.dirilispostasi.com/rss |
+| Diyanet Haber | https://www.diyanethaber.com.tr/rss |
+| Dijital Gaste | https://www.dijitalgaste.com/rss |
+| dikGAZETE | https://www.dikgazete.com/xml/rss.xml |
+| Doğru Haber | https://dogruhaber.com.tr/rss |
+| Dokuz8 Haber | https://dokuz8haber.net/rss.xml |
+| Dünya | https://www.dunya.com/rss?dunya |
+| DW Haber | https://rss.dw.com/rdf/rss-tur-all |
+| Ege Haber | https://www.egehaber.com/rss |
+| En Politik | https://www.enpolitik.com/rss.xml |
+| Elips Haber | https://www.elipshaber.com/rss |
+| Ekonomim | https://www.ekonomim.com/export/rss |
+| Ekol TV | https://www.ekoltv.com.tr/service/rss.php |
+| En Son Haber | https://www.ensonhaber.com/rss/ensonhaber.xml |
+| Euronews | https://tr.euronews.com/rss |
+| Euronews Haberler | https://tr.euronews.com/rss?level=vertical&name=news |
+| Euronews My Europe | https://tr.euronews.com/rss?level=vertical&name=my-europe |
+| Evrensel | https://www.evrensel.net/rss/haber.xml |
+| F5 Haber | https://www.f5haber.com/export/rss |
+| Fayn | https://www.fayn.press/rss/ |
+| Gazete Duvar | https://www.gazeteduvar.com.tr/export/rss |
+| Gazete Emek | https://www.gazeteemek.net/rss |
+| Gazete.net | https://gazete.net/rss |
+| Gazete Pencere | https://www.gazetepencere.com/service/rss.php |
+| Gazete Zebra | https://www.gazetezebra.com.tr/rss |
+| GDH | https://gdhdijital.com/rss/tum.xml |
+| Gerçek Gündem | https://www.gercekgundem.com/rss |
+| Google News | https://news.google.com/rss?hl=tr&gl=TR&ceid=TR:tr |
+| Gündem Kıbrıs | https://www.gundemkibris.com/rss |
+| GZT | https://www.gzt.com/rss |
+| Haber 3 | https://www.haber3.com/rss |
+| Haber 7 | https://i12.haber7.net/sondakika/newsstand/latest.xml |
+| Haber | https://www.haber.com/rss |
+| HaberSitesi.org | https://habersitesi.org/rss.xml |
+| Haberler | https://rss.haberler.com/RssNew.aspx |
+| Haber Global | https://haberglobal.com.tr/rss |
+| Habertürk | https://www.haberturk.com/rss |
+| Haberet | https://www.haberet.com/export/rss |
+| Halk TV | https://halktv.com.tr/service/rss.php |
+| Haberport | https://www.haberport.com/rss/latest-posts |
+| Haberiniz | https://haberiniz.com.tr/feed/ |
+| Harici | https://harici.com.tr/feed/ |
+| Hukuki Haber | https://www.hukukihaber.net/rss |
+| Hürriyet | https://www.hurriyet.com.tr/rss/anasayfa |
+| İfade Özgürlüğü Derneği | https://ifade.org.tr/engelliweb/feed/ |
+| İklim Haber | https://www.iklimhaber.org/feed/ |
+| Independent Türkçe | https://www.indyturk.com/rss.xml |
+| IRNA Türkçe | https://tr.irna.ir/rss |
+| İnegöl Online | https://www.e-inegol.com/rss-baglantilari/rss.xml |
+| İnternet Haber | https://www.internethaber.com/rss |
+| İstanbul Times | https://www.istanbultimes.com.tr/rss |
+| İstiklal | https://www.istiklal.com.tr/service/rss.php |
+| İşin Detayı | https://www.isindetayi.com/rss/gundem |
+| İşçi Haber | https://www.iscihaber.net/rss/news |
+| İlke TV | https://ilketv.com.tr/feed/ |
+| Journo | https://journo.com.tr/feed |
+| Kagi | https://news.kagi.com/world_tr.xml |
+| Karar | https://www.karar.com/service/rss.php |
+| Kamudan Haber | https://www.kamudanhaber.net/rss |
+| Kıbrıs Gazetesi | https://kibrisgazetesi.com.tr/rss.xml |
+| Kısa Dalga | https://kisadalga.net/service/rss.php |
+| Korkusuz | https://www.korkusuz.com.tr/feeds/rss |
+| Kronos | https://kronos41.news/feed/ |
+| KRT TV | https://www.krttv.com.tr/rss |
+| Lotus News | https://www.lotusnews.com.tr/rss |
+| Medya Gazete | https://www.medyagazete.com/rss/genel-0 |
+| Medyascope | https://medyascope.tv/feed/ |
+| Medya Tilkisi | https://www.medyatilkisi.com.tr/rss |
+| Milli Gazete | https://www.milligazete.com.tr/rss |
+| Milliyet | https://www.milliyet.com.tr/rss/rssnew/sondakikarss.xml |
+| Mynet | https://www.mynet.com/haber/rss/sondakika |
+| Muhalif | https://www.muhalif.com.tr/rss/genel-0 |
+| Ne Haber Kıbrıs | https://www.nehaberkibris.com/rss/genel-0 |
+| NewsLab Turkey | https://www.newslabturkey.org/feed/ |
+| Notbir | https://notbir.com.tr/rss.xml |
+| NTV | https://www.ntv.com.tr/gundem.rss |
+| OdaTV | https://www.odatv.com/rss.xml |
+| Özgün Manşet | https://www.ozgunmanset.com/rss/guncel |
+| Perspektif | https://www.perspektif.online/feed/ |
+| Polemik Haber | https://www.polemikhaber.com/rss |
+| Radikal | https://www.radikal.com.tr/feed/ |
+| Sabah | https://www.sabah.com.tr/rss/gundem.xml |
+| Serbestiyet | https://serbestiyet.com/feed/ |
+| Son Dakika | https://rss.sondakika.com/rssnew.aspx |
+| Sözcü | https://www.sozcu.com.tr/feeds-rss-category-sozcu |
+| Sözcü Astroloji | https://www.sozcu.com.tr/feeds-rss-category-astroloji |
+| Sözcü Bilim ve Teknoloji | https://www.sozcu.com.tr/feeds-rss-category-bilim-teknoloji |
+| Sözcü Eğitim | https://www.sozcu.com.tr/feeds-rss-category-egitim |
+| Sözcü Gündem | https://www.sozcu.com.tr/feeds-rss-category-gundem |
+| Sözcü Günün İçinden | https://www.sozcu.com.tr/feeds-rss-category-gunun-icinden |
+| Sözcü Hayat | https://www.sozcu.com.tr/feeds-rss-category-hayat |
+| Sözcü İlan | https://www.sozcu.com.tr/feeds-rss-category-ilan |
+| Sözcü Kültür Sanat | https://www.sozcu.com.tr/feeds-rss-category-kultur-sanat |
+| Sözcü Magazin | https://www.sozcu.com.tr/feeds-rss-category-magazin |
+| Sözcü Otomotiv | https://www.sozcu.com.tr/feeds-rss-category-otomotiv |
+| Sözcü Resmi İlanlar | https://www.sozcu.com.tr/feeds-rss-category-resmi-ilanlar |
+| Sözcü Sağlık | https://www.sozcu.com.tr/feeds-rss-category-saglik |
+| Sözcü Son Dakika | https://www.sozcu.com.tr/feeds-son-dakika |
+| Sözcü Yazarlar | https://www.sozcu.com.tr/feeds-rss-category-yazar |
+| Sözcü Yaşam | https://www.sozcu.com.tr/feeds-rss-category-yasam |
+| Son Mühür | https://www.sonmuhur.com/rss |
+| soL Haber | https://haber.sol.org.tr/rss.xml |
+| Sputnik | https://anlatilaninotesi.com.tr/export/rss2/archive/index.xml |
+| Star | https://www.star.com.tr/rss/rss.asp |
+| Takvim | https://www.takvim.com.tr/rss/son24saat.xml |
+| TamgaTürk | https://www.tamgaturk.com/rss.xml |
+| Teyit | https://teyit.org/feed?lang=tr |
+| Tele1 | https://www.tele1.com.tr/rss |
+| Tele2 | https://www.tele2haber.com/rss |
+| Timeturk | https://www.timeturk.com/rss/ |
+| Türkiye Gazetesi | https://www.turkiyegazetesi.com.tr/feed |
+| Türkgün | https://www.turkgun.com/rss/news |
+| TürkInform  | https://turkinform.com.tr/rss |
+| TRT Dünya | https://www.trthaber.com/dunya_articles.rss |
+| TRT Haber | https://www.trthaber.com/sondakika.rss |
+| TGRT Haber | https://www.tgrthaber.com/rss/manset |
+| Ulus Gazetesi | https://www.ulusgazetesi.com/rss.xml |
+| Ulusal Kanal | https://www.ulusal.com.tr/rss |
+| Ulusal Post | https://www.ulusalpost.com/service/rss.php |
+| Uyan32 | https://www.uyan32.com/rss |
+| Veryansın TV | https://www.veryansintv.com/feed |
+| VOA Türkçe | https://www.voaturkce.com/api/ |
+| Yeni Akit | https://www.yeniakit.com.tr/rss/haber/gundem |
+| Yeni Asır Gazetesi | https://www.yeniasir.com.tr/rss/anasayfa.xml |
+| Yenice İda | https://yeniceida.com/rss |
+| Yeniçağ Gazetesi | https://www.yenicaggazetesi.com.tr/service/rss.php |
+| Yeni Şafak | https://www.yenisafak.com/rss?xml=gundem |
+| Yeni Yaşam Gazetesi | https://yeniyasamgazetesi9.com/feed/ |
+| Yaşadıkça | https://yasadikca.com/feed/ |
+| Yeşil Gazete | https://yesilgazete.org/feed/ |
+| Yetkin Report | https://yetkinreport.com/feed/ |
+| Yurt Gazetesi | https://www.yurtgazetesi.com.tr/service/rss.php |
+| Yurtsever | https://yurtsever.org.tr/feed |
+
+# Savunma ve Sanayi
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| C4 Defence | https://www.c4defence.com/tr/feed/ |
+| DefenceTurk | https://www.defenceturk.net/feed |
+| Defence Turkey | https://defenceturkey.com/rss.xml |
+| Mavi Savunma | https://mavisavunma.com/feed/ |
+| Sanayi Gazetesi | https://sanayigazetesi.com.tr/kategori/savunma-haberleri/feed/ |
+| Savunma Sanayi Gazetesi | https://savunmasanayigazetesi.com.tr/feed/ |
+| SavunmaSanayiST | https://www.savunmasanayist.com/feed/ |
+| SavunmaTR | https://www.savunmatr.com/feed/ |
+
+# Ekonomi ve Finans
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| Bloomberg HT | https://www.bloomberght.com/rss |
+| Bigpara | https://bigpara.hurriyet.com.tr/rss/ |
+| CNBC-e | https://www.cnbce.com/rss |
+| CNN Türk Ekonomi | https://www.cnnturk.com/feed/rss/ekonomi/news |
+| Döviz | https://www.doviz.com/news/rss |
+| Ekonomi Gazetesi | https://www.ekonomigazetesi.com/rss.xml |
+| Ekonomist | https://www.ekonomist.com.tr/rss |
+| Euronews Ekonomi | https://tr.euronews.com/rss?level=theme&name=economy |
+| Euronews Piyasalar | https://tr.euronews.com/rss?level=theme&name=markets |
+| Forbes Türkiye | https://www.forbes.com.tr/rss |
+| Foreks | https://www.foreks.com/rss/ |
+| Fortune Türkiye | https://www.fortuneturkey.com/feed |
+| Habertürk Ekonomi | https://www.haberturk.com/rss/ekonomi.xml |
+| Investing Genel | https://tr.investing.com/rss/market_overview.rss |
+| Investing Kripto | https://tr.investing.com/rss/302.rss |
+| Investing Döviz | https://tr.investing.com/rss/forex.rss |
+| Investing Hisse Senedi | https://tr.investing.com/rss/stock.rss |
+| Investing Emtia | https://tr.investing.com/rss/commodities.rss |
+| Investing Tahvil | https://tr.investing.com/rss/bonds.rss |
+| Investing Haberler | https://tr.investing.com/rss/news.rss |
+| NTV Para | https://www.ntv.com.tr/ntvpara.rss |
+| NTV Ekonomi | https://www.ntv.com.tr/ekonomi.rss |
+| Para Dergi Finans | https://www.paradergi.com.tr/rss/finans.xml |
+| Patronlar Dünyası Ekonomi | https://www.patronlardunyasi.com/rss/ekonomi |
+| Patronlar Dünyası Finans | https://www.patronlardunyasi.com/rss/finans |
+| Sözcü Borsa | https://www.sozcu.com.tr/feeds-rss-category-borsa |
+| Sözcü Ekonomi | https://www.sozcu.com.tr/feeds-rss-category-ekonomi |
+| Sözcü Emlak | https://www.sozcu.com.tr/feeds-rss-category-emlak |
+| Sözcü Emtia | https://www.sozcu.com.tr/feeds-rss-category-emtia |
+| Sözcü Finans | https://www.sozcu.com.tr/feeds-rss-category-finans |
+| Sözcü Kripto | https://www.sozcu.com.tr/feeds-rss-category-kripto |
+| TRT Ekonomi | https://www.trthaber.com/ekonomi_articles.rss |
+| Ulus Gazetesi Ekonomi | https://www.ulusgazetesi.com/rss/ekonomi.xml |
+
+# İş Dünyası
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| Borsanın Gündemi | https://www.borsaningundemi.com/rss |
+| Capital | https://www.capital.com.tr/rss/all |
+| Euronews Business | https://tr.euronews.com/rss?level=theme&name=business |
+| Euronews İş Dünyası | https://tr.euronews.com/rss?level=vertical&name=business |
+| Finans Gündem | https://www.finansingundemi.com/rss |
+| Halka Arz | https://halkarz.com/feed/ |
+| INC Türkiye | https://incturkiye.com/story-feeds |
+| İşin Detayı | https://www.isindetayi.com/rss |
+| İşin Detayı Borsa | https://www.isindetayi.com/rss/borsa |
+| İşin Detayı Ekonomi | https://www.isindetayi.com/rss/ekonomi |
+| İşin Detayı Finans | https://www.isindetayi.com/rss/finans |
+| İşin Detayı Gayrimenkul | https://www.isindetayi.com/rss/gayrimenkul |
+| İşin Detayı İş Dünyası | https://www.isindetayi.com/rss/is-dunyasi |
+| İşin Detayı Lojistik | https://www.isindetayi.com/rss/lojistik |
+| İşin Detayı Şirket Haberleri | https://www.isindetayi.com/rss/sirket-haberleri |
+| Midas | https://www.getmidas.com/feed/ |
+| Mynet Finans | https://www.mynet.com/rss/publisher-finans.rss |
+| Para Dergi | https://www.paradergi.com.tr/rss/anasayfa.xml |
+| Para Dergi Girişimcilik | https://www.paradergi.com.tr/rss/girisimcilik.xml |
+| Para Dergi İş Dünyası Kulis | https://www.paradergi.com.tr/rss/is-dunyasi-kulis.xml |
+| Paranın Yönü | https://www.paraninyonu.com.tr/rss.xml |
+| Patronlar Dünyası Patronlar | https://www.patronlardunyasi.com/rss/patronlar |
+| Webrazzi Yatırım | https://webrazzi.com/kategori/yatirim/feed |
+
+# Yaşam
+
+| Site Adı | RSS Bağlantısı |
+|:-------- | -----------:|
+| Anne Kaz | https://www.annekaz.com/feed |
+| DMAX Blog | https://www.dmax.com.tr/feed/blog |
+| Elle Türkiye | https://www.elle.com.tr/rss |
+| Elele | https://www.elele.com.tr/export/rss |
+| Euronews Beslenme | https://tr.euronews.com/rss?level=theme&name=nutrition |
+| Euronews Sağlık Haberleri | https://tr.euronews.com/rss?level=theme&name=health-news |
+| Euronews Sağlık Hizmetleri | https://tr.euronews.com/rss?level=theme&name=healthcare |
+| Euronews Sağlıklı Yaşam | https://tr.euronews.com/rss?level=theme&name=wellbeing |
+| Euronews Seyahat | https://tr.euronews.com/rss?level=vertical&name=travel |
+| Euronews Yemek ve İçecek | https://tr.euronews.com/rss?level=theme&name=food-and-drink |
+| İşin Detayı Gastronomi | https://www.isindetayi.com/rss/gastronomi |
+| Gardırop Magazin | https://www.gardiropmagazin.com/feed/ |
+| Güzellik Yayında | https://guzellikyayinda.com/feed/ |
+| Harper's Bazaar Türkiye | https://www.harpersbazaar.com.tr/feed/ |
+| İşin Detayı Moda | https://www.isindetayi.com/rss/moda |
+| İşin Detayı Sağlık | https://www.isindetayi.com/rss/saglik |
+| İşin Detayı Turizm | https://www.isindetayi.com/rss/turizm |
+| İşin Detayı Yaşam | https://www.isindetayi.com/rss/yasam |
+| Istanbul Life | https://istanbullife.com.tr/feed/ |
+| Live To Bloom | https://livetobloom.com/feed/ |
+| Martı Dergisi | https://www.martidergisi.com/feed/ |
+| Marie Claire | https://www.marieclaire.com.tr/feed/ |
+| Medium Türkçe Yayın | https://medium.com/feed/t%C3%BCrkiye |
+| Medium Türkiye Yayını | https://mediumturkiye.com/feed |
+| NTV Yaşam | https://www.ntv.com.tr/yasam.rss |
+| Outdoor Türkiye | https://www.outdoorturkiye.com.tr/feed/ |
+| Uplifers | https://www.uplifers.com/feed/ |
+| PlumeMag | https://www.plumemag.com/feed/ |
+| Trendus | https://www.trendus.com/feed |
+| TRT Yaşam | https://www.trthaber.com/yasam_articles.rss |
